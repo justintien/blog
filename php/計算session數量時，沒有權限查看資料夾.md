@@ -34,7 +34,7 @@ ls /var/lib/php5/sess_*|wc -l
 ```
 
 記得給執行
-```
+```sh
 chmod u+x /var/session_count.sh
 ```
 
@@ -44,7 +44,7 @@ apt-get install sudo
 ```
 
 編輯sudoers
-```
+```sh
 visudo
 ```
 
@@ -54,7 +54,7 @@ www-data ALL = (root) NOPASSWD: /var/session_count.sh
 ```
 
 之後在php內招換
-```
+```php
 $online_count = \exec("sudo /var/session_count.sh 2>&1");
 if (!preg_match('/^\d+$/', $online_count)) {
 	$online_count = -1;
