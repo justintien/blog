@@ -1,8 +1,8 @@
 
-#debian
+#debian method
 
 ####install dependencies
-```
+```sh
 #ncurses
 apt-get install ncurses-dev
 #libevent
@@ -14,7 +14,7 @@ make && make install
 ```
 
 ####install tmux latest
-```
+```sh
 wget "http://sourceforge.net/projects/tmux/files/latest/download?source=typ_redirect" -O tmux_latest.tar
 tar -xf tmux_latest.tar
 cd tmux-<tmux version>
@@ -23,7 +23,7 @@ make && make install
 ```
 
 ####start tmux
-```
+```sh
 #check version
 tmux -V
 #start
