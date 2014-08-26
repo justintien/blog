@@ -17,9 +17,9 @@ C:\wamp\bin\php\php5.5.12
 "%~dp0php.exe" "%~dp0phpunit.phar" %*
 ```
 
-- 檢查phpunit
+- 檢查phpunit安裝成功否
 ```ps
-php phpunit.phar --version
+phpunit --version
 ```
 
 [wamp server]:http://www.wampserver.com/en/
