@@ -12,6 +12,11 @@ C:\wamp\bin\php\php5.5.12
 C:\wamp\bin\php\php5.5.12
 ```
 
+- 為求方便在資料夾下新增一個檔案為phpunit.bat
+```ps
+"%~dp0php.exe" "%~dp0phpunit.phar" %*
+```
+
 - 檢查phpunit
 ```ps
 php phpunit.phar --version
