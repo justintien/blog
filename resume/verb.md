@@ -1,3 +1,98 @@
+
+
+
+##Management
+•produced	•anticipated	•analyzed	•approved	•assigned	•delegated
+•attained	•chaired	•checked	•reviewed	•contracted	•developed
+•devised	•directed	•evaluated	•enforced	•formed	•governed
+•headed	•increased	•initiated	•integrated	•organized	•planned
+•prioritized	•administered	•recommended	•coordinated	•scheduled	•supervised
+ 
+
+##Communication
+•addressed	•composed	•drafted	•interpreted	•persuaded	•recruited
+•arbitrated	•conveyed	•edited	•lectured	•presented	•translated
+•arranged	•transcribed	•enlisted	•mediated	•promoted	•corresponded
+•authored	•developed	•formulated	•moderated	•publicized	•collaborated
+•wrote	•directed	•influenced	•negotiated	•reconciled
+ 
+
+##Research
+•assessed	•critiqued	•surveyed	•examined	•interviewed	•investigated
+•clarified	•discovered	•diagnosed	•identified	•reviewed	•summarized
+•collected	•defined	•dissected	•inspected	•organized	•determined
+•correlated	•detailed	•evaluated	•interpreted	•reported	•systematized
+ 
+
+##Teaching
+•adapted	•revised	•evaluated	•informed	•simplified	•coordinated
+•advised	•developed	•explained	•inspired	•set goals	•tailored
+•clarified	•enabled	•facilitated	•instructed	•sparked	•encouraged
+•coached	•communicated	•guided	•persuaded	•stimulated	•trained
+•unified					
+ 
+
+##Detailed
+•approved	•dispatched	•compiled	•organized	•retrieved	•met deadlines
+•validated	•responded	•arranged	•purchased	•classified	•implemented
+•retained	•recorded	•judged	•compared	•operated	•reorganized
+•executed	•enforced	•collected	•inspected	•copied	•processed
+ 
+
+##Financial
+•verified	•audited	•developed	•forecasted	•projected	•researched
+•allocated	•balanced	•earned	•managed	•rectified	•reviewed
+•analyzed	•budgeted	•estimated	•marketed	•reduced	•administered
+•appraised	•calculated	•financed	•planned
+ 
+
+##Creative
+•acted	•decorated	•planned	•founded	•instituted	•performed
+•designed	•established	•illustrated	•integrated	•dramatized	•conceptualized
+•created	•developed	•shaped	•imagined	•introduced	•revitalized
+•invented	•directed	•fashioned	•initiated	•customized	•transformed
+ 
+
+##Helping
+•accepted	•conducted	•educated	•guided	•provided	•represented
+•assisted	•counseled	•effected	•motivated	•served	•empowered
+•assessed	•dealt	•resolved	•participated	•questioned	•restored
+•clarified	•handled	•protected	•referred	•validated	•demonstrated
+•coached	•diagnosed	•facilitated
+ 
+
+##Clerical
+•adjusted	•collected	•distributed	•indexed	•organized	•retrieved
+•approved	•compiled	•generated	•inspected	•catalogued	•implemented
+•arranged	•controlled	•grouped	•monitored	•processed	•specified
+•prepared	•copied	•screened	•operated	•purchased	•systematized
+•classified	•dispatched	•recorded	•ordered	•improvised	•tabulated
+ 
+
+##Analytical
+•compared	•consulted	•enlarged	•originated	•enlightened	•experimented
+•conceived	•converted	•predicted	•utilized	•constructed	•investigated
+•perceived
+ 
+
+##Manual
+•assembled	•controlled	•ground	•fed	•lifted	•shipped
+•bent	•operated	•set up	•moved	•pulled	•handled
+•bound	•tended
+ 
+
+##Accomplishment
+•achieved	•executed	•expanded	•innovated	•pioneered	•experienced
+•displayed	•recognized	•improved	•overcame	•succeeded
+ 
+
+##Technical
+•assembled	•computed	•installed	•overhauled	•maintained	•strengthened
+•built	•designed	•repaired	•remodelled	•upgraded	•programmed
+•calculated	•engineered	•operated	•solved
+
+####[source][verb1]
+
 #Communication Skills 
 acted
 adapted
@@ -783,3 +878,8 @@ won
 worked
 Adapted from “Resume Action Verbs” by the University of Missouri-Kansas City Career Services Center (http://www.umkc.edu/) and
 The Résumé Writing Academy (http://www.resumewritingacademy.com/index.php)
+
+####[source][verb2]
+
+[verb1]:http://careers.williams.edu/getting-hired/write-a-resume/action-verbs-by-skill-set/
+[verb2]:https://www.ldsbc.edu/documents/career_services/R%C3%A9sum%C3%A9s/Sample%20R%C3%A9sum%C3%A9s/making_powerful/ResumeVerbsBySkill.pdf
