@@ -9,7 +9,8 @@
 
 - draw_white_space
 show all space
-
+- default_line_ending
+on window default line ending have ^M, remove it
 
 
 ```
@@ -18,7 +19,8 @@ show all space
 	[
 		"Vintage"
 	],
-    "draw_white_space": "all"
+    "draw_white_space": "all",
+    "default_line_ending": "unix"
 }
 ```
 
