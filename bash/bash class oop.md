@@ -1,3 +1,5 @@
+
+```sh
 #!/bin/bash
 
 classA(){
@@ -49,3 +51,4 @@ funcA;
 funcB;
 
 echo '=========';
+```
