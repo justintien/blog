@@ -1,4 +1,6 @@
 
+
+##example
 ```sh
 #!/bin/bash
 
@@ -51,4 +53,33 @@ funcA;
 funcB;
 
 echo '=========';
+```
+
+##output
+```
+=========
+not init should get error
+./test.sh: line 24: funcA: command not found
+./test.sh: line 25: funcB: command not found
+=========
+init classA
+classA funcA
+classA funcA
+classA funcB
+=========
+init classB
+classB funcB
+classB funcA
+classB funcB
+=========
+init classA
+classA funcA
+classA funcA
+classA funcB
+=========
+init classB
+classB funcA
+classB funcA
+classB funcB
+=========
 ```
