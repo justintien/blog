@@ -16,7 +16,7 @@ git config --local -l
 git commit -m "first commit"
 
 #refer to fixed-host up9cloud.github.com
-git remote set-url origin git@up9cloud.github.com:up9cloud/public-resume.git
+git remote set-url origin git@up9cloud.github.com:up9cloud/<project-name>.git
 
 git push -u origin master
 ```
