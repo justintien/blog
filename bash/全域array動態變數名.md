@@ -1,6 +1,6 @@
 
 ##example
-```
+```sh
 #!/bin/bash
 
 declare -A __g;
@@ -17,6 +17,6 @@ echo ${__g[times]};
 ```
 
 ##output
-```
+```sh
 1
 ```
