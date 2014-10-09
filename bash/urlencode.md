@@ -2,7 +2,7 @@
 ```sh
 function urlencode () {
   local tab="`echo -en "\x9"`"
-  local i="$@"
+  local i="$@";
   i=${i//%/%25}  ; i=${i//' '/%20} ; i=${i//$tab/%09}
   i=${i//!/%21}  ; i=${i//\"/%22}  ; i=${i//#/%23}
   i=${i//\$/%24} ; i=${i//\&/%26}  ; i=${i//\'/%27}
@@ -15,7 +15,7 @@ function urlencode () {
   i=${i//\^/%5e} ; i=${i//_/%5f}   ; i=${i//\`/%60}
   i=${i//\{/%7b} ; i=${i//|/%7c}   ; i=${i//\}/%7d}
   i=${i//\~/%7e} 
-  echo "$i"
+  echo "$i";
 }
 ```
 
