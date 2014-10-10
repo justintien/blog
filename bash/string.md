@@ -5,20 +5,20 @@
 ```sh
 str="123,456,789";
 
-right_greedy=${str%,*};
-echo $right_greedy;
+sub_tail=${str%,*};
+echo $sub_tail;
 #123,456
 
-right_str=${str%%,*};
-echo $right_str;
+sub_tail_greedy=${str%%,*};
+echo $sub_tail_greedy;
 #123
 
-left_greedy=${str#*,};
-echo $left_greedy;
+sub_head=${str#*,};
+echo $sub_head;
 #456,789
 
-left_str=${str##*,};
-echo $left_str;
+sub_head_greedy=${str##*,};
+echo $sub_head_greedy;
 #789
 ```
 
