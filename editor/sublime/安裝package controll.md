@@ -1,6 +1,6 @@
 
-##install package controll
+##install package control
 
-[package controll]
+[package control]
 
-[package controll]:https://sublime.wbond.net/installation
+[package control]:https://sublime.wbond.net/installation
