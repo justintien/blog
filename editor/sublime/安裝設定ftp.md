@@ -10,13 +10,13 @@ Preferences->package controll
 install package->SFTP
 ```
 
-##ftp config
+##config settings
 
 
 ######initial config (會自動產生sftp-config.json檔)
 
 ```
-[folder]->(right click)->SFTP/FTP->Map to remote...
+[project root folder]->(right click)->SFTP/FTP->Map to remote...
 ```
 
 ######sftp-config.json
@@ -47,7 +47,7 @@ install package->SFTP
     //"port": "22",
     
     "remote_path": "/example/path/", //remote的base path
-    "ignore_regexes": [
+    "ignore_regexes": [ //忽略不上傳
         "\\.sublime-(project|workspace)", "sftp-config(-alt\\d?)?\\.json",
         "sftp-settings\\.json", "/venv/", "\\.svn/", "\\.hg/", "\\.git/",
         "\\.bzr", "_darcs", "CVS", "\\.DS_Store", "Thumbs\\.db", "desktop\\.ini"
