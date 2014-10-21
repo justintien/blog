@@ -13,15 +13,17 @@ install package->SFTP
 ##ftp config
 
 
-######initial config
+######initial config (會自動產生sftp-config.json檔)
+
 ```
 [folder]->(right click)->SFTP/FTP->Map to remote...
 ```
 
-######config(sftp-config.json)
+######sftp-config.json
 
-此檔案不會上傳(已經列入在ignore_regexes裡)，可安心寫入帳密
-若使用git，記得要把此檔案加入.gitignore
+此檔案不會上傳(已經列入在ignore_regexes裡)，可安心寫入帳密。
+
+若使用git，記得要把此檔案加入.gitignore。
 ```json
 {
     // The tab key will cycle through the settings when first created
