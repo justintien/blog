@@ -1,5 +1,7 @@
 
-#install package controll first!
+#install package control first!
+
+[package control]
 
 ##install ftp package
 
@@ -70,4 +72,4 @@ install package->SFTP
 
 
 
-
+[package control]:https://github.com/up9cloud/blog/blob/master/editor/sublime/%E5%AE%89%E8%A3%9Dpackage%20controll.md
