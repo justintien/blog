@@ -50,9 +50,9 @@ install package->...
 ```
 SFTP
 Dotfiles Syntax Highlighting
+//because of the original reindent php bugs (<<<EOL section will cause wrong format..., need use the codeformatter plugin)
+CodeFormatter
 ```
-
-
 
 
 [package control]:https://sublime.wbond.net/installation
