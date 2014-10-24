@@ -53,6 +53,8 @@ Dotfiles Syntax Highlighting
 //because of the original reindent php bugs
 //<<<EOL section will cause wrong format..., need use the codeformatter plugin
 CodeFormatter
+//for quick comment style /** **/
+DocBlockr
 ```
 
 
