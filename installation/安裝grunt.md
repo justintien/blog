@@ -2,7 +2,7 @@
 
 ##安裝grunt
 
-- 先安裝[nodejs](會一併安裝npm)
+- 先安裝 [nodejs] (會一併安裝npm)
 
 ######linux可用指令安裝
 ```sh
@@ -47,9 +47,6 @@ npm install grunt-contrib-cssmin --save-dev
 #minify .html
 npm install grunt-contrib-htmlmin --save-dev
 
-#minify js檔
-npm install grunt-contrib-uglify --save-dev
-
 #偵測檔案若有變動，再次執行job
 npm install grunt-contrib-watch --save-dev
 ```
@@ -62,6 +59,7 @@ npm install -g grunt-init
 - 產生Gruntfile
 ```sh
 #git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile
+#TODO how to 下載模組
 grunt-init gruntfile
 ```
 
