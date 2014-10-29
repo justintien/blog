@@ -2,7 +2,7 @@
 
 ##安裝grunt
 
-- 先安裝 [nodejs] (會一併安裝npm)
+- 先安裝 [nodejs] 會一併安裝npm
 
 ######linux可用指令安裝
 ```sh
