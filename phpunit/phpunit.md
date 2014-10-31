@@ -11,8 +11,32 @@ sudo mv phpunit.phar /usr/local/bin/phpunit
 phpunit --version
 ```
 
+- install [composer]
+
+- create phpunit.xml file (bootstrap to avoid include vendor/autoload.php)
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false">
+    <testsuites>
+        <testsuite name="a test">
+            <directory suffix=".php">./path/to/test/folder/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+```
+
 - phpunit test file example
 ```php
+//the file need to be tested
 namespace com\company;
 class something{
     function sum($x,$y){
@@ -21,6 +45,7 @@ class something{
 }
 ```
 ```php
+//the test file
 use com\company\something;
 class somethingTest extends PHPUnit_Framework_TestCase
 {
@@ -43,37 +68,11 @@ class somethingTest extends PHPUnit_Framework_TestCase
 }
 ```
 
-##install [composer]
-
-- install composer (for autoload classes)
+- run test
 ```
-#*nix
-curl -sS https://getcomposer.org/installer | php
-mv composer.phar /usr/local/bin/composer
+phpunit
 ```
-
-- generate config file -> composer.json
-```
-composer init
-```
-
-- generate autoloader files -> vendor/*
-```
-composer install
-```
-
-- update composer autoload files.
-```
-composer dump-autoload
-```
-
-- bootstrap (create phpunit.xml file at the base folder)
-```
-
-```
-- 
-
 
 [phpunit]:https://phpunit.de/getting-started.html/
 [phpunit_video]:http://www.youtube.com/watch?v=84j61_aI0q8
-[composer]:https://getcomposer.org/doc/00-intro.md#installation-nix
+[composer]:https://github.com/up9cloud/blog/blob/master/installation/%E5%AE%89%E8%A3%9Dcomposer.md
