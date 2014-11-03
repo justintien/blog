@@ -7,6 +7,8 @@
 ######linux可用指令安裝
 ```sh
 apt-get install nodejs
+#default command is nodejs, need change to node
+ln -s /usr/bin/nodejs /usr/bin/node
 apt-get install npm
 ```
 ######windows請手動安裝(安裝完開啟node command line tool執行以後指令)
@@ -151,6 +153,24 @@ module.exports = function(grunt) {
                 }]
             }
         },
+        phpunit: {
+            all: {
+                dir: './'
+            },
+            unit: {
+                dir: 'tests/unit/'
+            },
+            api: {
+                dir: 'tests/api/'
+            },
+            refactor: {
+                dir: 'tests/'
+            },
+            options: {
+                configuration: 'phpunit.xml',
+                colors: true
+            }
+        },
         watch: {
             js: {
                 files: 'src/js/**/*',
@@ -174,13 +194,14 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-phpunit');
     grunt.loadNpmTasks('grunt-contrib-watch');
     
     //使用grunt.registerTask註冊任務，才能使用command line執行
     //(ex: grunt dev 會先執行一次上面minify的任務之後，再執行watch任務。)
     //default是關鍵字，只輸入grunt時會執行。
     grunt.registerTask('default', ['minify']);
-    grunt.registerTask('dev', ['minify', 'watch']);
+    grunt.registerTask('dev', ['minify', 'phpunit', 'watch']);
     grunt.registerTask('minify', ['minifyJs', 'cssmin', 'htmlmin']);
     grunt.registerTask('minifyJs', ['concat', 'ngAnnotate', 'uglify']);
 };
