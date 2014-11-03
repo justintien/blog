@@ -7,6 +7,7 @@
 ######linux可用指令安裝
 ```sh
 apt-get install nodejs
+apt-get install npm
 ```
 ######windows請手動安裝(安裝完開啟node command line tool執行以後指令)
 
