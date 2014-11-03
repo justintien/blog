@@ -60,14 +60,14 @@ npm install grunt-contrib-watch --save-dev
 npm install -g grunt-init
 ```
 
-- 產生Gruntfile
+- 產生Gruntfile.js
 ```sh
 #git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile
 #TODO how to 下載模組
 grunt-init gruntfile
 ```
 
-- 設定Gruntfile
+- 設定Gruntfile.js
 ```js
 /*global module:false*/
 module.exports = function(grunt) {
