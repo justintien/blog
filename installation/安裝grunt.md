@@ -48,6 +48,9 @@ npm install grunt-contrib-cssmin --save-dev
 #minify .html
 npm install grunt-contrib-htmlmin --save-dev
 
+#phpunit execute
+npm install grunt-phpunit --save-dev
+
 #偵測檔案若有變動，再次執行job
 npm install grunt-contrib-watch --save-dev
 ```
