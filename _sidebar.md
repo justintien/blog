@@ -40,7 +40,14 @@
   - [fabrics](https://github.com/kangax/fabric.js)
 
 - 维运
-  - [rclone](https://rclone.org/docs/#fast-list)
+  - CI (Continuous integration): 只列出目前我用过的
+    - Jenkins: 自行架设 free
+    - Travis: free for public repo & pay for private repo
+    - [Drone.io](https://drone.io/)
+    - [see more 连结](https://ithelp.ithome.com.tw/articles/10187137)
+  - linux
+    - [常用指令](/ops/linux/command.md#command)
+  - [rclone (cloud storage sync工具)](https://rclone.org/docs/#fast-list)
 
 - 一些不错的文章
   - [GET新技能之Git commit message](https://github.com/jiayisheji/blog/issues/12)
