@@ -4,51 +4,17 @@
 <!-- tags: ['blog'] -->
 <!-- sidebar -->
 
-- 我的码农工作流
+- [我的码农工作流](/workflow/README.md)
   - git
     - [规范 commit message](/workflow/git/commit.md)
-      - [各 type 说明速览](/workflow/git/commit.md#type)
+    - [各 type 说明速览](/workflow/git/commit.md#type)
   - [代码注释](/workflow/code.comment.md)
 
-- 云
-  - [aws](https://aws.amazon.com/)
-    - 中国区是俺割版
-  - [azure](https://azure.microsoft.com/)
-    - 中国区是俺割版
-  - [aliyun](https://www.aliyun.com/)
-  - [腾讯云 - 中国](https://cloud.tencent.com/)
-  - [又拍云](https://www.upyun.com/)
-  - [七牛云 - 中国 - 直播、媒体串流见长](https://www.qiniu.com/)
-  - [全民云 - 中国 - 低调而友善的云服务](https://www.ucloud.cn/)
-- 后端
-  - JAVA
-    - [spring](https://github.com/spring-projects/spring-framework)
-  - PHP
-    - [laravel](https://github.com/laravel/laravel)
-    - [yii2](https://github.com/yiisoft/yii2)
-    - [phalcon](https://github.com/phalcon/cphalcon)
-  - Node
-    - [expressjs](https://github.com/expressjs/express)
-    - [koa2](https://github.com/koajs/koa)
-    - [egg](https://github.com/eggjs/egg/)
-    - [fastify](https://github.com/fastify/fastify)
-
-- 前端
-  - [vue](https://github.com/vuejs/vue)
-  - [react](https://github.com/facebook/react)
-  - [cyclejs](https://github.com/cyclejs/cyclejs)
-  - [fabrics](https://github.com/kangax/fabric.js)
-
-- 维运
-  - CI (Continuous integration): 只列出目前我用过的
-    - Jenkins: 自行架设 free
-    - Travis: free for public repo & pay for private repo
-    - [Drone.io](https://drone.io/)
-    - [see more 连结](https://ithelp.ithome.com.tw/articles/10187137)
-  - linux
-    - [常用指令](/ops/linux/command.md#command)
-  - [rclone (cloud storage sync工具)](https://rclone.org/docs/#fast-list)
-
+- [云](/ops/cloud/README.md)
+- [后端](/b2e/README.md)
+- [前端](/f2e/README.md)
+- [维运](/ops/README.md)
+- [Game](/game/README.md)
 - 一些不错的文章
   - [GET新技能之Git commit message](https://github.com/jiayisheji/blog/issues/12)
   - [不可替代的团队领袖培养计划](https://leader.js.cool/#/)
