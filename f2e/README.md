@@ -9,3 +9,4 @@
 
 ## lib
 - [fabrics](https://github.com/kangax/fabric.js)
+- [localForage](https://github.com/localForage/localForage)
