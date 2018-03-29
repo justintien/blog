@@ -12,9 +12,11 @@
 - refs:
   - 发布到微信小游戏平台
 : http://docs.cocos.com/creator/manual/zh/publish/publish-wechatgame.html?t=201813
+
 ## phaser
 - [github](https://github.com/facebook/react)
 - refs:
+  - 从零到一：用Phaser.js写意地开发小游戏（Chapter 1 - 认识Phaser.js）: https://segmentfault.com/a/1190000009212221
   - phaser社区: http://club.phaser-china.com/
     - Phaser3初体验（译文）
 : http://club.phaser-china.com/topic/5a94bd94484a53dd723f42c9
