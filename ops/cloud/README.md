@@ -6,11 +6,13 @@
 - [aliyun](https://www.aliyun.com/)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
+  - 类似中国区 图片处理(未确定是否一样): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
 
 ## 中国区
 - [aliyun](https://www.aliyun.com/)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
+  - 额外提供 cdn 图片处理: 但很烂，不稳定
 - [七牛云 - 直播、媒体串流见长](/ops/cloud/qiniu.md#qiniu)
 - [腾讯云](/ops/cloud/tencent.md#tencent)
 - [全民云 - 低调而友善的云服务](/ops/cloud/ucloud.md#ucloud)
