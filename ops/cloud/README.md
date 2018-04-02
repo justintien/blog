@@ -12,7 +12,9 @@
 - [aliyun](https://www.aliyun.com/)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
-  - 额外提供 cdn 图片处理: 但很烂，不稳定
+  - 额外提供 cdn 图片处理: 但很烂，不稳定 (外包的似乎是这家做的: https://www.baishancloud.com/zh/)
+
+- [百度云](https://cloud.baidu.com)
 - [七牛云 - 直播、媒体串流见长](/ops/cloud/qiniu.md#qiniu)
 - [腾讯云](/ops/cloud/tencent.md#tencent)
 - [全民云 - 低调而友善的云服务](/ops/cloud/ucloud.md#ucloud)
