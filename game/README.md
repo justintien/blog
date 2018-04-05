@@ -19,6 +19,7 @@
   - [api](https://photonstorm.github.io/phaser3-docs/list_class.html)
   - [phaser 2 examples](http://phaser.io/examples)
 - refs (phaser 3 跟 2 & CE 截然不同):
+  - [awesome-phaser](https://github.com/Raiper34/awesome-phaser)
   - phaser 3
     - [[phaser3入门探坑]使用phaser3制作山寨马里奥](https://segmentfault.com/a/1190000013979583)
     - [Phaser3初体验（译文）](http://club.phaser-china.com/topic/5a94bd94484a53dd723f42c9)
@@ -34,3 +35,8 @@
     - [phaser-ce & vue 样板](https://github.com/sekl/node-vue-phaser-boilerplate)
     - [phaser 2 范例](https://developer.mozilla.org/zh-CN/docs/Games/Tutorials/2D_breakout_game_Phaser)
   - https://www.zhihu.com/question/29335822?utm_medium=social&utm_source=wechat_session
+  - [phaser v2.4.6 performance 测试](https://github.com/mattcolman/phaser-performance-tests)
+  - [phaser-ce v2.8.1 performance](https://codepen.io/samme/pen/OmGNgL)
+    - forums: http://www.html5gamedevs.com/topic/35897-phaser-3-vs-phaser-2-benchmarks/
+
+[未知]:http://www.photonstorm.com/html5
