@@ -30,14 +30,19 @@
 - [nslookup](/ops/linux/command/nslookup.md#nslookup)
 - [openssl](/ops/linux/command/openssl.md#openssl)
 - [ps](/ops/linux/command/ps.md#ps)
+  - 执行程序
 - [rsync](/ops/linux/command/rsync.md#rsync)
+  - 复制档案 to 远端
 - [scp](/ops/linux/command/scp.md#scp)
+  - 复制档案 from ssh 远端
 - [sed](/ops/linux/command/sed.md#sed)
 - [sh](/ops/linux/command/sh.md#sh)
 - [ssh-keygen](/ops/linux/command/ssh-keygen.md)
 - [telnet](/ops/linux/command/telnet.md#telnet)
 - [time](/ops/linux/command/time.md#time)
+  - 一个 command 的执行时间
 - [timeout](/ops/linux/command/timeout.md#timeout)
+  - 设定一个 command 的 timeout
 - [tmux](/ops/linux/command/tmux.md#tmux)
   - 多视窗 command line 作业怎么能没有它 (还包含了储存工作状态)
 - [top](/ops/linux/command/top.md#top)

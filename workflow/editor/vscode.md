@@ -2,6 +2,21 @@
 
 > 微软出品
 
+- rg 占 cpu 使用过高
+  - 原因:
+    ```sh
+    # 在中国会使用 cnpm install 替代 npm
+    # cnpm install 预设安装 node_modules 采用 symlink 方式
+    ```
+  - 解决方法:
+    ```sh
+    # 方法一
+    # 使用 npm 的方式安装 node_modules
+    cnpm install --by=npm
+
+    # 方法二
+    # 设置 vscode "search.followSymlinks" to false
+    ```
 
 ## 使用的 extensins
 

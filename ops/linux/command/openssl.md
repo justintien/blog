@@ -14,6 +14,10 @@ echo | openssl s_client -servername az.cdn.nutsbp.com -connect az.cdn.nutsbp.com
 ```sh
 # decode cert
 openssl x509 -in fullchain.cer -text -noout
+
+# see 证书有效期限
+openssl x509 -dates -noout -in fullchain.cer
+
 ```
 
 ## test iOS 证书
