@@ -14,5 +14,12 @@
     - [gitea (gogs 的分支)](https://github.com/go-gitea/gitea)
     - [gitlab](https://about.gitlab.com/)
     - [gitblit](http://gitblit.com/)
+
+
+## 域名注册
+
+- [domain](/ops/domain/README.md#domain)
+
+
 ## 其他工具
 - [rclone (cloud storage sync工具)](https://rclone.org/docs/#fast-list)
