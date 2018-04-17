@@ -8,14 +8,18 @@
 
 ```sh
 npm i -g commitizen
-npm i -g cz-conventional-changelog
 
-# 这个看个人喜好, type 可带图示
+# 这个看个人喜好二选一, cz-emoji type 有图示
+npm i -g cz-conventional-changelog
 npm i -g cz-emoji
 
-# 接着设定 config 以符合 angular 规范
+# 如果想要使用 angular 规范
+# 方法一: 更改 .czrc (这个是全域的)
 vim ~/.czrc
-# see https://github.com/justintien/justin-tool/blob/master/home/.czrc
+# see: https://github.com/justintien/justin-tool/blob/master/home/.czrc
+# 方法二: (这个是针对 个别专案里使用)
+# use https://github.com/up9cloud/cz-emoji-types-angular
+
 ```
 
 - 都已经这么有规范了, CHANGELOG 当然也可以自动生成
@@ -25,6 +29,16 @@ npm install -g conventional-changelog
 
 # 如果你第一次使用这个工具，想要生成所有以前的更改日志，你可以做
 conventional-changelog -p angular -i CHANGELOG.md -s -r 0
+
+# 这个还用不是很顺手
+# -p angular (好像只列出 fix type)
+
+# 为了方便使用，可以将其写入 package.json 的 scripts 字段。
+{
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  }
+}
 ```
 
 - 这下来 git commit 指令, 以 git cz 取代
@@ -72,3 +86,4 @@ git cz
 
 [参考 angular]:https://github.com/angular/angular/blob/master/CONTRIBUTING.md#type
 [参考 egg]:https://eggjs.org/zh-cn/contributing.html
+[阮一峰]:http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html

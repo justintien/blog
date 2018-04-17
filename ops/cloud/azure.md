@@ -3,6 +3,15 @@
 - [azure](https://azure.microsoft.com/)
 - 中国区是俺割版
 
+## 一个订阅帐户的限制
+
+- https://docs.microsoft.com/zh-cn/azure/azure-subscription-service-limits#networking-limits
+- 虚拟机压力测试延迟高的可能原因及 ILPIP 配置 / 查询脚本: https://www.jianshu.com/p/78d19a3acf9b
+
+## vm
+- 实例级ip https://docs.microsoft.com/zh-cn/azure/virtual-network/virtual-networks-instance-level-public-ip
+
+
 ## cdn
 - 中国区另外提供 image processing [连结](https://docs.azure.cn/zh-cn/cdn/cdn-image-processing)
 - storage 必须 为 public (private 不行)
