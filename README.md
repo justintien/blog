@@ -4,7 +4,8 @@
 <!-- tags: ['blog'] -->
 # Justin (Jiapan 贾胖) 的 Blog
 
-> [连结](https://blog.jiapan.tw)
+> url: https://blog.jiapan.tw
+> or https://justintien.github.io
 
 ## 想到什么记什么
 
