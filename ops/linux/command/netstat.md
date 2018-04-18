@@ -46,3 +46,5 @@ usage: netstat [-vWeenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}
 ```
 
 <http://www.binarytides.com/linux-netstat-command-examples/>
+
+[link]:https://blog.gtwang.org/linux/linux-netstat-command-examples/

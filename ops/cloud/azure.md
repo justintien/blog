@@ -10,7 +10,9 @@
 
 ## vm
 - 实例级ip https://docs.microsoft.com/zh-cn/azure/virtual-network/virtual-networks-instance-level-public-ip
-
+- 无实例级ip，使用的网路为 (PAT) 伪装的 SNAT: 限制 160个…
+  - 会有耗尽问题，进而无法出站连线 (阻塞) [连结](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-outbound-connections?toc=%2fvirtual-network%2ftoc.json#snatexhaust)
+  - refs: http://www.cnblogs.com/zangdalei/p/7417860.html
 
 ## cdn
 - 中国区另外提供 image processing [连结](https://docs.azure.cn/zh-cn/cdn/cdn-image-processing)
