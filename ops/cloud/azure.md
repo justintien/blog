@@ -9,9 +9,14 @@
 - 虚拟机压力测试延迟高的可能原因及 ILPIP 配置 / 查询脚本: https://www.jianshu.com/p/78d19a3acf9b
 
 ## vm
-- 实例级ip https://docs.microsoft.com/zh-cn/azure/virtual-network/virtual-networks-instance-level-public-ip
-- 无实例级ip，使用的网路为 (PAT) 伪装的 SNAT: 限制 160个…
-  - 会有耗尽问题，进而无法出站连线 (阻塞) [连结](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-outbound-connections?toc=%2fvirtual-network%2ftoc.json#snatexhaust)
+
+> 目前遇到的一个坑 (可能我不是很懂 azure 的架构吧)
+
+- 虚拟机(经典): 预设为不具实例级IP 的 共用虚拟IP (VIP)
+  - 目前经验: 预设 SNAT 160个端口，若 占满则需要等待 (网路阻塞)
+  - 设定实例级 ip 可解决 SNAT 耗尽问题 [连结](https://docs.microsoft.com/zh-cn/azure/virtual-network/virtual-networks-instance-level-public-ip)
+  - 无实例级ip，使用的网路为 (PAT) 伪装的 SNAT: 限制 160个…
+    - 会有耗尽问题，进而无法出站连线 (阻塞) [连结](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-outbound-connections?toc=%2fvirtual-network%2ftoc.json#snatexhaust)
   - refs: http://www.cnblogs.com/zangdalei/p/7417860.html
 
 ## cdn

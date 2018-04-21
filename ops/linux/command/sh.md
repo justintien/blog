@@ -267,3 +267,13 @@ printf "%s:%s\n" '$(dirname "${BASH_SOURCE[0]}")' $(dirname "${BASH_SOURCE[0]}")
 
 # 绝对路径 $(dirname $(readlink -f $0 ))
 ```
+
+
+```sh
+# time curl -o /dev/null http://az.img.nutsbp.com/public/nutsbp/image/user_image/45812/50274860-42bb-11e8-999d-a9207b883cd6.png?basic=info;
+for i in {1..100};
+do
+  TIME=$(curl -o /dev/null -s -w %{time_total}\\n http://az.img.nutsbp.com/public/nutsbp/image/user_image/45812/50274860-42bb-11e8-999d-a9207b883cd6.png?basic=info);
+  echo "${TIME}"
+done
+```

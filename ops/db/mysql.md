@@ -4,7 +4,7 @@
 - max_allowed_packet: 1M
   - (例如 json type 超过 1M 则会报错 ERROR 1153 (08S01) at line XX: Got a packet bigger than 'max_allowed_packet' bytes)
   - [see](http://blog.xuite.net/tolarku/blog/385615135-MySQL+%E9%8C%AF%E8%AA%A4+got+a+packet+bigger+than+%27max_allowed_packet%27+bytes+mysql)
-
+- 关于 sql_mode: http://seanlook.com/2016/04/22/mysql-sql-mode-troubleshooting/
 
 ## 刪除 幾個月前的記錄
 ```sh

@@ -7,7 +7,7 @@ netstat -antp
 netstat -anop
 ```
 
-### netstat -h
+> netstat -h
 
 ```sh
 usage: netstat [-vWeenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}
@@ -43,6 +43,12 @@ usage: netstat [-vWeenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}
     inet (DARPA Internet) inet6 (IPv6) ax25 (AMPR AX.25) 
     netrom (AMPR NET/ROM) ipx (Novell IPX) ddp (Appletalk DDP) 
     x25 (CCITT X.25)
+```
+
+> 统计 各状态数量
+
+```sh
+netstat -ant | awk '{print $6}' | grep -v established\) | grep -v Foreign | sort | uniq -c | sort -n
 ```
 
 <http://www.binarytides.com/linux-netstat-command-examples/>
