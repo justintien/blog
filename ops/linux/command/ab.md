@@ -5,9 +5,13 @@
 ## example
 
 ```sh
+ab -n2000 -c100 -H "Authorization: Token xxx" -v 2 http://localhost:3000/slide/7632/ppt
+```
+
+```sh
 ab 一般常用参数就是 -n， -t ，和 -c。
 
--c（concurrency）表示用多少并发来进行测试；
+-c（concurrency）表示用多少并q发来进行测试；
 
 -t表示测试持续多长时间；
 

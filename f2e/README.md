@@ -1,18 +1,26 @@
 # f2e
 
+
+> javascript
+
 ## framework
 
-- [vue](https://github.com/vuejs/vue)
-- [react](https://github.com/facebook/react)
-- [cyclejs](https://github.com/cyclejs/cyclejs)
-- [rxjs](https://github.com/ReactiveX/rxjs)
+- [vue](/f2e/js/framework/vue.md)
+- [react](/f2e/js/framework/react.md#react)
+- [cyclejs](/f2e/js/framework/cyclejs.md#cyclejs)
+- [rxjs](/f2e/js/framework/rxjs.md#rxjs)
 
 ## lib
 - [fabrics](https://github.com/kangax/fabric.js)
 - [localForage](https://github.com/localForage/localForage)
-- [lodash](/f2e/lodash.md)
+- [lodash](/f2e/js/lodash.md)
 - [不可错过的javascript迷你库
 ](https://juejin.im/entry/5aa728fbf265da239147c59a?utm_source=gold_browser_extension)
 ## blob
 - https://github.com/fwon/blog
 - [我们整理了一份 GitHub 上的微信小程序开发工具名单（文末附链接）](https://mp.weixin.qq.com/s/DxwkB7tZH4lzt3vUU_dunw)
+
+
+## 鐵人賽文章
+- [重新認識 JavaScript 系列](https://ithelp.ithome.com.tw/users/20065504/ironman/1259)
+- [30天精通 RxJS](https://ithelp.ithome.com.tw/ironman/articles/1199)

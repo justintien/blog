@@ -15,7 +15,7 @@
 - [云](/ops/cloud/README.md)
 - [后端](/b2e/README.md)
 - [前端](/f2e/README.md)
-- 前+后端
+- 前+后端(js)
   - [lowdb (本地 db)](https://github.com/typicode/lowdb)
   - http request client:
     - [axios (目前最流行)](https://github.com/axios/axios)

@@ -77,3 +77,26 @@ see you !!!
 -- mysql json 找寻 key 存在的 sql
 SELECT * from table where JSON_CONTAINS_PATH(`json`, 'one', '$.name') = 1;
 ```
+
+> ER_LOCK_WAIT_TIMEOUT 追查
+> ER_LOCK_DEADLOCK
+
+```sh
+show processlist;
+
+# 隔离级别: see http://mysql.taobao.org/monthly/2017/06/07/
+show variables like 'tx_isolation';
+
+select * from information_schema.innodb_lock_waits;
+
+SELECT r.trx_id waiting_trx_id, r.trx_query waiting_query, b.trx_id blocking_trx_id, b.trx_query, blocking_query,b.trx_mysql_thread_id blocking_thread,b.trx_started,b.trx_wait_started
+FROM information_schema.innodb_lock_waits w
+INNER JOIN information_schema.innodb_trx b
+ON b.trx_id = w.blocking_trx_id
+INNER JOIN information_schema.innodb_trx r
+ON r.trx_id = w.requesting_trx_id;
+
+select * from information_schema.innodb_locks;
+
+select trx_id,trx_state,trx_isolation_level from information_schema.innodb_trx;
+```

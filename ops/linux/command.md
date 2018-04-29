@@ -18,6 +18,7 @@
   - 查询 disk 使用量
 - [grap](/ops/linux/command/grep.md#grep)
   - 查询 log 内容的好能手 (当然能不必看 log 更佳)
+- [gz](/ops/linux/command/gz.md#gz)
 - [jq](/ops/linux/command/jq.md#jq)
   - 观看 json format log 的好能手 (json parser)
 - [ln](/ops/linux/command/ln.md#ln)

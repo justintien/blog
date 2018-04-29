@@ -19,6 +19,34 @@
     - 会有耗尽问题，进而无法出站连线 (阻塞) [连结](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-outbound-connections?toc=%2fvirtual-network%2ftoc.json#snatexhaust)
   - refs: http://www.cnblogs.com/zangdalei/p/7417860.html
 
+- `长连接时间 4 分钟, 超过 会不正常 断线 (client 无法正常收到 tcp 握手)` azure 似乎所有服务都有此设定 (gateway 层, mysql 也是 4分钟)
+  - 目前追到原因是防火墙 gateway 是设定 4分钟
+
+```sh
+# see https://www.jianshu.com/p/e6eef03ed86c
+# see http://www.firefoxbug.com/index.php/archives/2805/
+# see http://blog.51cto.com/waringid/183496
+sysctl -a | grep tcp_keepalive
+# linux 预设 tcp keepalive 是 2小时之后, 每75秒检查一次, 共检查 9次 没有响应则断线
+net.ipv4.tcp_keepalive_intvl = 75
+net.ipv4.tcp_keepalive_probes = 9
+net.ipv4.tcp_keepalive_time = 7200
+# 设置相关的参数
+sysctl -w net.ipv4.tcp_keepalive_time=240
+sysctl -w net.ipv4.tcp_keepalive_intvl=30
+sysctl -w net.ipv4.tcp_keepalive_probes=3
+
+sysctl -w net.ipv4.tcp_keepalive_time=7200
+sysctl -w net.ipv4.tcp_keepalive_intvl=75
+sysctl -w net.ipv4.tcp_keepalive_probes=9
+# 也可以直接打开
+# vim/etc/sysctl.conf
+# 加入net.ipv4.tcp_keepalive_time = 7500，然后保存退出
+
+# 让参数生效
+# sysctl -p
+```
+
 ## cdn
 - 中国区另外提供 image processing [连结](https://docs.azure.cn/zh-cn/cdn/cdn-image-processing)
 - storage 必须 为 public (private 不行)
