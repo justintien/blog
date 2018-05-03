@@ -24,3 +24,19 @@
 ## 鐵人賽文章
 - [重新認識 JavaScript 系列](https://ithelp.ithome.com.tw/users/20065504/ironman/1259)
 - [30天精通 RxJS](https://ithelp.ithome.com.tw/ironman/articles/1199)
+
+
+### 其他
+
+> 通过rgb值判断颜色深浅: https://blog.csdn.net/qq_36843675/article/details/79448051
+
+```js
+// 通过rgb值判断颜色深浅
+// 通过把 RGB 模式转换成 YUV 模式，而 Y 是明亮度（灰阶），因此只需要获得 Y 的值而判断他是否足够亮就可以了：
+if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
+    ...
+}else{  //深色
+    ...
+}
+```
+

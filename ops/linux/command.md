@@ -51,3 +51,6 @@
 - [truncate](/ops/linux/command/truncate.md#truncate)
 - [vim](/ops/linux/command/vim.md#vim)
 - [watch](/ops/linux/command/watch.md#watch)
+
+
+> 如何查詢 Linux 的發行版名稱與版本？ https://blog.gtwang.org/linux/find-linux-distribution-name-version-number/

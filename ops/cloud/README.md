@@ -20,6 +20,13 @@
 - [全民云 - 低调而友善的云服务](/ops/cloud/ucloud.md#ucloud)
 - [又拍云](/ops/cloud/upyun.md#upyun)
 
+- vps 价格比较:
+  - www.vultr.com/pricing: 2.5美元/月
+  - my.rfchost.com: 7.99美元/月 
+  - www.50kvm.com: 70人民币/年
+  - aliyun.com: 330 人民币/年
+  - linode: 5美元/月
+
 ## Other
 
 ### image resizer

@@ -11,11 +11,10 @@
 
 > 列出几个当下流行的框架:
 
-- [laravel](https://github.com/laravel/laravel)
-- [yii2](https://github.com/yiisoft/yii2)
-- [phalcon](https://github.com/phalcon/cphalcon)
-- php-cs-fixer 代码 style 检验 & fix 工具 (psr1/psr2/....)
-  - php-cs-fixer fix /path/ --rules=@PSR2
+- [laravel](/b2e/php/laravel.md#laravel)
+- [yii2](/b2e/php/yii2.md#yii2)
+- [phalcon](/b2e/php/phalcon.md#phalcon)
+- [code-style-and-fixer](/b2e/php/code-style-and-fixer.md#code-style-and-fixer)
 
 ## Node
 

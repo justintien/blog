@@ -14,7 +14,7 @@
 - 一些待研究的服务
   - mongodb https://www.compose.com/
   - cloud management https://www.botmetric.com/request-demo/
-  - alien vs aws http://blog.csdn.net/keithyau/article/details/50685480
+  - aliyun vs aws http://blog.csdn.net/keithyau/article/details/50685480
 
 
 

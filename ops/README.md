@@ -23,3 +23,4 @@
 
 ## 其他工具
 - [rclone (cloud storage sync工具)](https://rclone.org/docs/#fast-list)
+- [docker - speedtest](https://hub.docker.com/r/tianon/speedtest/)
