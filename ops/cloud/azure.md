@@ -3,6 +3,8 @@
 - [azure](https://azure.microsoft.com/)
 - 中国区是俺割版
 
+## issue
+- [azure networking broken](https://joonas.fi/2017/01/23/microsoft-azures-networking-is-fundamentally-broken/)
 ## 一个订阅帐户的限制
 
 - https://docs.microsoft.com/zh-cn/azure/azure-subscription-service-limits#networking-limits

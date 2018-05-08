@@ -16,3 +16,12 @@ curl 'http://api.com' \
 -v \
 -d '[]'
 ```
+
+- size
+```sh
+# curl --compressed -so /dev/null http://az.cdn.nutsbp.nutsb.com/007/nuts-component/component/jquery/jquery-3.2.1.min.js -w '%{size_download}'
+
+URL=http://az.cdn.nutsbp.nutsb.com/007/nuts-component/component/jquery/jquery-3.2.1.min.js
+
+curl ${URL} -sL --write-out '%{size_download}' --output /dev/null
+```

@@ -115,4 +115,21 @@ export default class InitScene extends Phaser.Scene {
 看完 step1 & step2 以后就会发现…直接看 source code 可能会详细一些
 ```
 
+> ease map: https://github.com/photonstorm/phaser/blob/master/src/math/easing/EaseMap.js
+
+<!-- ```js
+this.cameras.main.shake(500);
+this.tweens.add({
+        targets: this.cameras.main,
+        props: {
+            zoom: { value: 2.5, duration: 4000, ease: 'Sine.easeInOut' },
+            rotation: { value: 2.3, duration: 8000, ease: 'Cubic.easeInOut' }
+        },
+        delay: 5000,
+        yoyo: true,
+        repeat: -1
+    });
+tweens.timeline
+``` -->
+
 [未知]:http://www.photonstorm.com/html5

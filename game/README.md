@@ -13,3 +13,9 @@
 - [HTML5游戏引擎深度测评](https://www.jianshu.com/p/0469cd7b1711)
 - [HTML5游戏引擎深度测评](https://yq.aliyun.com/articles/183464)
 - http://www.iamaddy.net/2018/03/xiaoyouxi/
+
+
+[dlsite]:http://www.dlsite.com/
+[dmm]:http://dmm.com
+[indienove]:https://www.indienova.com/
+[ss同盟]:https://sstm.moe/

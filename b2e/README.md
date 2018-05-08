@@ -58,3 +58,6 @@
 ## API 设计
 - restful
 - graphql
+
+## Other
+- [後端技術圖譜](https://github.com/xingshaocheng/architect-awesome)

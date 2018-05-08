@@ -16,15 +16,17 @@
 - [lodash](/f2e/js/lodash.md)
 - [不可错过的javascript迷你库
 ](https://juejin.im/entry/5aa728fbf265da239147c59a?utm_source=gold_browser_extension)
-## blob
+- [动画库](https://github.com/greensock/GreenSock-JS)
+
+## blog
 - https://github.com/fwon/blog
 - [我们整理了一份 GitHub 上的微信小程序开发工具名单（文末附链接）](https://mp.weixin.qq.com/s/DxwkB7tZH4lzt3vUU_dunw)
-
+- [数组的遍历你都会用了，那Promise版本的呢 数组](https://segmentfault.com/a/1190000014598785)
 
 ## 鐵人賽文章
 - [重新認識 JavaScript 系列](https://ithelp.ithome.com.tw/users/20065504/ironman/1259)
 - [30天精通 RxJS](https://ithelp.ithome.com.tw/ironman/articles/1199)
-
+- [認識 Functional Programming](https://ithelp.ithome.com.tw/articles/10191612)
 
 ### 其他
 
