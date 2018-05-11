@@ -56,8 +56,8 @@
 - https://doc.rust-lang.org/rust-by-example/hello.html
 
 ## API 设计
-- restful
-- graphql
+- [restful](/b2e/api/restful.md#restful)
+- [graphql](/b2e/api/graphql.md#graphql)
 
 ## Other
 - [後端技術圖譜](https://github.com/xingshaocheng/architect-awesome)

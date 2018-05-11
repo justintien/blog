@@ -7,6 +7,7 @@
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
   - 类似中国区 图片处理(未确定是否一样): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
+- [gcp - Google Cloud Platform](https://cloud.google.com)
 
 ## 中国区
 - [aliyun](https://www.aliyun.com/)
