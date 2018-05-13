@@ -29,7 +29,10 @@
       coverpage: 'coverpage.md',
       // basePath: '',
       // routerMode: 'history', // history mode, need server support
-      plugins: plugins
+      plugins: plugins,
+      alias: {
+        '/.*/sidebar.md': '/sidebar.md' // See #301
+      }
     }
     if (window.location.hostname.match(/(localhost|127\.0\.0\.1)/)) {
       config.ga = 'xxx'
