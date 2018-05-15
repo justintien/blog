@@ -68,3 +68,8 @@
 - https://tiny.pictures/
 - https://imagekit.io/
 - https://images.weserv.nl/
+
+
+### GCP Ping & CloudPing 測試連線至 GCP、AWS 各國節點速度和延遲情形
+- http://www.gcping.com/
+- http://www.cloudping.info/

@@ -5,6 +5,13 @@
   - https://docs.mongodb.com/manual/tutorial/backup-and-restore-tools/
   - https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools
 
+```sh
+# example
+mongodump -h 127.0.0.1 -d db -u test -p test -o ./output
+
+mongorestore -d db --drop /output
+```
+
 ### find
 http://blog.fens.me/nodejs-mongodb-regexp/
 

@@ -61,11 +61,12 @@ xabikos.javascriptsnippets-1.5.0
     "workbench.iconTheme": "vs-minimal",
     "shellformat.path": "/usr/local/bin/shfmt",
     "todohighlight.keywords": [
-        "XXX"
+        "XXX", "NOTE"
     ],
     "gitlens.keymap": "alternate",
     "java.errors.incompleteClasspath.severity": "ignore",
     "cSpell.userWords": [
+        "Gerender",
         "spritesheet"
     ],
     "gitlens.advanced.messages": {
@@ -81,6 +82,19 @@ xabikos.javascriptsnippets-1.5.0
     "editor.renderIndentGuides": false,
     "editor.renderWhitespace": "all",
     "workbench.startupEditor": "newUntitledFile",
-    "eslint.autoFixOnSave": true
+    "eslint.autoFixOnSave": true,
+    "php-cs-fixer.onsave": true,
+    "search.followSymlinks": false,
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/bower_components": true,
+        "**/jspm_packages": true,
+        "**/node_modules": true
+    }
 }
 ```
