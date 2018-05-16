@@ -25,6 +25,7 @@
 
   <link rel="shortcut icon" type="image/jpg" href="//blog.jiapan.tw/logo.jpeg"/>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
@@ -45,7 +46,7 @@
       // loadNavbar: true,
       coverpage: 'coverpage.md',
       // basePath: '',
-      // routerMode: 'history', // history mode, need server support
+      routerMode: 'history', // history mode, need server support
       plugins: plugins,
       alias: {
         '/.*/sidebar.md': '/sidebar.md' // See #301
@@ -67,7 +68,20 @@
   <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
   <!-- <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script> -->
-
+  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <script>
+    // gitalk
+    const gitalk = new Gitalk({
+      clientID: '4b455bf820f5c7fbd2c4',
+      clientSecret: '9258dfb876991ecdb78ea3bad405563e20806f53',
+      repo: 'blog',
+      owner: 'justintien',
+      admin: ['justintien'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
   <script src="//unpkg.com/prismjs/components/prism-ini.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-json.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-diff.min.js"></script>
