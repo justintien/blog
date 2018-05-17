@@ -4,6 +4,7 @@
 
 - 首先开个仓库名为: justintien.github.io (其中 `justintien` 为 你的 github 名称)
 - 用 hexo 写博客, 接下来就是一长串的命令在本机
+
 ```sh
 # 安装 hexo-cli (npm 怎么安装就不在这说明了…)
 npm install -g hexo-cli

@@ -5,3 +5,5 @@
     - [各 type 说明速览](/workflow/git/commit.md#type)
 - [代码注释](/workflow/code.comment.md)
 - [使用 hexo 建立 blog & deploy on github.io](/workflow/hexo-github.io.md)
+- License
+  - [wtfpl](http://www.wtfpl.net/)
