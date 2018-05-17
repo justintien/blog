@@ -1,7 +1,13 @@
 # azure
 
 - [azure](https://azure.microsoft.com/)
-- 中国区是俺割版
+- [azure.cn - 中国区是俺割版](https://www.azure.cn/)
+
+## 服务说明
+
+> vm
+
+- [virtual-machines](https://azure.microsoft.com/zh-tw/pricing/details/virtual-machines/linux/)
 
 ## issue
 - [azure networking broken](https://joonas.fi/2017/01/23/microsoft-azures-networking-is-fundamentally-broken/)

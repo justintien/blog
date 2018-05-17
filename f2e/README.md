@@ -18,6 +18,14 @@
 - [不可错过的javascript迷你库
 ](https://juejin.im/entry/5aa728fbf265da239147c59a?utm_source=gold_browser_extension)
 - [动画库](https://github.com/greensock/GreenSock-JS)
+- 前+后端(js)
+  - [lowdb (本地 db)](https://github.com/typicode/lowdb)
+  - http request client:
+    - [axios (目前最流行)](https://github.com/axios/axios)
+    - [request (promise 要另外裝...)](https://github.com/request/request)
+    - [node-fetch](https://github.com/bitinn/node-fetch/)
+  - Other:
+    - [fake response](http://www.fakeresponse.com/)
 
 > 打包工具
 

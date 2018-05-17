@@ -3,19 +3,19 @@
 > 这边一直在想要怎么分类，先以国家分类 (依字母排序):
 
 ## Global
-- [aliyun](https://www.aliyun.com/)
+- [aliyun](/ops/cloud/aliyun.md#aliyun)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
   - 类似中国区 图片处理(未确定是否一样): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
-- [gcp - Google Cloud Platform](https://cloud.google.com)
+- [gcp - Google Cloud Platform](/ops/cloud/gcp.md#gcp)
 
 ## 中国区
-- [aliyun](https://www.aliyun.com/)
+- [aliyun](/ops/cloud/aliyun.md#aliyun)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
   - 额外提供 cdn 图片处理: 但很烂，不稳定 (外包的似乎是这家做的: https://www.baishancloud.com/zh/)
 
-- [百度云](https://cloud.baidu.com)
+- [百度云](/ops/cloud/baidu.md#baidu)
 - [七牛云 - 直播、媒体串流见长](/ops/cloud/qiniu.md#qiniu)
 - [腾讯云](/ops/cloud/tencent.md#tencent)
 - [全民云 - 低调而友善的云服务](/ops/cloud/ucloud.md#ucloud)
@@ -27,6 +27,16 @@
   - www.50kvm.com: 70人民币/年
   - aliyun.com: 330 人民币/年
   - linode: 5美元/月
+
+
+> GCP Ping & CloudPing 測試連線至 GCP、AWS 各國節點速度和延遲情形
+
+- http://www.gcping.com/
+- http://www.cloudping.info/
+
+> cloud 比较
+
+- [cloud compare](/ops/cloud/cloud-compare.md#cloud-compare)
 
 ## Other
 
@@ -68,8 +78,3 @@
 - https://tiny.pictures/
 - https://imagekit.io/
 - https://images.weserv.nl/
-
-
-### GCP Ping & CloudPing 測試連線至 GCP、AWS 各國節點速度和延遲情形
-- http://www.gcping.com/
-- http://www.cloudping.info/
