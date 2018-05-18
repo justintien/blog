@@ -35,3 +35,29 @@ db.setProfilingLevel(2)
 db.setProfilingLevel(1,200)
 // { "was" : 2, "slowms" : 100, "ok" : 1 }
 ```
+
+
+### aggregate
+
+```js
+// 找出 重复的数据
+db.all.aggregate([
+    {
+        $match: {
+            _type: 'xxx'
+        }
+    },
+    {
+        $group: { 
+            _id: { account: "$account" },
+            uniqueIds: { $addToSet: "$_id" },
+            count: { $sum: 1 } 
+        }
+    }, 
+    {
+        $match: { 
+            count: { $gt: 1 } 
+        }
+    }
+])
+```
