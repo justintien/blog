@@ -10,9 +10,9 @@
 npm install -g hexo-cli
 
 # 初始化目录
-hexo ini justintien.github.io
+hexo ini my-hexo
 
-cd justintien.github.io
+cd my-hexo
 
 # 更换 主题 theme (这个自己选自己喜欢的 ~ 我找了一个 名为 next 的 theme)
 git clone https://github.com/theme-next/hexo-theme-next themes/next
@@ -39,6 +39,18 @@ hexo deploy -g
 
 # 等待 上傳完成後就可以看到結果了...
 # justintien.github.io
+
+# deploy 完, 会发现对应的 仓库 justintien.github.io 更新了
+# 接着，把工作目录 my-hexo 放到仓库里面去 (开 branch)
+cd ../
+git clone https://github.com/justintien/justintien.github.io
+cd justintien.github.io
+git checkout -b hexo
+rm -rf *
+cp -R ../my-hext/* ./
+rm -rf themes/next/.git
+
+# 这样就完成了！
 ```
 
 [GitHub+Hexo 搭建个人网站详细教程]:https://zhuanlan.zhihu.com/p/26625249
