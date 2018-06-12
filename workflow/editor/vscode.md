@@ -20,38 +20,51 @@
 
 ## 使用的 extensins
 
-<pre>
-DavidAnson.vscode-markdownlint-0.14.1
-EditorConfig.editorconfig-0.12.1
-PeterJausovec.vscode-docker-0.0.26
-dbaeumer.vscode-eslint-1.4.8
-dracula-theme.theme-dracula-2.9.0
-eamodio.gitlens-8.2.0
-felipecaputo.git-project-manager-1.5.0
-felixfbecker.php-intellisense-2.3.0
-formulahendry.auto-close-tag-0.5.6
-formulahendry.auto-rename-tag-0.0.15
-foxundermoon.shell-format-1.1.1
-mrmlnc.vscode-less-0.6.3
-ms-azuretools.vscode-cosmosdb-0.5.1
-ms-mssql.mssql-1.3.0
-ms-vscode.azure-account-0.3.3
-ms-vscode.cpptools-0.16.1
-octref.vetur-0.11.7
-redhat.java-0.21.0
-shd101wyy.markdown-preview-enhanced-0.3.4
-shuworks.vscode-table-formatter-1.2.1
-spoonscen.es6-mocha-snippets-0.1.2
-spywhere.guides-0.9.1
-streetsidesoftware.code-spell-checker-1.6.5
-sysoev.language-stylus-1.9.1
-vscjava.vscode-java-debug-0.8.0
-vscjava.vscode-java-pack-0.3.0
-vscjava.vscode-java-test-0.5.0
-vscjava.vscode-maven-0.6.0
-wayou.vscode-todo-highlight-0.5.12
-xabikos.javascriptsnippets-1.5.0
-</pre>
+```sh
+# https://code.visualstudio.com/docs/editor/extension-gallery
+code --list-extensions
+# code --install-extension {extension id}
+# code --uninstall-extension {extension id}
+# code --disable-extensions
+AlanWalk.markdown-toc
+DavidAnson.vscode-markdownlint
+EditorConfig.EditorConfig
+MS-CEINTL.vscode-language-pack-zh-hant
+PeterJausovec.vscode-docker
+dbaeumer.vscode-eslint
+dracula-theme.theme-dracula
+eamodio.gitlens
+felipecaputo.git-project-manager
+felixfbecker.php-intellisense
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+foxundermoon.shell-format
+jakebathman.mysql-syntax
+joelday.docthis
+junstyle.php-cs-fixer
+kumar-harsh.graphql-for-vscode
+mrmlnc.vscode-apache
+mrmlnc.vscode-less
+ms-azuretools.vscode-cosmosdb
+ms-mssql.mssql
+ms-vscode.azure-account
+ms-vscode.cpptools
+octref.vetur
+redhat.java
+shd101wyy.markdown-preview-enhanced
+shuworks.vscode-table-formatter
+spoonscen.es6-mocha-snippets
+spywhere.guides
+streetsidesoftware.code-spell-checker
+sysoev.language-stylus
+vscjava.vscode-java-debug
+vscjava.vscode-java-pack
+vscjava.vscode-java-test
+vscjava.vscode-maven
+wayou.vscode-todo-highlight
+xabikos.JavaScriptSnippets
+```
+
 
 > 我的使用者设定:
 
@@ -95,6 +108,8 @@ xabikos.javascriptsnippets-1.5.0
         "**/bower_components": true,
         "**/jspm_packages": true,
         "**/node_modules": true
-    }
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "window.zoomLevel": 0
 }
 ```
