@@ -46,6 +46,8 @@
 ## Golang
 - https://medium.com/@john.lin/golang-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-582cad359738
 - https://gobyexample.com/
+- [Go 入门指南](https://golangcaff.com/docs/the-way-to-go)
+- [GolangCaff.com 正式上线](https://laravel-china.org/topics/11107/golangcaffcom-is-officially-launched)
 - image service:
   - [imageserver](https://github.com/pierrre/imageserver)
   - [imaginary](https://github.com/h2non/imaginary)
@@ -58,6 +60,9 @@
 ## API 设计
 - [restful](/b2e/api/restful.md#restful)
 - [graphql](/b2e/api/graphql.md#graphql)
-
+  - [graphiql-app](https://github.com/skevy/graphiql-app)
+  
 ## Other
 - [後端技術圖譜](https://github.com/xingshaocheng/architect-awesome)
+- [系统设计与分析](https://legacy.gitbook.com/book/lyhcode/oosad/details)
+- [10 个常用的软件架构模式](http://blog.jobbole.com/113953/)

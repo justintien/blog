@@ -26,23 +26,32 @@
     - [node-fetch](https://github.com/bitinn/node-fetch/)
   - Other:
     - [fake response](http://www.fakeresponse.com/)
+- [挺有意思 手绘element组件](https://github.com/wiredjs/wired-elements)
 
 > 打包工具
 
 - [webpack](https://webpack.js.org/)
   - [中文站](https://webpack.docschina.org/)
+  - [Webpack 4 和单页应用入门](https://github.com/fenivana/webpack-and-spa-guide)
 - [browserify](http://browserify.org/)
 
 > 任务工具
+
 - [grunt](https://gruntjs.com/)
 - [gulp](https://gulpjs.com/)
 
 > blog
-- https://github.com/fwon/blog
+
+- [fwon - blog](https://github.com/fwon/blog)
 - [我们整理了一份 GitHub 上的微信小程序开发工具名单（文末附链接）](https://mp.weixin.qq.com/s/DxwkB7tZH4lzt3vUU_dunw)
 - [数组的遍历你都会用了，那Promise版本的呢 数组](https://segmentfault.com/a/1190000014598785)
+- [dwqs - blog](https://github.com/dwqs/blog/issues)
+  - [你有必要知道的 25 个 JavaScript 面试题](https://github.com/dwqs/blog/issues/17)
+- [javascript algorithms](https://github.com/trekhleb/javascript-algorithms)
+- [科技橘子](https://blog.techbridge.cc/)
 
 > ithome 鐵人賽文章
+
 - [重新認識 JavaScript 系列](https://ithelp.ithome.com.tw/users/20065504/ironman/1259)
 - [30天精通 RxJS](https://ithelp.ithome.com.tw/ironman/articles/1199)
 - [認識 Functional Programming](https://ithelp.ithome.com.tw/articles/10191612)
@@ -50,6 +59,7 @@
 > 其它
 
 - 通过rgb值判断颜色深浅: https://blog.csdn.net/qq_36843675/article/details/79448051
+  
 
 ```js
 // 通过rgb值判断颜色深浅
@@ -61,7 +71,13 @@ if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
 }
 ```
 
+- 移动端拉起软键盘坑: http://www.iamaddy.net/2016/11/mobile-keyboard-javascript/
+  - [CanvasInput](https://goldfirestudios.com/blog/108/CanvasInput-HTML5-Canvas-Text-Input)
+- [ES6 系列之模拟实现 Symbol 类型](https://segmentfault.com/a/1190000015262174)
+- [前端大牛们](https://news.cnblogs.com/n/500861/)
+
 > Admin Template & Dashboard
+
 - [adminLTE](https://github.com/almasaeed2010/AdminLTE/releases)
 - [coreui](https://github.com/coreui/coreui-free-bootstrap-admin-template)
 - [gentelella](https://github.com/puikinsh/gentelella)

@@ -2,6 +2,8 @@
 
 > github 出品
 
+- 最新消息，github 被`微軟`收購了
+
 ## 使用的 packages
 
 <!-- - atom-clock: 右下角显示时间 ★☆☆☆☆

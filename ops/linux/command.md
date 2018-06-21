@@ -52,5 +52,8 @@
 - [vim](/ops/linux/command/vim.md#vim)
 - [watch](/ops/linux/command/watch.md#watch)
 
+> 若想看更多 linux 指令, see:
+
+- [linux 命令大全](http://man.linuxde.net/)
 
 > 如何查詢 Linux 的發行版名稱與版本？ https://blog.gtwang.org/linux/find-linux-distribution-name-version-number/

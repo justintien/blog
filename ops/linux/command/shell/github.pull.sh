@@ -1,9 +1,11 @@
 #!/bin/bash
-# Author: Justin Tien (Jiapan)
+# Author: Justin
 # Date: 2018-01-21
-# Modified: 2018-05-14
+# Modified: 2018-06-19
 # Description:
-#  - git pull all repos for each orgs or user
+# - git pull or clone all repos for user/orgs
+# Dependencies:
+# - jq
 
 # usage
 read -r -d '' usage << EOM
@@ -16,9 +18,14 @@ Env:
   DIST_FOLDER: 目的地资料夹路径 (预设为 ~/projects)
 
 Example:
-  "$0" basic_token https://api.github.com/orgs/:name/repos?per_page=100
+  "$0" basic_token https://api.github.com/orgs/nutspie/repos?per_page=100
 
 EOM
+
+if ! command -v jq; then
+  echo "jq is required."
+  exit 3
+fi
 
 # check parameters
 if [ "$#" -lt 2 ]; then
@@ -49,7 +56,6 @@ if [ -z "$DIST_FOLDER" ];then
   DIST_FOLDER=~/projects
 fi
 
-# 照 字母 排列 目前 78个 repo
 LIST=`curl -s -X GET -H "Authorization: Basic ${AUTHORIZATION_BASIC}" ${API_URL}`
 ERROR=$(echo "${LIST}" | jq -r '.message')
 if [ ! -z "$ERROR" ];then
@@ -66,6 +72,7 @@ for row in $(echo "${LIST}" | jq -r '.[] | @base64'); do
      echo ${row} | base64 --decode | jq -r ${1}
     }
     REPO=$(_jq '.name')
+    CLONE_URL=$(_jq '.clone_url')
     DIRECTORY=${DIST_FOLDER}/${REPO}
     if [ -d "${DIRECTORY}" ]; then
         log "[${REPO}] cd ${DIRECTORY}"
@@ -75,7 +82,7 @@ for row in $(echo "${LIST}" | jq -r '.[] | @base64'); do
     else
         log "[${REPO}] cd ${DIST_FOLDER}"
         cd ${DIST_FOLDER} || exit
-        log "[${REPO}] git clone ${url}"
-        git clone ${url}
+        log "[${REPO}] git clone ${CLONE_URL}"
+        git clone ${CLONE_URL}
     fi
 done

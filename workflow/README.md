@@ -5,6 +5,13 @@
   - [规范 commit message](/workflow/git/commit.md)
     - [各 type 说明速览](/workflow/git/commit.md#type)
 
+## editor
+
+> 我使用 editor, 不使用 ide 的原因是因為 ide 較肥大…
+
+- [atom](/workflow/editor/atom.md)
+- [vscode](/workflow/editor/vscode.md)
+
 ## commit-style
 
 - [代码注释](/workflow/code.comment.md)

@@ -29,3 +29,6 @@
 ## 其他工具
 - [rclone (cloud storage sync工具)](https://rclone.org/docs/#fast-list)
 - [docker - speedtest](https://hub.docker.com/r/tianon/speedtest/)
+
+## Links
+- [互联网公司技术架构(e.g. weixin/taobao/tecent/alibaba)](https://github.com/davideuler/architecture.of.internet-product)

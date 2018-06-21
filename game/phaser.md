@@ -2,7 +2,7 @@
 
 - [github](https://github.com/facebook/react)
 - 官方文檔:
-    - [api](https://photonstorm.github.io/phaser3-docs/list_class.html)
+    - [phaser 3](https://photonstorm.github.io/phaser3-docs/)
     - [phaser 2 examples](http://phaser.io/examples)
 - refs (phaser 3 跟 2 & CE 截然不同):
 - [awesome-phaser](https://github.com/Raiper34/awesome-phaser)
@@ -10,6 +10,8 @@
         - [[phaser3入门探坑]使用phaser3制作山寨马里奥](https://segmentfault.com/a/1190000013979583)
         - [Phaser3初体验（译文）](http://club.phaser-china.com/topic/5a94bd94484a53dd723f42c9)
         - [[phaser3入门探坑]使用phaser3制作山寨马里奥](https://segmentfault.com/a/1190000013979583)
+        - [日文教学文档](https://baroqueengine.net/gamedev/phaser3/)
+
     - phaser 2
         - [从零到一：用Phaser.js写意地开发小游戏（Chapter 1 - 认识Phaser.js）](https://segmentfault.com/a/1190000009212221)
         - phaser社区: http://club.phaser-china.com/
@@ -26,6 +28,8 @@
     - forums: http://www.html5gamedevs.com/topic/35897-phaser-3-vs-phaser-2-benchmarks/
 
 ## 学习 phaser3
+
+`2018/06/19 更新: 官方文档已更新许多…所以这边暂时不继续写`
 
 > step1 创建游戏
 
@@ -133,3 +137,4 @@ tweens.timeline
 ``` -->
 
 [未知]:http://www.photonstorm.com/html5
+[phaser2: text-underline-solved]:http://www.html5gamedevs.com/topic/28741-text-underline-solved/
