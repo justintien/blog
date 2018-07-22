@@ -37,6 +37,7 @@ eamodio.gitlens
 felipecaputo.git-project-manager
 felixfbecker.php-intellisense
 formulahendry.auto-close-tag
+formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
 foxundermoon.shell-format
 jakebathman.mysql-syntax
@@ -110,6 +111,7 @@ xabikos.JavaScriptSnippets
         "**/node_modules": true
     },
     "gitlens.historyExplorer.enabled": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": -1,
+    "http.proxy": "127.0.0.1:8087"
 }
 ```

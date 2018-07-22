@@ -4,8 +4,10 @@
 ssh-keygen -t rsa -b 4096
 ```
 
-> 更改密磵
+> 更改密码
 
 ```sh
-ssh-keygen -p old_pass -f id_rsa
+ssh-keygen -f id_rsa -p
+# input old password
+# input new password
 ```

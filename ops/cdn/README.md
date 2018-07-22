@@ -3,8 +3,12 @@
 ## global
 
 - [cdnjs](https://cdnjs.com/)
+  - no phaser3
 - [jsdeliver](https://www.jsdelivr.com/)
 - [unpkg](https://unpkg.com/)
+  - no-cache
+- [Microsoft](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)
+  - 只有常用的 lib, e.g. jQuery
 
 ## 中国
 
