@@ -28,3 +28,29 @@ keepalive_timeout  240s;
 proxy_connect_timeout 240s;
 proxy_read_timeout 240s;
 ```
+
+> proof of work example
+```js
+const createHash = require('crypto').createHash
+function work(input, zeroString = '000') {
+  let id = 0;
+  let begin = +new Date()
+  while (true) {
+    let nonce = id.toString(16);
+
+    let sha256 = createHash('sha256');
+    sha256.update(input);
+    sha256.update(nonce);
+    let hex = sha256.digest('hex')
+    if (hex.substring(0, zeroString.length) === zeroString) {
+        let end = +new Date()
+        console.log(end, begin, end-begin +'ms')
+        return nonce;
+    } else {
+        id++;
+    }
+  }
+}
+
+crypto.createHash('sha256').update('10').digest('hex')
+```

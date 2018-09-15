@@ -11,6 +11,12 @@
 select * from log_slide_main_industry_id where create_time >= '2018-12-31';
 ```
 
+## 每一日 群組
+```sql
+/* 每一日 群組 */
+select created_at, count(*) from log_report where create_time > '2018-07-01' GROUP BY YEAR(created_at), MONTH(created_at), DAY(created_at);
+```
+
 ## 连线数
 ```sh
 show status where `variable_name` = 'Threads_connected';

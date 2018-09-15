@@ -63,6 +63,17 @@
   - [graphiql-app](https://github.com/skevy/graphiql-app)
   
 ## Other
+
 - [後端技術圖譜](https://github.com/xingshaocheng/architect-awesome)
 - [系统设计与分析](https://legacy.gitbook.com/book/lyhcode/oosad/details)
 - [10 个常用的软件架构模式](http://blog.jobbole.com/113953/)
+
+
+
+
+<!-- office 线上 reader 服务 -->
+[1]:http://view.officeapps.live.com/op/view.aspx?src=<Document Location>
+[2]:https://cloud.baidu.com/product/doc.html
+[3]:https://www.idocv.com/
+[4]:google https://docs.google.com/viewer?url=
+[5]:http://ow365.cn/?i=16266&ssl=1&furl=

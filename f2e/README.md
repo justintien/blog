@@ -6,8 +6,11 @@
 > framework
 
 - [vue](/f2e/js/framework/vue.md)
+  - [讚 vue 解析 blog](http://jiongks.name/blog/vue-code-review/)
+  - [virtual dom 開源庫](https://github.com/snabbdom/snabbdom)
 - [react](/f2e/js/framework/react.md#react)
 - [cyclejs](/f2e/js/framework/cyclejs.md#cyclejs)
+  - [awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs)
 
 > lib
 
@@ -27,6 +30,13 @@
   - Other:
     - [fake response](http://www.fakeresponse.com/)
 - [挺有意思 手绘element组件](https://github.com/wiredjs/wired-elements)
+
+> 测试
+
+- [ava](https://github.com/avajs/ava)
+  - [ava-practice](http://i5ting.github.io/ava-practice/)
+- [jest](https://github.com/facebook/jest)
+- [mocha](https://github.com/mochajs/mocha)
 
 > 打包工具
 
@@ -75,6 +85,11 @@ if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
   - [CanvasInput](https://goldfirestudios.com/blog/108/CanvasInput-HTML5-Canvas-Text-Input)
 - [ES6 系列之模拟实现 Symbol 类型](https://segmentfault.com/a/1190000015262174)
 - [前端大牛们](https://news.cnblogs.com/n/500861/)
+- [关于 npm 前端模块的那点儿事儿（ES2015, Babel, UMD）](http://dxy-biz-developer.github.io/2016/03/things-about-npm-front-end-modules/)
+- [進階 React Component Patterns 筆記（上）](https://blog.techbridge.cc/2018/06/27/advanced-react-component-patterns-note/)
+- [前端性能与异常上报](https://segmentfault.com/a/1190000015808043)
+- [javascript实现的一些数据结构知识](https://github.com/captainwz/JSer-Algorithm)
+
 
 > Admin Template & Dashboard
 
@@ -96,3 +111,9 @@ if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
 ## iOS
 
 - TODO
+
+
+## app 托管平台
+
+- https://www.pgyer.com/doc
+- https://fir.im/
