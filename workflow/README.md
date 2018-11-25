@@ -12,7 +12,7 @@
 - [atom](/workflow/editor/atom.md)
 - [vscode](/workflow/editor/vscode.md)
 
-## commit-style
+## develop
 
 - [代码注释](/workflow/code.comment.md)
 
