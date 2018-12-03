@@ -42,7 +42,7 @@ function curl_time() {
 }
 
 function POST_TG() {
-    curl -X POST https://xxxxxxxx -H 'content-type: application/json' -d $1
+    curl -so /dev/null -X POST https://xxxxxxxx -H 'content-type: application/json' -d $1
 }
 
 if test -z "$2";then
