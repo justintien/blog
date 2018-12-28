@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # git
 
 > 这里还没有整理成我自己的心得，转贴来源: [连结](http://huaqianlee.github.io/2015/06/11/Git/git%E5%B8%B8%E7%94%A8%E5%8F%8A%E8%BF%9B%E9%98%B6%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/)

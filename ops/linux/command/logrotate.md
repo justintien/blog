@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 
 其中 daily 表示每天整理，也可以改成 weekly 或 monthly
 dateext 表示檔案補上 rotate 的日期

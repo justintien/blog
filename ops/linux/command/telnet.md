@@ -1,3 +1,7 @@
+Last-Modified: {docsify-updated}
+
+# telnet
+
 ```sh
 #!/bin/bash
 # Author: Justin

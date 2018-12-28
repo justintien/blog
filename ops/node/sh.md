@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 ```js
 #!/usr/bin/env node
 

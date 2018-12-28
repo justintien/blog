@@ -2,6 +2,9 @@
 <!-- title: '' -->
 <!-- date: '' -->
 <!-- tags: ['blog'] -->
+
+Last-Modified: {docsify-updated}
+
 # Justin (Jiapan 贾胖) 的 Blog
 
 > url: https://blog.jiapan.tw

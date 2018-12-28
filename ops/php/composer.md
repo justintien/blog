@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 ##### PHP 开发者该知道的 5 个 Composer 小技巧
 http://www.phpcomposer.com/5-features-to-know-about-composer-php/
 

@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # tmux
 
 ## ubuntu 升級 tmux

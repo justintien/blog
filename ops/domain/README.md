@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # domain
 
 > 域名註冊

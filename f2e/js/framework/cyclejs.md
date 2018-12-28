@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # cyclejs
 
 > [github](https://github.com/cyclejs/cyclejs)

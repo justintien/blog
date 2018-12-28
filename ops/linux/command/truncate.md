@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # truncate
 
 ## 清空 log file

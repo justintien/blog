@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # B2E
 
 ## JAVA

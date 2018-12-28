@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # cocos2d-js
 - [github](https://github.com/cocos2d)
 - refs:

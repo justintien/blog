@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # Tmux 快捷键 & 速查表
 
 > refs: https://gist.github.com/ryerh/14b7c24dfd623ef8edc7

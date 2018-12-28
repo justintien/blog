@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 ```
 Just use the journalctl command, as in:
 

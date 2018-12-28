@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # lodash
 
 > https://github.com/lodash/lodash

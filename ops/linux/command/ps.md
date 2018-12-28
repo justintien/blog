@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # ps
 
 ### BSD style - The options in bsd style syntax are not preceded with a dash.

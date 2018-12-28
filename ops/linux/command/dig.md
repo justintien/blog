@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # 查询 dns
 
 ## example

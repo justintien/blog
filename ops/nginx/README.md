@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # nginx
 
 > 最好用最轻量的代理 服务器

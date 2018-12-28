@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # hexo-github.io
 
 > 使用 [hexo](https://hexo.io/) 建立自己的 blog to github.io

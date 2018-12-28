@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # vscode
 
 > 微软出品
@@ -29,11 +31,13 @@ code --list-extensions
 AlanWalk.markdown-toc
 DavidAnson.vscode-markdownlint
 EditorConfig.EditorConfig
+Leopotam.csharpfixformat
 MS-CEINTL.vscode-language-pack-zh-hant
 PeterJausovec.vscode-docker
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 eamodio.gitlens
+esbenp.prettier-vscode
 felipecaputo.git-project-manager
 felixfbecker.php-intellisense
 formulahendry.auto-close-tag
@@ -50,7 +54,10 @@ ms-azuretools.vscode-cosmosdb
 ms-mssql.mssql
 ms-vscode.azure-account
 ms-vscode.cpptools
+ms-vscode.csharp
+ms-vsliveshare.vsliveshare
 octref.vetur
+oderwat.indent-rainbow
 redhat.java
 shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
@@ -81,7 +88,11 @@ xabikos.JavaScriptSnippets
     "java.errors.incompleteClasspath.severity": "ignore",
     "cSpell.userWords": [
         "Gerender",
-        "spritesheet"
+        "Sendmail",
+        "esdoc",
+        "lolimeow",
+        "spritesheet",
+        "stringlize"
     ],
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
@@ -112,6 +123,7 @@ xabikos.JavaScriptSnippets
     },
     "gitlens.historyExplorer.enabled": true,
     "window.zoomLevel": -1,
-    "http.proxy": "127.0.0.1:8087"
+    "http.proxy": "http://127.0.0.1:1087",
+    "csharp.format.enable": false
 }
 ```

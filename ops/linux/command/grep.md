@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # grep
 
 <http://www.thegeekstuff.com/2011/10/grep-or-and-not-operators>

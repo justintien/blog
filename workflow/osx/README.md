@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # osx
 
 > 使用 osx, init 要安装的

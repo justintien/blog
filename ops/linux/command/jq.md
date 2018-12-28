@@ -1,3 +1,5 @@
+Last-Modified: {docsify-updated}
+
 # jq https://stedolan.github.io/jq/manual
 ## 读档案 format json
 ```sh
