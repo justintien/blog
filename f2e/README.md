@@ -1,57 +1,63 @@
 Last-Modified: {docsify-updated}
 
-# f2e
+# 前端
+
+> 我是前端，前端是我，我什么都会
 
 ## javascript
 
-> framework
+> github趋势: https://github.com/trending/javascript?since=daily
 
-- [vue](/f2e/js/framework/vue.md)
-  - [讚 vue 解析 blog](http://jiongks.name/blog/vue-code-review/)
-  - [virtual dom 開源庫](https://github.com/snabbdom/snabbdom)
+### framework
+
+> 目前我最常用的是 vue2, 期待 vu3 支援 typescript
+
+- [vue2](/f2e/js/framework/vue.md#vue)
 - [react](/f2e/js/framework/react.md#react)
 - [cyclejs](/f2e/js/framework/cyclejs.md#cyclejs)
-  - [awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs)
+- [rxjs - 响应式编程](/f2e/js/framework/rxjs.md#rxjs)
 
-> lib
+### lib
 
-- [rxjs](/f2e/js/framework/rxjs.md#rxjs)
-- [fabrics](https://github.com/kangax/fabric.js)
-- [localForage](https://github.com/localForage/localForage)
+- [fabrics - canvas framework](https://github.com/kangax/fabric.js)
+- [localForage - 强大的 local db](https://github.com/localForage/localForage)
 - [lodash](/f2e/js/lodash.md)
 - [不可错过的javascript迷你库
 ](https://juejin.im/entry/5aa728fbf265da239147c59a?utm_source=gold_browser_extension)
+
 - [动画库](https://github.com/greensock/GreenSock-JS)
 - 前+后端(js)
   - [lowdb (本地 db)](https://github.com/typicode/lowdb)
   - http request client:
     - [axios (目前最流行)](https://github.com/axios/axios)
     - [request (promise 要另外裝...)](https://github.com/request/request)
-    - [node-fetch](https://github.com/bitinn/node-fetch/)
+    - [node-fetch - 实现 browser native fetch](https://github.com/bitinn/node-fetch/)
   - Other:
     - [fake response](http://www.fakeresponse.com/)
 - [挺有意思 手绘element组件](https://github.com/wiredjs/wired-elements)
 
-> 测试
+### testing
+
+> 目前我最常用的是 mocha, 未来考虑 jest
 
 - [ava](https://github.com/avajs/ava)
   - [ava-practice](http://i5ting.github.io/ava-practice/)
 - [jest](https://github.com/facebook/jest)
 - [mocha](https://github.com/mochajs/mocha)
 
-> 打包工具
+### 打包工具
 
-- [webpack](https://webpack.js.org/)
+- [webpack 4](https://webpack.js.org/)
   - [中文站](https://webpack.docschina.org/)
   - [Webpack 4 和单页应用入门](https://github.com/fenivana/webpack-and-spa-guide)
 - [browserify](http://browserify.org/)
 
-> 任务工具
+### 任务工具
 
 - [grunt](https://gruntjs.com/)
 - [gulp](https://gulpjs.com/)
 
-> blog
+### blog
 
 - [fwon - blog](https://github.com/fwon/blog)
 - [我们整理了一份 GitHub 上的微信小程序开发工具名单（文末附链接）](https://mp.weixin.qq.com/s/DxwkB7tZH4lzt3vUU_dunw)
@@ -91,8 +97,7 @@ if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
 - [前端性能与异常上报](https://segmentfault.com/a/1190000015808043)
 - [javascript实现的一些数据结构知识](https://github.com/captainwz/JSer-Algorithm)
 
-
-> Admin Template & Dashboard
+### Admin Template & Dashboard
 
 - [adminLTE](https://github.com/almasaeed2010/AdminLTE/releases)
 - [coreui](https://github.com/coreui/coreui-free-bootstrap-admin-template)
@@ -107,12 +112,11 @@ if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
 
 ## Android
 
-- TODO
+> TODO: 还没机会写 android...
 
 ## iOS
 
-- TODO
-
+> TODO: 还没机会写 ios...
 
 ## app 托管平台
 
