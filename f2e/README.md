@@ -7,6 +7,7 @@ Last-Modified: {docsify-updated}
 ## javascript
 
 > github趋势: https://github.com/trending/javascript?since=daily
+> bestofjs: https://bestofjs.org/projects
 
 ### framework
 

@@ -27,3 +27,4 @@ Last-Modified: {docsify-updated}
 ## License
 
 - [wtfpl](http://www.wtfpl.net/)
+- [choose a license](https://choosealicense.com/)
