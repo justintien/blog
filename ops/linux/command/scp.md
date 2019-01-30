@@ -1,5 +1,16 @@
 Last-Modified: {docsify-updated}
 
+
+# scp
+
+```sh
+
+# 是整 data 目录复制到 local ./
+scp -vrp vm:/data/ ./
+# local: ./data/
+```
+
+```
 用法举例：
 
 1、复制远程服务器的文件到本地：
@@ -47,3 +58,4 @@ SCP 命令选项
 
 SCP 命令诊断
 scp 返回0 成功时，不成功时返回值大于0
+```
