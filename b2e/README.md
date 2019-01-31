@@ -8,6 +8,7 @@ Last-Modified: {docsify-updated}
 
 - [spring](https://github.com/spring-projects/spring-framework)
 - https://cloud.tencent.com/developer/article/1041053?fromSource=waitui
+- JAVA guide https://github.com/Snailclimb/JavaGuide
 
 ## PHP
 

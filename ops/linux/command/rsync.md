@@ -18,7 +18,7 @@ rsync -av --progress --partial --append
 scp -vrp vm:/data/ ./
 # local: ./ 这个结果 与 scp 不同
 
-
+# rsync [source] [dest]
 rsync -avP --rsync-path="sudo rsync" ./resources/ vm:/data/resources/
 ```
 
