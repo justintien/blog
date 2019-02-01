@@ -16,7 +16,7 @@ Last-Modified: {docsify-updated}
 
 ## linux
 
-- [常用指令](/ops/linux/command.md#command)
+- [常用指令](/ops/linux/command.md)
 - 自架 git server:
   - [gogs](https://github.com/gogits/gogs)
   - [gitea (gogs 的分支)](https://github.com/go-gitea/gitea)
