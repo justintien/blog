@@ -12,3 +12,4 @@
   * [數據分析](/data-analyst/README.md)
   * [Game](/game/README.md)
   * [一些不错的文章、连结](/workflow/links.md)
+  * [云測速](http://cloudping.bastionhost.org/aliyun/)

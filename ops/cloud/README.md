@@ -35,6 +35,7 @@ Last-Modified: {docsify-updated}
 
 - http://www.gcping.com/
 - http://www.cloudping.info/
+- 云测速: http://cloudping.bastionhost.org/aliyun/
 
 > cloud 比较
 
