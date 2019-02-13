@@ -22,6 +22,7 @@ Last-Modified: {docsify-updated}
 - [腾讯云](/ops/cloud/tencent.md#tencent)
 - [全民云 - 低调而友善的云服务](/ops/cloud/ucloud.md#ucloud)
 - [又拍云](/ops/cloud/upyun.md#upyun)
+- [客服云](https://www.icsoc.net/product-order.html)
 
 - vps 价格比较:
   - www.vultr.com/pricing: 2.5美元/月

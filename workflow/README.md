@@ -12,6 +12,8 @@ Last-Modified: {docsify-updated}
 ### coding
 
 - [代码注释](/workflow/code.comment.md)
+- [code 战争](https://www.codewars.com/)
+- [code signal](https://codesignal.com/)
 
 ## editor
 
@@ -19,10 +21,14 @@ Last-Modified: {docsify-updated}
 
 - [atom](/workflow/editor/atom.md)
 - [vscode](/workflow/editor/vscode.md)
+- online ide:
+  - https://stackblitz.com/
+  - https://codesandbox.io/
 
 ## 个人
 
 - [使用 hexo 建立 blog & deploy on github.io](/workflow/hexo-github.io.md)
+  - [为 hexo 加上 adsense](https://www.93bok.com/Hexo%E7%AB%99%E7%82%B9Next%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0google%20adsense%E5%B9%BF%E5%91%8A/)
 
 ## License
 

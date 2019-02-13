@@ -4,6 +4,16 @@ Last-Modified: {docsify-updated}
 
 > 这里还没有整理成我自己的心得，转贴来源: [连结](http://huaqianlee.github.io/2015/06/11/Git/git%E5%B8%B8%E7%94%A8%E5%8F%8A%E8%BF%9B%E9%98%B6%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93/)
 
+## links
+
+- [git-flight-rules](https://github.com/k88hudson/git-flight-rules)
+- [換行符問題 CRLF / LF](https://juejin.im/post/5ad21df05188257cc20db9de)
+- [git submodule](http://liuxiang.github.io/2017/12/08/git%20submodule(%E5%AD%90%E6%A8%A1%E5%9D%97)/)
+  - git submodule http://biang.io/blog/development/tools/revision-control/git/submod
+  - submodule 心得: 不太直觉，要学很多指令&操作&流程…
+- [github 漫游指南](https://github.phodal.com/)
+- [如何利用GitHub搜索敏感信息](https://mp.weixin.qq.com/s/K-8qVzSgkzm1e3nyHsK39w)
+
 ##### 配置
 
 ```sh

@@ -26,4 +26,8 @@ DB_FILE=20160421
 
 mdb-schema ${DB_FILE}.mdb mysql > sql/schema.sql
 for i in $( mdb-tables ${DB_FILE}.mdb ); do echo $i ;  MDB_JET3_CHARSET="big5" mdb-export -D "%Y-%m-%d %H:%M:%S" -H -I mysql ${DB_FILE}.mdb $i > sql/$i.sql; done
+
+# MDB_JET3_CHARSET="big5" mdb-export -I mysql 20160421.mdb MYMONEY_DATA
 ```
+
+- 如果有人问你数据库的原理，叫他看这篇文章 http://blog.jobbole.com/100349/

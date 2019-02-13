@@ -4,14 +4,34 @@ Last-Modified: {docsify-updated}
 
 > 我是前端，前端是我，我什么都会
 
+- [Web前端开发规范手册](https://segmentfault.com/a/1190000014317104)
+- [前端大记事](http://qianduanyule.club/)
+- [The best front-end hacking cheatsheets — all in one place.](https://medium.freecodecamp.org/modern-frontend-hacking-cheatsheets-df9c2566c72a)
+- [log 收集](https://1c7.me/2018-8-31-front-end-error-tracking/)
+
 ## javascript
 
 > github趋势: https://github.com/trending/javascript?since=daily
 > bestofjs: https://bestofjs.org/projects
 
+- js中的~~：转换成整型数字的神器（效率）: https://blog.csdn.net/superit401/article/details/80662476
+  - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators
+  - 缺点: 不易阅读 (一般人不容易理解 ~~ )
+- [jsliang 的文档库. 里面包含了所有的前端文章，例如 vue、react,、angular、微信小程序、设计模式](https://github.com/LiangJunrong/document-library)
+
+avascript中写好条件语句的五个技巧
+https://juejin.im/post/5c4fa79b51882525487c6fe0
+记第一个Vue项目台前幕后的经历
+https://juejin.im/post/5c4f1f0de51d4552d573b784
+vue系列之面试总结
+https://segmentfault.com/a/1190000018060680
+每晚8点前端日报：http://t.cn/RaTsQX7，欢迎star：http://t.cn/Rc5XyB4
+
 ### css
 
 - https://github.com/chokcoco/CSS-Inspiration
+- http://zh-tw.learnlayout.com/no-layout.html
+- 不怕你用不上！CSS 列表项布局技巧 https://juejin.im/post/5c171f0ef265da61553abade
 
 ### framework
 
@@ -21,6 +41,9 @@ Last-Modified: {docsify-updated}
 - [react](/f2e/js/framework/react.md#react)
 - [cyclejs](/f2e/js/framework/cyclejs.md#cyclejs)
 - [rxjs - 响应式编程](/f2e/js/framework/rxjs.md#rxjs)
+- redux
+  - https://cn.redux.js.org/docs/recipes/ReducingBoilerplate.html
+- framework list: http://usablica.github.io/front-end-frameworks/compare.html?fbclid=IwAR0zn_7AiNI3XOlL-EjwUW2kuA0xedrnqPBn0hc8UUkOthLnfM2tTcTqhwA
 
 ### lib
 
@@ -71,6 +94,7 @@ Last-Modified: {docsify-updated}
   - [你有必要知道的 25 个 JavaScript 面试题](https://github.com/dwqs/blog/issues/17)
 - [javascript algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [科技橘子](https://blog.techbridge.cc/)
+- [xufei](https://github.com/xufei/blog)
 
 > ithome 鐵人賽文章
 
@@ -81,7 +105,6 @@ Last-Modified: {docsify-updated}
 > 其它
 
 - 通过rgb值判断颜色深浅: https://blog.csdn.net/qq_36843675/article/details/79448051
-  
 
 ```js
 // 通过rgb值判断颜色深浅
@@ -101,6 +124,11 @@ if(r*0.299 + g*0.578 + b*0.114 >= 192){ //浅色
 - [進階 React Component Patterns 筆記（上）](https://blog.techbridge.cc/2018/06/27/advanced-react-component-patterns-note/)
 - [前端性能与异常上报](https://segmentfault.com/a/1190000015808043)
 - [javascript实现的一些数据结构知识](https://github.com/captainwz/JSer-Algorithm)
+- [react 的数据管理方案：redux 还是 mobx？](https://imweb.io/topic/59f4833db72024f03c7f49b4)
+- [JavaScript 解決不同裝置Canvas的解析度問題](http://kuan-wei-kuo-blog.logdown.com/posts/736565-javascript-canvas-of-different-device-resolution)
+- [lodash在webpack中的各项优化的尝试](https://zhuanlan.zhihu.com/p/36280323)
+- [js 内存分析](http://wiki.jikexueyuan.com/project/chrome-devtools/javascript-memory-profiling.html)
+- [基于webpack4搭建一个脚手架（适用于react,vue,webpack入门）](https://yq.aliyun.com/articles/619737)
 
 ### Admin Template & Dashboard
 

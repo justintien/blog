@@ -6,6 +6,7 @@
 
 - 代碼管理工具
   - Google Tag Manager
+    - https://transbiz.com.tw/google-tag-manager-gtm-%E6%95%99%E5%AD%B8/
 
 - 數據收集
   - Google Analytics (Global Site Tag)
@@ -31,3 +32,7 @@
 - sentry
 - 程式輸出到檔案 -> Filebeat -> Kafka -> Logstash -> Elasticsearch 上百台server的log輕鬆打 Access log也是，用不同 collection存，另外建議順便把trace id一起做 抓bug更輕鬆Post body也是 都用trace id串起來要接什麼看他需求囉，但是elasticsearch前面，如果沒有logstash or fluentd 進去的資料也只是一堆text，他最終還是要選一個fluentd小，沒有jvm需求，用戶也不少，是個可以參考的選擇
 - splunk
+
+### links
+
+- [数据埋点是什么？设置埋点的意义是什么？](https://www.zhihu.com/question/36411025)

@@ -53,6 +53,9 @@ Last-Modified: {docsify-updated}
 - https://gobyexample.com/
 - [Go 入门指南](https://golangcaff.com/docs/the-way-to-go)
 - [GolangCaff.com 正式上线](https://laravel-china.org/topics/11107/golangcaffcom-is-officially-launched)
+- [awesome-go-web-frameworks](https://github.com/speedwheel/awesome-go-web-frameworks/blob/master/README.md#popularity)
+- 不错的blog:
+  - https://colobu.com/categories/Go/
 - image service:
   - [imageserver](https://github.com/pierrre/imageserver)
   - [imaginary](https://github.com/h2non/imaginary)

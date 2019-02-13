@@ -10,3 +10,4 @@ Last-Modified: {docsify-updated}
 
 - [我为什么从 React 转向 Cycle.js](https://www.zcfy.cc/article/why-i-039-m-switching-from-react-to-cycle-js-mdash-sitepoint-3449.html)
 - [函数响应式编程](https://github.com/malash/frp-introduction)
+- [对 Cycle.js 的一些思考](https://zhuanlan.zhihu.com/p/34394256)
