@@ -2,7 +2,10 @@ Last-Modified: {docsify-updated}
 
 # sh
 
-## google-style http://zh-google-styleguide.readthedocs.io/en/latest/google-shell-styleguide/formatting/
+> ref: google-style http://zh-google-styleguide.readthedocs.io/en/latest/google-shell-styleguide/formatting/
+
+## 常用 example
+
 ```sh
 # 所有的错误信息都应该被导向STDERR。
 err() {
@@ -228,16 +231,15 @@ until mysqladmin ping &>/dev/null; do
 done
 ```
 
-
-
-### see https://stackoverflow.com/questions/18258804/how-to-catch-timeout-errors-in-a-curl-shell-script
-Execute following as script.sh http://www.google.com/.
--D - dump headers to file
--o - write response to file
--s - be silent
--w - display value of specified variables
-
+```sh
 #!/bin/bash
+
+#  see https://stackoverflow.com/questions/18258804/how-to-catch-timeout-errors-in-a-curl-shell-script
+# Execute following as script.sh http://www.google.com/.
+# -D - dump headers to file
+# -o - write response to file
+# -s - be silent
+# -w - display value of specified variables
 
 RESPONSE=response.txt
 HEADERS=headers.txt
@@ -245,14 +247,15 @@ HEADERS=headers.txt
 status=$(curl -s -w %{http_code} $1 -o $RESPONSE)
 
 # or
-#curl -s -D $HEADERS $1 -o $RESPONSE
-#status=$(cat $HEADERS | head -n 1 | awk '{print $2}')
+curl -s -D $HEADERS $1 -o $RESPONSE
+status=$(cat $HEADERS | head -n 1 | awk '{print $2}')
 
 echo $status
 Use $status and $RESPONSE for further processing.
-
+```
 
 ##### test
+
 ```sh
 #!/bin/bash
 # 假设 /data/test.sh
@@ -269,7 +272,6 @@ printf "%s:%s\n" '$(dirname "${BASH_SOURCE[0]}")' $(dirname "${BASH_SOURCE[0]}")
 
 # 绝对路径 $(dirname $(readlink -f $0 ))
 ```
-
 
 ```sh
 # time curl -o /dev/null http://az.img.nutsbp.com/public/nutsbp/image/user_image/45812/50274860-42bb-11e8-999d-a9207b883cd6.png?basic=info;

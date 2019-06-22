@@ -3,6 +3,7 @@ Last-Modified: {docsify-updated}
 # sqlite
 
 > cli
+
 ```sh
 sqlite3 filename
 ```

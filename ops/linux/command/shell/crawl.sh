@@ -124,7 +124,6 @@ fetch_data() {
         "text": "${title}${table}",
         "icon_emoji": ":ghost:"
     }
-    EOF
 EOF
 }
 

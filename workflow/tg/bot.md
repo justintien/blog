@@ -27,6 +27,7 @@ https://api.telegram.org/bot{password}/getUpdates
 
 Use this token to access the HTTP API:
 
+<token>
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 

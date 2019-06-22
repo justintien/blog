@@ -14,9 +14,15 @@ rsync -av --progress --partial --append
 # –partial: 連線中斷時，保留不完整的檔案
 # –append: 續傳不完整的檔案
 
-# 是整 data 目录复制到 local ./
-scp -vrp vm:/data/ ./
-# local: ./ 这个结果 与 scp 不同
+# 複整 data 目錄至 local ./
+rsync -av vm:/data ./
+# 結果 local 會有此目錄
+# ./data/
+
+# 複製 data 的所有檔案至 local ./ (注意結尾 / 的區別)
+rsync -av vm:/data/ ./
+# 結果 local ./ 會有 很多檔案
+# ./
 
 # rsync [source] [dest]
 rsync -avP --rsync-path="sudo rsync" ./resources/ vm:/data/resources/

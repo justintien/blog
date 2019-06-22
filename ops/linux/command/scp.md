@@ -5,9 +5,15 @@ Last-Modified: {docsify-updated}
 
 ```sh
 
-# 是整 data 目录复制到 local ./
+# 複整 data 目錄至 local ./
+scp -vrp vm:/data ./
+# 結果 local 會有此目錄
+# ./data/
+
+# 複製 data 的所有檔案至 local ./ (注意結尾 / 的區別)
 scp -vrp vm:/data/ ./
-# local: ./data/
+# 結果 local ./ 會有 很多檔案
+# ./
 ```
 
 ```
