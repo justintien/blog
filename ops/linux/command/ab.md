@@ -11,19 +11,19 @@ ab -n2000 -c100 -H "Authorization: Token xxx" -v 2 http://localhost:3000/slide/7
 ```
 
 ```sh
-ab 一般常用参数就是 -n， -t ，和 -c。
+ab 一般常用參數就是 -n， -t ，和 -c。
 
--c（concurrency）表示用多少并q发来进行测试；
+-c（concurrency）表示用多少並q發來進行測試；
 
--t表示测试持续多长时间；
+-t表示測試持續多長時間；
 
--n表示要发送多少次测试请求。
+-n表示要發送多少次測試請求。
 
-一般-t或者-n选一个用。
+一般-t或者-n選一個用。
 
 ab -n10000 -c100 -k http://localhost:3000
 
-# macOS, 要多并发 要解除限制
+# macOS, 要多併發 要解除限制
 ulimit -n 10000
 ```
 
@@ -75,7 +75,7 @@ Options are:
                     (SSL3, TLS1, TLS1.1, TLS1.2 or ALL)
 ```
 
-# 模拟测试
+# 模擬測試
 
 ```sh
 ab -c 10 -n 1000 http://test1.n.tw/
@@ -137,7 +137,7 @@ Percentage of the requests served within a certain time (ms)
  100%    306 (longest request)
 ```
 
-## 输出结果说明
+## 輸出結果說明
 
 ```#!/bin/sh
 Server Software         （Web主機的作業系統與版本）
@@ -173,6 +173,6 @@ Waiting:       從發送 HTTP 要求完後，到 HTTP 回應(Response)第一個 
 Total:         等於 Connect + Processing 的時間（因為 Waiting 包含在 Processing 時間內了）
 ```
 
-[参数连结](https://blog.hellosanta.com.tw/%E7%B6%B2%E7%AB%99%E8%A8%AD%E8%A8%88/%E4%BC%BA%E6%9C%8D%E5%99%A8/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8%E7%9B%A3%E6%B8%AC%E7%AB%99%EF%BC%81%EF%BC%81%E4%B8%8D%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84apachebench%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
+[參數連結](https://blog.hellosanta.com.tw/%E7%B6%B2%E7%AB%99%E8%A8%AD%E8%A8%88/%E4%BC%BA%E6%9C%8D%E5%99%A8/%E7%B6%B2%E9%A0%81%E4%BC%BA%E6%9C%8D%E5%99%A8%E7%9B%A3%E6%B8%AC%E7%AB%99%EF%BC%81%EF%BC%81%E4%B8%8D%E8%83%BD%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84apachebench%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 
-[参考连结2](http://blog.miniasp.com/post/2008/06/30/Using-ApacheBench-ab-to-to-Web-stress-test.aspx)
+[參考連結2](http://blog.miniasp.com/post/2008/06/30/Using-ApacheBench-ab-to-to-Web-stress-test.aspx)

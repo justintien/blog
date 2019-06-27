@@ -3,9 +3,9 @@ Last-Modified: {docsify-updated}
 # aws
 
 - [aws](https://aws.amazon.com/)
-- [awscn 中国区是俺割版](https://www.amazonaws.cn/)
+- [awscn 中國區是俺割版](https://www.amazonaws.cn/)
 
-## 服务说明
+## 服務說明
 
 
 > ec2

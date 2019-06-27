@@ -3,4 +3,4 @@
 
 #### links
 
-- [一千行 MySQL 学习笔记](https://shockerli.net/post/1000-line-mysql-note/)
+- [一千行 MySQL 學習筆記](https://shockerli.net/post/1000-line-mysql-note/)

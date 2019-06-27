@@ -1,6 +1,6 @@
 Last-Modified: {docsify-updated}
 
-##### PHP 开发者该知道的 5 个 Composer 小技巧
+##### PHP 開發者該知道的 5 個 Composer 小技巧
 http://www.phpcomposer.com/5-features-to-know-about-composer-php/
 
 ##### laravel  Failed to decode response: zlib_decode(): data error

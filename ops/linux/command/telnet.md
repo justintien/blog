@@ -8,7 +8,7 @@ Last-Modified: {docsify-updated}
 # Date: 2017-11-10
 # Desc:
 # - check vm 存活
-# - use telnet host port 监测 22 (ssh default) 通道有开
+# - use telnet host port 監測 22 (ssh default) 通道有開
 
 __DIR__=$( dirname "${BASH_SOURCE[0]}" )
 
@@ -22,7 +22,7 @@ fi
 
 . $__DIR__/../__function.sh
 
-# 开始时间
+# 開始時間
 begin=$(date +%s)
 # 收件人
 # MAIL_LIST='"all@nutsbp.com","all@nutspie.com"'
@@ -47,12 +47,12 @@ LIST=(
 # 'account'
 )
 
-HTML="<h2>无法连线时间: $DATE_ShangHai</h3>
-      <h3>* 请回报给相关人员</h3>
+HTML="<h2>無法連線時間: $DATE_ShangHai</h3>
+      <h3>* 請回報給相關人員</h3>
     <table border=1>
     <thead>
         <tr>
-            <th>机器名称</th>
+            <th>機器名稱</th>
         </tr>
     </thead>
     <tbody>"
@@ -80,10 +80,10 @@ if [ ${#LIST[@]} -ne 0 ];then
   # mailservice "[op] site down list:" "$HTML" "$MAIL_LIST"
 fi
 
-#结束时间
+#結束時間
 end=$(date +%s)
 spend=$(expr "$end" - "$begin")
-echo "花费时间为$spend秒"
+echo "花費時間為$spend秒"
 
 printf "\n\n"
 ```

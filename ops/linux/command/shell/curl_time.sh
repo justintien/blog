@@ -13,12 +13,12 @@
 read -r -d '' usage << EOM
 Usage: "$0" <url> [SLEEP]
 
-<> 参数为必须
-[] 为选用
+<> 參數為必須
+[] 為選用
 
 parameters:
-    url: 测试的 URL
-    SLEEP: 每秒执行, 不设则执行一次
+    url: 測試的 URL
+    SLEEP: 每秒執行, 不設則執行一次
 env:
     NAME: 機器名字
     TG: 是否要 tg 通知 (default: false)

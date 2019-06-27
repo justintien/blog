@@ -1,13 +1,13 @@
 #!/bin/bash
 # Author: Justin
 # Date: 2017-11-10
-# 共用 monitor function 区块
+# 共用 monitor function 區塊
 
 ADMIN_MAIL="justin@nutsbp.com"
 
-# $1 重试次数
-# $2 最大连线时间 timeout
-# $3 监测的 url
+# $1 重試次數
+# $2 最大連線時間 timeout
+# $3 監測的 url
 function curlCheck() {
   retry_count=$1
   max_time=$2
@@ -17,7 +17,7 @@ function curlCheck() {
   # errors meant httpcode >= 400
   curl -v -X GET --output /dev/null --silent --fail --retry "$retry_count" --max-time "$max_time" "$url" 2> "$error_log"
   # curl exit code see: https://www.computerhope.com/unix/curl.htm
-  # 常见 code:
+  # 常見 code:
   # 6 Couldn't resolve host. The given remote host was not resolved.
   # 22 --fail
   # 28 Operation timeout. The specified time-out period was reached according to the conditions.
@@ -32,10 +32,10 @@ function mailservice() {
   content=$2
   to=$3
 
-  # local mail to admin 以防万一 mail service 挂了
+  # local mail to admin 以防萬一 mail service 掛了
   localMailservice "$1" "$2" "$ADMIN_MAIL"
 
-  # use nuts-mail-service bpe 正服发信
+  # use nuts-mail-service bpe 正服發信
   curl --silent --output /dev/null -X POST \
   http://bpe:3007/v1/send \
   -H 'cache-control: no-cache' \
@@ -55,12 +55,12 @@ END
 
 # $1 Subject of mail
 # $2 Content of mail
-# $3 收件人, e.g. 多个以逗号区隔
+# $3 收件人, e.g. 多個以逗號區隔
 function localMailservice() {
   SUBJECT=$1
   CONTENT=$2
   TO=$3
-  echo "$CONTENT" | mail --append="Content-type: text/html" -s "$SUBJECT" "$TO" -aFrom:【网站挂了】\<do-not-reply@nuts-deploy\>
+  echo "$CONTENT" | mail --append="Content-type: text/html" -s "$SUBJECT" "$TO" -aFrom:【網站掛了】\<do-not-reply@nuts-deploy\>
 }
 
 

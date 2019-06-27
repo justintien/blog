@@ -1,13 +1,13 @@
 #!/bin/bash
 # Author: Justin Tien (Jiapan)
 # Date: 2017-11-10
-# 共用 function 区块
+# 共用 function 區塊
 
 ADMIN_MAIL="test@gmail.com"
 
-# $1 重试次数
-# $2 最大连线时间 timeout
-# $3 监测的 url
+# $1 重試次數
+# $2 最大連線時間 timeout
+# $3 監測的 url
 function curlCheck() {
   retry_count=$1
   max_time=$2
@@ -17,7 +17,7 @@ function curlCheck() {
   # errors meant httpcode >= 400
   curl -v -X GET --output /dev/null --silent --fail --retry "$retry_count" --max-time "$max_time" "$url" 2> "$error_log"
   # curl exit code see: https://www.computerhope.com/unix/curl.htm
-  # 常见 code:
+  # 常見 code:
   # 6 Couldn't resolve host. The given remote host was not resolved.
   # 22 --fail
   # 28 Operation timeout. The specified time-out period was reached according to the conditions.
@@ -26,7 +26,7 @@ function curlCheck() {
 
 # $1 Subject of mail
 # $2 Content of mail
-# $3 收件人, e.g. 多个以逗号区隔
+# $3 收件人, e.g. 多個以逗號區隔
 function localMailservice() {
   SUBJECT=$1
   CONTENT=$2

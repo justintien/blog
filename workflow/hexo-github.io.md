@@ -4,22 +4,22 @@ Last-Modified: {docsify-updated}
 
 > 使用 [hexo](https://hexo.io/) 建立自己的 blog to github.io
 
-- 首先开个仓库名为: justintien.github.io (其中 `justintien` 为 你的 github 名称)
-- 用 hexo 写博客, 接下来就是一长串的命令在本机
+- 首先開個倉庫名為: justintien.github.io (其中 `justintien` 為 你的 github 名稱)
+- 用 hexo 寫博客, 接下來就是一長串的命令在本機
 
 ```sh
-# 安装 hexo-cli (npm 怎么安装就不在这说明了…)
+# 安裝 hexo-cli (npm 怎麼安裝就不在這說明了…)
 npm install -g hexo-cli
 
-# 初始化目录
+# 初始化目錄
 hexo ini my-hexo
 
 cd my-hexo
 
-# 更换 主题 theme (这个自己选自己喜欢的 ~ 我找了一个 名为 next 的 theme)
+# 更換 主題 theme (這個自己選自己喜歡的 ~ 我找了一個 名為 next 的 theme)
 git clone https://github.com/theme-next/hexo-theme-next themes/next
 
-# 启动本地 server 测试, localhost:4000 即可看到结果
+# 啟動本地 server 測試, localhost:4000 即可看到結果
 hexo server -p 4000
 
 # new post
@@ -42,8 +42,8 @@ hexo deploy -g
 # 等待 上傳完成後就可以看到結果了...
 # justintien.github.io
 
-# deploy 完, 会发现对应的 仓库 justintien.github.io 更新了
-# 接着，把工作目录 my-hexo 放到仓库里面去 (开 branch)
+# deploy 完, 會發現對應的 倉庫 justintien.github.io 更新了
+# 接著，把工作目錄 my-hexo 放到倉庫裡面去 (開 branch)
 cd ../
 git clone https://github.com/justintien/justintien.github.io
 cd justintien.github.io
@@ -52,7 +52,7 @@ rm -rf *
 cp -R ../my-hext/* ./
 rm -rf themes/next/.git
 
-# 这样就完成了！
+# 這樣就完成了！
 ```
 
-[GitHub+Hexo 搭建个人网站详细教程]:https://zhuanlan.zhihu.com/p/26625249
+[GitHub+Hexo 搭建個人網站詳細教程]:https://zhuanlan.zhihu.com/p/26625249

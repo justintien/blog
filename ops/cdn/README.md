@@ -12,16 +12,16 @@ Last-Modified: {docsify-updated}
 - [Microsoft](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)
   - 只有常用的 lib, e.g. jQuery
 
-## 中国
+## 中國
 
 > static cdn 加速 (css & js)
 
 - [bootcdn](http://www.bootcdn.cn/)
   - 就是 csn.bootcss.com
-  - 常当机
-- [七拍云 - staticfile](https://www.staticfile.org/)
-- [又拍云](http://jscdn.upai.com/)
-- [百度云](http://cdn.code.baidu.com/)
+  - 常當機
+- [七拍雲 - staticfile](https://www.staticfile.org/)
+- [又拍雲](http://jscdn.upai.com/)
+- [百度雲](http://cdn.code.baidu.com/)
   - 更新慢
-- [今日头条](https://cdn.bytedance.com/)
+- [今日頭條](https://cdn.bytedance.com/)
 - [css.loli.net](https://css.net/)

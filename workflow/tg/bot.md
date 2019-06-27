@@ -1,6 +1,6 @@
 # bot
 
-> 申请流程 (https://dotblogs.com.tw/c5todo/2016/07/10/174049)
+> 申請流程 (https://dotblogs.com.tw/c5todo/2016/07/10/174049)
 
 - tg @BotFather
 
@@ -9,9 +9,9 @@
 
 Alright, a new bot. How are we going to call it? Please choose a name for your bot.
 
-先输入昵称
+先輸入暱稱
 
-接着输入 username # 必须包含 bot
+接著輸入 username # 必須包含 bot
 
 ```
 

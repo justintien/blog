@@ -1,160 +1,160 @@
 Last-Modified: {docsify-updated}
 
-# Tmux 快捷键 & 速查表
+# Tmux 快捷鍵 & 速查表
 
 > refs: https://gist.github.com/ryerh/14b7c24dfd623ef8edc7
 
-启动新会话：
+啟動新會話：
 
-    tmux [new -s 会话名 -n 窗口名]
+    tmux [new -s 會話名 -n 窗口名]
 
-恢复会话：
+恢復會話：
 
-    tmux at [-t 会话名]
+    tmux at [-t 會話名]
 
-列出所有会话：
+列出所有會話：
 
     tmux ls
 
-<a name="killSessions"></a>关闭会话：
+<a name="killSessions"></a>關閉會話：
 
-    tmux kill-session -t 会话名
+    tmux kill-session -t 會話名
 
-<a name="killAllSessions"></a>关闭所有会话：
+<a name="killAllSessions"></a>關閉所有會話：
 
     tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill
 
-# 在 Tmux 中，按下 Tmux 前缀 `ctrl+b`，然后：
+# 在 Tmux 中，按下 Tmux 前綴 `ctrl+b`，然後：
 
-## 会话
+## 會話
 
-    :new<回车>  启动新会话
-    s           列出所有会话
-    $           重命名当前会话
+    :new<回車>  啟動新會話
+    s           列出所有會話
+    $           重命名當前會話
 
-## <a name="WindowsTabs"></a>窗口 (标签页)
+## <a name="WindowsTabs"></a>窗口 (標籤頁)
 
-    c  创建新窗口
+    c  創建新窗口
     w  列出所有窗口
-    n  后一个窗口
-    p  前一个窗口
+    n  後一個窗口
+    p  前一個窗口
     f  查找窗口
-    ,  重命名当前窗口
-    &  关闭当前窗口
+    ,  重命名當前窗口
+    &  關閉當前窗口
 
-## 调整窗口排序
+## 調整窗口排序
 
-    swap-window -s 3 -t 1  交换 3 号和 1 号窗口
-    swap-window -t 1       交换当前和 1 号窗口
-    move-window -t 1       移动当前窗口到 1 号
+    swap-window -s 3 -t 1  交換 3 號和 1 號窗口
+    swap-window -t 1       交換當前和 1 號窗口
+    move-window -t 1       移動當前窗口到 1 號
 
 ## <a name="PanesSplits"></a>窗格（分割窗口） 
 
     %  垂直分割
     "  水平分割
-    o  交换窗格
-    x  关闭窗格
-    ⍽  左边这个符号代表空格键 - 切换布局
-    q 显示每个窗格是第几个，当数字出现的时候按数字几就选中第几个窗格
-    { 与上一个窗格交换位置
-    } 与下一个窗格交换位置
-    z 切换窗格最大化/最小化
+    o  交換窗格
+    x  關閉窗格
+    ⍽  左邊這個符號代表空格鍵 - 切換佈局
+    q 顯示每個窗格是第幾個，當數字出現的時候按數字幾就選中第幾個窗格
+    { 與上一個窗格交換位置
+    } 與下一個窗格交換位置
+    z 切換窗格最大化/最小化
 
 ## <a name="syncPanes"></a>同步窗格
 
-这么做可以切换到想要的窗口，输入 Tmux 前缀和一个冒号呼出命令提示行，然后输入：
+這麼做可以切換到想要的窗口，輸入 Tmux 前綴和一個冒號呼出命令提示行，然後輸入：
 
 ```
 :setw synchronize-panes
 ```
 
-你可以指定开或关，否则重复执行命令会在两者间切换。
-这个选项值针对某个窗口有效，不会影响别的会话和窗口。
-完事儿之后再次执行命令来关闭。[帮助](http://blog.sanctum.geek.nz/sync-tmux-panes/)
+你可以指定開或關，否則重複執行命令會在兩者間切換。
+這個選項值針對某個窗口有效，不會影響別的會話和窗口。
+完事兒之後再次執行命令來關閉。[幫助](http://blog.sanctum.geek.nz/sync-tmux-panes/)
 
 
-## 调整窗格尺寸
+## 調整窗格尺寸
 
-如果你不喜欢默认布局，可以重调窗格的尺寸。虽然这很容易实现，但一般不需要这么干。这几个命令用来调整窗格：
+如果你不喜歡默認佈局，可以重調窗格的尺寸。雖然這很容易實現，但一般不需要這麼幹。這幾個命令用來調整窗格：
 
-    PREFIX : resize-pane -D          当前窗格向下扩大 1 格
-    PREFIX : resize-pane -U          当前窗格向上扩大 1 格
-    PREFIX : resize-pane -L          当前窗格向左扩大 1 格
-    PREFIX : resize-pane -R          当前窗格向右扩大 1 格
-    PREFIX : resize-pane -D 20       当前窗格向下扩大 20 格
-    PREFIX : resize-pane -t 2 -L 20  编号为 2 的窗格向左扩大 20 格
+    PREFIX : resize-pane -D          當前窗格向下擴大 1 格
+    PREFIX : resize-pane -U          當前窗格向上擴大 1 格
+    PREFIX : resize-pane -L          當前窗格向左擴大 1 格
+    PREFIX : resize-pane -R          當前窗格向右擴大 1 格
+    PREFIX : resize-pane -D 20       當前窗格向下擴大 20 格
+    PREFIX : resize-pane -t 2 -L 20  編號為 2 的窗格向左擴大 20 格
     
     
-## 文本复制模式：
+## 文本複製模式：
 
-按下**前缀 [**进入文本复制模式。可以使用方向键在屏幕中移动光标。默认情况下，方向键是启用的。在配置文件中启用 Vim 键盘布局来切换窗口、调整窗格大小。Tmux 也支持 Vi 模式。要是想启用 Vi 模式，只需要把下面这一行添加到 .tmux.conf 中：
+按下**前綴 [**進入文本複製模式。可以使用方向鍵在屏幕中移動光標。默認情況下，方向鍵是啟用的。在配置文件中啟用 Vim 鍵盤佈局來切換窗口、調整窗格大小。Tmux 也支持 Vi 模式。要是想啟用 Vi 模式，只需要把下面這一行添加到 .tmux.conf 中：
 
     setw -g mode-keys vi
 
-启用这条配置后，就可以使用 h、j、k、l 来移动光标了。
+啟用這條配置後，就可以使用 h、j、k、l 來移動光標了。
 
-想要退出文本复制模式的话，按下回车键就可以了。一次移动一格效率低下，在 Vi 模式启用的情况下，可以辅助一些别的快捷键高效工作。
+想要退出文本複製模式的話，按下回車鍵就可以了。一次移動一格效率低下，在 Vi 模式啟用的情況下，可以輔助一些別的快捷鍵高效工作。
 
-例如，可以使用 w 键逐词移动，使用 b 键逐词回退。使用 f 键加上任意字符跳转到当前行第一次出现该字符的位置，使用 F 键达到相反的效果。
+例如，可以使用 w 鍵逐詞移動，使用 b 鍵逐詞回退。使用 f 鍵加上任意字符跳轉到當前行第一次出現該字符的位置，使用 F 鍵達到相反的效果。
 
     vi             emacs        功能
-    ^              M-m          反缩进
-    Escape         C-g          清除选定内容
-    Enter          M-w          复制选定内容
-    j              Down         光标下移
-    h              Left         光标左移
-    l              Right        光标右移
-    L                           光标移到尾行
-    M              M-r          光标移到中间行
-    H              M-R          光标移到首行
-    k              Up           光标上移
-    d              C-u          删除整行
-    D              C-k          删除到行末
+    ^              M-m          反縮進
+    Escape         C-g          清除選定內容
+    Enter          M-w          複製選定內容
+    j              Down         光標下移
+    h              Left         光標左移
+    l              Right        光標右移
+    L                           光標移到尾行
+    M              M-r          光標移到中間行
+    H              M-R          光標移到首行
+    k              Up           光標上移
+    d              C-u          刪除整行
+    D              C-k          刪除到行末
     $              C-e          移到行尾
     :              g            前往指定行
-    C-d            M-Down       向下滚动半屏
-    C-u            M-Up         向上滚动半屏
-    C-f            Page down    下一页
-    w              M-f          下一个词
-    p              C-y          粘贴
-    C-b            Page up      上一页
-    b              M-b          上一个词
+    C-d            M-Down       向下滾動半屏
+    C-u            M-Up         向上滾動半屏
+    C-f            Page down    下一頁
+    w              M-f          下一個詞
+    p              C-y          粘貼
+    C-b            Page up      上一頁
+    b              M-b          上一個詞
     q              Escape       退出
     C-Down or J    C-Down       向下翻
     C-Up or K      C-Up         向下翻
-    n              n            继续搜索
+    n              n            繼續搜索
     ?              C-r          向前搜索
-    /              C-s          向后搜索
+    /              C-s          向後搜索
     0              C-a          移到行首
-    Space          C-Space      开始选中
-                   C-t          字符调序
+    Space          C-Space      開始選中
+                   C-t          字符調序
 
-## 杂项：
+## 雜項：
 
-    d  退出 tmux（tmux 仍在后台运行）
-    t  窗口中央显示一个数字时钟
-    ?  列出所有快捷键
+    d  退出 tmux（tmux 仍在後臺運行）
+    t  窗口中央顯示一個數字時鐘
+    ?  列出所有快捷鍵
     :  命令提示符
 
-## 配置选项：
+## 配置選項：
 
-    # 鼠标支持 - 设置为 on 来启用鼠标
+    # 鼠標支持 - 設置為 on 來啟用鼠標
     * setw -g mode-mouse off
     * set -g mouse-select-pane off
     * set -g mouse-resize-pane off
     * set -g mouse-select-window off
 
-    # 设置默认终端模式为 256color
+    # 設置默認終端模式為 256color
     set -g default-terminal "screen-256color"
 
-    # 启用活动警告
+    # 啟用活動警告
     setw -g monitor-activity on
     set -g visual-activity on
 
     # 居中窗口列表
     set -g status-justify centre
 
-    # 最大化/恢复窗格
+    # 最大化/恢復窗格
     unbind Up bind Up new-window -d -n tmp \; swap-pane -s tmp.1 \; select-window -t tmp
     unbind Down
     bind Down last-window \; swap-pane -s tmp.1 \; kill-window -t tmp
@@ -162,7 +162,7 @@ Last-Modified: {docsify-updated}
 ## 配置文件（~/.tmux.conf）：
 
 ```bash
-# 基础设置
+# 基礎設置
 set -g default-terminal "screen-256color"
 set -g display-time 3000
 set -g escape-time 0
@@ -170,7 +170,7 @@ set -g history-limit 65535
 set -g base-index 1
 set -g pane-base-index 1
 
-# 前缀绑定 (Ctrl+a)
+# 前綴綁定 (Ctrl+a)
 set -g prefix ^a
 unbind ^b
 bind a send-prefix
@@ -181,16 +181,16 @@ bind - splitw -v
 unbind %
 bind | splitw -h
 
-# 选中窗口
+# 選中窗口
 bind-key k select-pane -U
 bind-key j select-pane -D
 bind-key h select-pane -L
 bind-key l select-pane -R
 
-# copy-mode 将快捷键设置为 vi 模式
+# copy-mode 將快捷鍵設置為 vi 模式
 setw -g mode-keys vi
 
-# 启用鼠标(Tmux v2.1)
+# 啟用鼠標(Tmux v2.1)
 set -g mouse on
 
 # 更新配置文件

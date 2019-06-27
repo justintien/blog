@@ -2,17 +2,17 @@ Last-Modified: {docsify-updated}
 
 # Ops
 
-## CI (Continuous integration): 只列出目前我用过的
+## CI (Continuous integration): 只列出目前我用過的
 
-- [Jenkins: 自行架设 free](/ops/ci/jenkins.md)
+- [Jenkins: 自行架設 free](/ops/ci/jenkins.md)
 - [Travis: free for public repo & pay for private repo](/ops/ci/travis.md)
 - [Drone.io](https://drone.io/)
-- [see more 连结](https://ithelp.ithome.com.tw/articles/10187137)
+- [see more 連結](https://ithelp.ithome.com.tw/articles/10187137)
 
 ## docker
 
 - [docker](/ops/docker/README.md#docker)
-- [从入门到实践](https://yeasy.gitbooks.io/docker_practice/)
+- [從入門到實踐](https://yeasy.gitbooks.io/docker_practice/)
 
 ## linux
 
@@ -24,7 +24,7 @@ Last-Modified: {docsify-updated}
   - [gitblit](http://gitblit.com/)
 
 
-## 域名注册
+## 域名註冊
 
 - [domain](/ops/domain/README.md#domain)
 
@@ -35,4 +35,4 @@ Last-Modified: {docsify-updated}
 
 ## Links
 
-- [互联网公司技术架构(e.g. weixin/taobao/tecent/alibaba)](https://github.com/davideuler/architecture.of.internet-product)
+- [互聯網公司技術架構(e.g. weixin/taobao/tecent/alibaba)](https://github.com/davideuler/architecture.of.internet-product)

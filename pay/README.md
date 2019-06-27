@@ -2,7 +2,7 @@
 
 > 金流
 
-全球各大外贸电商平台都支持哪些支付方式？: https://zhuanlan.zhihu.com/p/37830893
+全球各大外貿電商平臺都支持哪些支付方式？: https://zhuanlan.zhihu.com/p/37830893
 
 ## list
 

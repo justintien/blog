@@ -12,10 +12,10 @@ ls -t
 # list 
 ls -l
 
-# show 隐藏档
+# show 隱藏檔
 ls -a
 
-# base_profile 可设置 常用
+# base_profile 可設置 常用
 alias l='ls -CF'
 alias la='ls -A'
 alias ls='ls -vG'

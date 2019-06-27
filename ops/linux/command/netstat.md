@@ -47,7 +47,7 @@ usage: netstat [-vWeenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}
     x25 (CCITT X.25)
 ```
 
-> 统计 各状态数量
+> 統計 各狀態數量
 
 ```sh
 netstat -ant | awk '{print $6}' | grep -v established\) | grep -v Foreign | sort | uniq -c | sort -n

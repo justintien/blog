@@ -7,7 +7,7 @@ Last-Modified: {docsify-updated}
 ## 常用 example
 
 ```sh
-# 所有的错误信息都应该被导向STDERR。
+# 所有的錯誤信息都應該被導向STDERR。
 err() {
     echo "[$(date +'%Y-%m-%dT%H:%M:%S%z')]: $@" >&2
 }
@@ -17,7 +17,7 @@ if ! do_something; then
     exit "${E_DID_NOTHING}"
 fi
 
-# 行的最大长度为80个字符。
+# 行的最大長度為80個字符。
 # DO use 'here document's
 cat <<END;
 I am an exceptionally long
@@ -81,7 +81,7 @@ echo "$usage"
 }
 ```
 
-## 乱数字串数字
+## 亂數字串數字
 
 ```sh
 cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w ${1:-32} | head -n 1
@@ -122,26 +122,26 @@ if [ "$NUMBER" == "" ]; then
 fi
 ```
 
-### Bash变量的知识点归纳（二） [see](http://www.jianshu.com/p/b0d8ab8e0229)
+### Bash變量的知識點歸納（二） [see](http://www.jianshu.com/p/b0d8ab8e0229)
 
 <http://www.jianshu.com/p/30aaddb84330>
 
 ```sh
-# 获取变量长度
-${#变量名}
+# 獲取變量長度
+${#變量名}
 
-# 替换匹配的的字符串
-# 替换第一个找到的
-${变量名/匹配字符串/替换后的字符串}
-# 替换全部
-${变量名//匹配字符串/替换后的字符串}
-# 替换最开头字
-${变量名/#匹配字符串/替换后的字符串}
-# 替换最末尾
-${变量名/%匹配字符串/替换后的字符串}
+# 替換匹配的的字符串
+# 替換第一個找到的
+${變量名/匹配字符串/替換後的字符串}
+# 替換全部
+${變量名//匹配字符串/替換後的字符串}
+# 替換最開頭字
+${變量名/#匹配字符串/替換後的字符串}
+# 替換最末尾
+${變量名/%匹配字符串/替換後的字符串}
 
-# 提取指定位置后面指定长度的字符串
-${变量名:开始提取位置:提取的长度}
+# 提取指定位置後面指定長度的字符串
+${變量名:開始提取位置:提取的長度}
 ```
 
 # see <http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_10_02.html>
@@ -211,17 +211,17 @@ $$    PID of this shell's process
 $!    PID of the most recently started backgroup job
 ```
 
-## 特殊变量列表
+## 特殊變量列表
 
-变量 | 含义
+變量 | 含義
 -- | -------------------------------------------------
-$0 | 当前脚本的文件名
-$n | 传递给脚本或函数的参数。n 是一个数字，表示第几个参数。例如，第一个参数是$1，第二个参数是$2。
-$# | 传递给脚本或函数的参数个数。
-$* | 传递给脚本或函数的所有参数。
-$@ | 传递给脚本或函数的所有参数。被双引号(" ")包含时，与 $* 稍有不同，下面将会讲到。
-$? | 上个命令的退出状态，或函数的返回值。
-$$ | 当前Shell进程ID。对于 Shell 脚本，就是这些脚本所在的进程ID。
+$0 | 當前腳本的文件名
+$n | 傳遞給腳本或函數的參數。n 是一個數字，表示第幾個參數。例如，第一個參數是$1，第二個參數是$2。
+$# | 傳遞給腳本或函數的參數個數。
+$* | 傳遞給腳本或函數的所有參數。
+$@ | 傳遞給腳本或函數的所有參數。被雙引號(" ")包含時，與 $* 稍有不同，下面將會講到。
+$? | 上個命令的退出狀態，或函數的返回值。
+$$ | 當前Shell進程ID。對於 Shell 腳本，就是這些腳本所在的進程ID。
 
 ## 檢測 mysql is running
 
@@ -258,7 +258,7 @@ Use $status and $RESPONSE for further processing.
 
 ```sh
 #!/bin/bash
-# 假设 /data/test.sh
+# 假設 /data/test.sh
 
 printf "%s:%s\n" '$(dirname $(readlink -f $0))' $(dirname $(readlink -f $0 ))
 # / : /data/test.sh
@@ -270,7 +270,7 @@ printf "%s:%s\n" '$(dirname "${BASH_SOURCE[0]}")' $(dirname "${BASH_SOURCE[0]}")
 # / : /data/test.sh
 # /data: test.sh
 
-# 绝对路径 $(dirname $(readlink -f $0 ))
+# 絕對路徑 $(dirname $(readlink -f $0 ))
 ```
 
 ```sh

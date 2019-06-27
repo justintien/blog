@@ -1,15 +1,15 @@
 Last-Modified: {docsify-updated}
 
 # jq https://stedolan.github.io/jq/manual
-## 读档案 format json
+## 讀檔案 format json
 ```sh
 
-# 读档 & filter
+# 讀檔 & filter
 tail -n 100 access.log | jq 'select(.req.url == "/project")'
 
 tail -n 100 access.log | jq '.req | select(.url == "/project")'
 
-# 包含内容
+# 包含內容
 tail -n 100 access.log | jq '.req | select(.url | contains("/project"))'
 
 tail -n 10000 access.log | jq '.res["time-ms"]'

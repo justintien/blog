@@ -1,6 +1,6 @@
 Last-Modified: {docsify-updated}
 
-# 查看 disk 占用空间
+# 查看 disk 佔用空間
 
 ## example
 
@@ -10,7 +10,7 @@ du -csh
 # 排在越後面的佔用磁碟空間越多
 du --exclude="proc" | sort -g
 
-# 依序列 每个目录大小
+# 依序列 每個目錄大小
 sudo du -sh /* --exclude proc
 
 sudo du -sh /var/lib/docker/* --exclude proc

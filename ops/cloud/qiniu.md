@@ -2,4 +2,4 @@ Last-Modified: {docsify-updated}
 
 # qiniu
 
-- [七牛云 - 中国 - 直播、媒体串流见长](https://www.qiniu.com/)
+- [七牛雲 - 中國 - 直播、媒體串流見長](https://www.qiniu.com/)

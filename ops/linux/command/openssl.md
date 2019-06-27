@@ -9,7 +9,7 @@ openssl s_client -connect www.nutsbp.com:443
 ```
 
 ```sh
-# openssl shell 检验 ssl 证书过期时间
+# openssl shell 檢驗 ssl 證書過期時間
 echo | openssl s_client -servername az.cdn.nutsbp.com -connect az.cdn.nutsbp.com:443 2>/dev/null | openssl x509 -noout -dates
 ```
 
@@ -17,20 +17,20 @@ echo | openssl s_client -servername az.cdn.nutsbp.com -connect az.cdn.nutsbp.com
 # decode cert
 openssl x509 -in fullchain.cer -text -noout
 
-# see 证书有效期限
+# see 證書有效期限
 openssl x509 -dates -noout -in fullchain.cer
 
 ```
 
-## test iOS 证书
+## test iOS 證書
 
 ```sh
-# test 证书
+# test 證書
 
 # 正式
 openssl s_client -connect gateway.push.apple.com:2195 -cert nutsbp_prod.pem
 
-# 测试 sandbox
+# 測試 sandbox
 openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert nutsbp_sandbox.pem
 ```
 

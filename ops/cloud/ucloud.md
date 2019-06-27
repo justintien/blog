@@ -2,4 +2,4 @@ Last-Modified: {docsify-updated}
 
 # ucloud
 
-- [全民云 - 中国 - 低调而友善的云服务](https://www.ucloud.cn/)
+- [全民雲 - 中國 - 低調而友善的雲服務](https://www.ucloud.cn/)

@@ -4,10 +4,10 @@ Last-Modified: {docsify-updated}
 # 取 1~20行
 sed -n '1,20p'
 
-# 删除 2~3行
+# 刪除 2~3行
 sed '2,3d'
 
-# 删除 3~最后一行
+# 刪除 3~最後一行
 sed '3,$d'
 
 # 取代

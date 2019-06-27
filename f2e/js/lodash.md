@@ -4,16 +4,16 @@ Last-Modified: {docsify-updated}
 
 > https://github.com/lodash/lodash
 
-- _.merge _.assign _.extend _.assignIn 差别
+- _.merge _.assign _.extend _.assignIn 差別
 
 
 
 
 ```js
-// 1) 把源对象(sources)的属性分配到目标对象(object)，源对象会从左往右地调用，后面对象的属性会覆盖前面的。
-// 2) assign 函数不会把原型链上的属性合并到目标对象，而 extend 或 assignIn 函数则会！
-// 3) merge 也和 assign 类似，不同的地方在于 merge 遇到相同属性的时候，如果属性值为纯对象(plain object)或者集合(collection)时，不是用后面的属性值去覆盖前面的属性值，而是会把前后两个属性值合并。
-// 4) 如果源对象的属性值为 undefined ，则会忽略该属性。
+// 1) 把源對象(sources)的屬性分配到目標對象(object)，源對象會從左往右地調用，後面對象的屬性會覆蓋前面的。
+// 2) assign 函數不會把原型鏈上的屬性合併到目標對象，而 extend 或 assignIn 函數則會！
+// 3) merge 也和 assign 類似，不同的地方在於 merge 遇到相同屬性的時候，如果屬性值為純對象(plain object)或者集合(collection)時，不是用後面的屬性值去覆蓋前面的屬性值，而是會把前後兩個屬性值合併。
+// 4) 如果源對象的屬性值為 undefined ，則會忽略該屬性。
 let data = {
     a: 1,
     b: {
@@ -28,7 +28,7 @@ _.merge({}, data, {
     }
 })
 /**
- 后面的会覆盖前面的, merge 是采取合并的方式
+ 後面的會覆蓋前面的, merge 是採取合併的方式
  {
     a: 2,
     b: {
@@ -45,7 +45,7 @@ _.assign({}, data, {
     }
 })
 /**
- 后面的会覆盖前面的, assign 是采取完全覆盖的方式，可以看出差异
+ 後面的會覆蓋前面的, assign 是採取完全覆蓋的方式，可以看出差異
  {
     a: 2,
     b: {
@@ -93,7 +93,7 @@ _.defaults({a:{b:1}}, {
 }
  **/
 
-// 若要递回 assign 则使用 defaultsDeep
+// 若要遞迴 assign 則使用 defaultsDeep
 _.defaultsDeep({a:{b:1}}, {
     a: {
         b: 2,
@@ -101,7 +101,7 @@ _.defaultsDeep({a:{b:1}}, {
     }
 })
 /**
- 可以看到已存在的 key 不会被盖掉，不存在的key 递回 assign
+ 可以看到已存在的 key 不會被蓋掉，不存在的key 遞迴 assign
 {
     a: {
       b: 1,

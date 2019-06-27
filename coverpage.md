@@ -1,4 +1,4 @@
-# Justin (Jiapan 贾胖) Blog
+# Justin (Jiapan 賈胖) Blog
 
 <!-- * :bread: -->
 
@@ -7,4 +7,4 @@
 > A filled bread & passion site
 
 <!-- [GitHub](https://github.com/justintien/blog/) -->
-[Get Started](#justin-jiapan-贾胖-的-blog)
+[Get Started](#justin-jiapan-賈胖-的-blog)

@@ -11,22 +11,22 @@ Last-Modified: {docsify-updated}
 > http.createServer
 
 ```js
-// 长连接测试
+// 長連接測試
 var http = require('http');
 
 let server = http.createServer(function (request, response){
 }).listen(3000);
 
-// timeout 设 10分钟
+// timeout 設 10分鐘
 server.setTimeout(10 * 60 * 1000);
 ```
 
-> nginx 要设超时
+> nginx 要設超時
 
 ```nginx
 # see https://skyao.gitbooks.io/learning-nginx/content/documentation/keep_alive.html
 
-# 超过 240 秒 会 504 timeout
+# 超過 240 秒 會 504 timeout
 # default: 120s;
 keepalive_timeout  240s;
 proxy_connect_timeout 240s;
@@ -61,12 +61,12 @@ crypto.createHash('sha256').update('10').digest('hex')
 
 ## links
 
-- [我是这样黑进你Node.js生产服务器的](https://zhuanlan.zhihu.com/p/43514079)
-- [websoket.io 高并发 实现](https://segmentfault.com/a/1190000008544300)
-- [精华 node开发游戏服务器遇到的性能问题](https://cnodejs.org/topic/55a0dff4419f1e8a23a64276)
+- [我是這樣黑進你Node.js生產服務器的](https://zhuanlan.zhihu.com/p/43514079)
+- [websoket.io 高併發 實現](https://segmentfault.com/a/1190000008544300)
+- [精華 node開發遊戲服務器遇到的性能問題](https://cnodejs.org/topic/55a0dff4419f1e8a23a64276)
 - [網易遊戲框架](https://github.com/NetEase/pomelo)
-- [腾讯 h5](http://gad.qq.com/article/detail/37903)
-- 100万并发连接服务器笔记之1M并发连接目标达成 www.blogjava.net/yongboy/archive/2013/04/11/397677.html
-- 单机千万并发连接实战 https://zhuanlan.zhihu.com/p/21378825
-- TCP/IP 应用程序的通信连接模式 https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/#ibm-pcon
+- [騰訊 h5](http://gad.qq.com/article/detail/37903)
+- 100萬併發連接服務器筆記之1M併發連接目標達成 www.blogjava.net/yongboy/archive/2013/04/11/397677.html
+- 單機千萬併發連接實戰 https://zhuanlan.zhihu.com/p/21378825
+- TCP/IP 應用程序的通信連接模式 https://www.ibm.com/developerworks/cn/aix/library/0807_liugb_tcpip/#ibm-pcon
 - [cool node game engine](https://github.com/RanvierMUD/ranviermud)

@@ -39,7 +39,7 @@ docker inspect -f '{{.HostConfig.LogConfig.Type}}' <CONTAINER>
 docker inspect -f '{{.Id}}' nuts-sms-service-node
 ```
 
-### 查找各容器 日志 size
+### 查找各容器 日誌 size
 ```sh
 ls -lh $(find /var/lib/docker/containers/ -name *-json.log)
 ```

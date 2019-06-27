@@ -2,4 +2,4 @@ Last-Modified: {docsify-updated}
 
 # tencent
 
-- [腾讯云 - 中国](https://cloud.tencent.com/)
+- [騰訊雲 - 中國](https://cloud.tencent.com/)

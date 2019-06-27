@@ -2,25 +2,25 @@ Last-Modified: {docsify-updated}
 
 # vscode
 
-> 微软出品
+> 微軟出品
 
-- rg 占 cpu 使用过高
+- rg 佔 cpu 使用過高
   - 原因:
 
     ```sh
-    # 在中国会使用 cnpm install 替代 npm
-    # cnpm install 预设安装 node_modules 采用 symlink 方式
+    # 在中國會使用 cnpm install 替代 npm
+    # cnpm install 預設安裝 node_modules 採用 symlink 方式
     ```
 
-  - 解决方法:
+  - 解決方法:
 
     ```sh
     # 方法一
-    # 使用 npm 的方式安装 node_modules
+    # 使用 npm 的方式安裝 node_modules
     cnpm install --by=npm
 
     # 方法二
-    # 设置 vscode "search.followSymlinks" to false
+    # 設置 vscode "search.followSymlinks" to false
     ```
 
 ## 使用的 extensins
@@ -83,7 +83,7 @@ wayou.vscode-todo-highlight
 xabikos.JavaScriptSnippets
 ```
 
-> 我的使用者设定:
+> 我的使用者設定:
 
 ```json
 // @se https://code.visualstudio.com/docs/getstarted/settings

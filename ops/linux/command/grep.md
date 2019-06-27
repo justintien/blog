@@ -10,10 +10,10 @@ Last-Modified: {docsify-updated}
 
 # find nginx server_name list
 grep server_name * -RiI
-# old 写法
+# old 寫法
 find /data/script/nginx/conf.d -type f -print0 | xargs -0 egrep '^(\s|\t)*server_name'
 
-# 取前后3行
+# 取前後3行
 grep -A 3 -B 3 "aa"
 ```
 

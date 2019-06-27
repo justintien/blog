@@ -8,16 +8,16 @@ Last-Modified: {docsify-updated}
 
 ## 使用的 packages
 
-<!-- - atom-clock: 右下角显示时间 ★☆☆☆☆
-- busy-signal: 右下角显示 atom 忙录状态 ★☆☆☆☆
-- custom-title: 自定义标题
-- docblockr: 自动产生注解区块
-- editorconfig: 吃 .editorconfig 设定档
-- file-icons: 目录档案显示图示 icon
+<!-- - atom-clock: 右下角顯示時間 ★☆☆☆☆
+- busy-signal: 右下角顯示 atom 忙錄狀態 ★☆☆☆☆
+- custom-title: 自定義標題
+- docblockr: 自動產生註解區塊
+- editorconfig: 吃 .editorconfig 設定檔
+- file-icons: 目錄檔案顯示圖示 icon
 - git-blame
 - git-plus
 - git-time-machine
-- highlight-line: 选取的行高亮
+- highlight-line: 選取的行高亮
 - intentions
 - language-nginx
 - language-vue
@@ -30,7 +30,7 @@ Last-Modified: {docsify-updated}
 - minimap-bookmarks -->
 
 <pre>
-Community Packages (45) 我装过的
+Community Packages (45) 我裝過的
 ├── activate-power-mode@2.7.0 (disabled)
 ├── atom-clock@0.1.16
 ├── atom-material-syntax@1.0.8

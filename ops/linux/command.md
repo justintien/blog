@@ -2,52 +2,53 @@ Last-Modified: {docsify-updated}
 
 # command
 
-## 我接触 Ops 时, linux 常用指令
+## 我接觸 Ops 時, linux 常用指令
 
 > 其實 google "linux 常用指令" 應該會有相當多的文章，這邊寫的主要是我在做 Ops 時，常用的指令。
 
 - [ab](/ops/linux/command/ab.md#ab)
-  - 压力测试时可用
+  - 壓力測試時可用
 - [at](/ops/linux/command/at.md#at)
-  - 想要执行一次性任务，又不想排入 crontab 时可用
+  - 想要執行一次性任務，又不想排入 crontab 時可用
 - [curl](/ops/linux/command/curl.md#curl)
   - call api
 - [dig](/ops/linux/command/dig.md#dig)
-  - dns 正/反查询, 网域询问 TXT, A 记录 等等时可用
+  - dns 正/反查詢, 網域詢問 TXT, A 記錄 等等時可用
 - [docker](/ops/linux/command/docker.md#docker)
-  - docker 容器指令，其实去官网看文档比较恰当的，这里列出我常用的
+  - docker 容器指令，其實去官網看文檔比較恰當的，這裡列出我常用的
 - [du](/ops/linux/command/du.md#du)
-  - 查询 disk 使用量
+  - 查詢 disk 使用量
 - [grap](/ops/linux/command/grep.md#grep)
-  - 查询 log 内容的好能手 (当然能不必看 log 更佳)
+  - 查詢 log 內容的好能手 (當然能不必看 log 更佳)
 - [gz](/ops/linux/command/gz.md#gz)
 - [jq](/ops/linux/command/jq.md#jq)
-  - 观看 json format log 的好能手 (json parser)
+  - 觀看 json format log 的好能手 (json parser)
 - [ln](/ops/linux/command/ln.md#ln)
 - [logrotate](/ops/linux/command/logrotate.md#logrotate)
-  - 将 log 档案自动分类切档好工具 (但最终目录是直接将 log 打到像是 elasticsearch)
+  - 將 log 檔案自動分類切檔好工具 (但最終目錄是直接將 log 打到像是 elasticsearch)
 - [ls](/ops/linux/command/ls.md#ls)
-  - 查询目录列表、档案属性就用它
+  - 查詢目錄列表、檔案屬性就用它
+- [nc](/ops/linux/command/nc.md#nc)
 - [netstat](/ops/linux/command/netstat.md#netstat)
-  - 查询网路连线状态 tcp/udp 和使用的端口
+  - 查詢網路連線狀態 tcp/udp 和使用的端口
 - [nslookup](/ops/linux/command/nslookup.md#nslookup)
 - [openssl](/ops/linux/command/openssl.md#openssl)
 - [ps](/ops/linux/command/ps.md#ps)
-  - 执行程序
+  - 執行程序
 - [rsync](/ops/linux/command/rsync.md#rsync)
-  - 复制档案 to 远端
+  - 複製檔案 to 遠端
 - [scp](/ops/linux/command/scp.md#scp)
-  - 复制档案 from ssh 远端
+  - 複製檔案 from ssh 遠端
 - [sed](/ops/linux/command/sed.md#sed)
 - [sh](/ops/linux/command/sh.md#sh)
 - [ssh-keygen](/ops/linux/command/ssh-keygen.md)
 - [telnet](/ops/linux/command/telnet.md#telnet)
 - [time](/ops/linux/command/time.md#time)
-  - 一个 command 的执行时间
+  - 一個 command 的執行時間
 - [timeout](/ops/linux/command/timeout.md#timeout)
-  - 设定一个 command 的 timeout
+  - 設定一個 command 的 timeout
 - [tmux](/ops/linux/command/tmux.md#tmux)
-  - 多视窗 command line 作业怎么能没有它 (还包含了储存工作状态)
+  - 多視窗 command line 作業怎麼能沒有它 (還包含了儲存工作狀態)
 - [top](/ops/linux/command/top.md#top)
 - [tree](/ops/linux/command/tree.md#tree)
 - [truncate](/ops/linux/command/truncate.md#truncate)

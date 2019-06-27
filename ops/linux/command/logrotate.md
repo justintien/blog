@@ -13,7 +13,7 @@ copytruncate 先複製 log 檔的內容後，在清空的作法，因為有些�
 設定好之後，可以等明天，或是執行 /usr/sbin/logrotate -f /etc/logrotate.conf 看看。
 
 
-## bpe logrotate docker-container 测试
+## bpe logrotate docker-container 測試
 ```sh
 vim /etc/logrotate.d/docker-container
 /var/lib/docker/containers/*/*.log {

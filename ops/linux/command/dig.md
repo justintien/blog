@@ -1,6 +1,6 @@
 Last-Modified: {docsify-updated}
 
-# 查询 dns
+# 查詢 dns
 
 ## example
 

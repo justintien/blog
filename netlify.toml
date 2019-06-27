@@ -1,0 +1,6 @@
+# see https://www.netlify.com/docs/netlify-toml-reference/
+# other sensitive data (like: which branch is production, the values of global variables, ...etc) are stored on netlify.com, please login to check.
+[[redirects]]
+    from = “/*”
+    to = “/index.html”
+    status = 200

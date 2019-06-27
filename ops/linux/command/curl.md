@@ -2,7 +2,7 @@ Last-Modified: {docsify-updated}
 
 # curl
 
-- 上传档案
+- 上傳檔案
 ```sh
 curl \
   'http://api.com' \

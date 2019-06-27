@@ -20,20 +20,20 @@ http://blog.fens.me/nodejs-mongodb-regexp/
 ### php sql to mongo
 http://php.net/manual/en/mongo.sqltomongo.php
 
-### 慢查询 @see http://yucanghai.blog.51cto.com/5260262/1705195
+### 慢查詢 @see http://yucanghai.blog.51cto.com/5260262/1705195
 ```js
-// 0：关闭，不收集任何数据。
-// 1：收集慢查询数据，默认是100毫秒。
-// 2：收集所有数据
-// #查看状态：级别和时间
+// 0：關閉，不收集任何數據。
+// 1：收集慢查詢數據，默認是100毫秒。
+// 2：收集所有數據
+// #查看狀態：級別和時間
 db.getProfilingStatus()
 { "was" : 1, "slowms" : 200 }
-// #查看级别
+// #查看級別
 db.getProfilingLevel()
-// #设置级别
+// #設置級別
 db.setProfilingLevel(2)
 // { "was" : 1, "slowms" : 100, "ok" : 1 }
-// #设置级别和时间
+// #設置級別和時間
 db.setProfilingLevel(1,200)
 // { "was" : 2, "slowms" : 100, "ok" : 1 }
 ```
@@ -42,7 +42,7 @@ db.setProfilingLevel(1,200)
 ### aggregate
 
 ```js
-// 找出 重复的数据
+// 找出 重複的數據
 db.all.aggregate([
     {
         $match: {

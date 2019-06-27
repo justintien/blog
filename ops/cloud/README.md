@@ -1,34 +1,34 @@
 Last-Modified: {docsify-updated}
 
-# 云
+# 雲
 
-> 这边一直在想要怎么分类，先以国家分类 (依字母排序):
+> 這邊一直在想要怎麼分類，先以國家分類 (依字母排序):
 
 ## Global
 - [aliyun](/ops/cloud/aliyun.md#aliyun)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
-  - 类似中国区 图片处理(未确定是否一样): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
+  - 類似中國區 圖片處理(未確定是否一樣): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
 - [gcp - Google Cloud Platform](/ops/cloud/gcp.md#gcp)
 
-## 中国区
+## 中國區
 - [aliyun](/ops/cloud/aliyun.md#aliyun)
 - [aws](/ops/cloud/aws.md#aws)
 - [azure](/ops/cloud/azure.md#azure)
-  - 额外提供 cdn 图片处理: 但很烂，不稳定 (外包的似乎是这家做的: https://www.baishancloud.com/zh/)
+  - 額外提供 cdn 圖片處理: 但很爛，不穩定 (外包的似乎是這家做的: https://www.baishancloud.com/zh/)
 
-- [百度云](/ops/cloud/baidu.md#baidu)
-- [七牛云 - 直播、媒体串流见长](/ops/cloud/qiniu.md#qiniu)
-- [腾讯云](/ops/cloud/tencent.md#tencent)
-- [全民云 - 低调而友善的云服务](/ops/cloud/ucloud.md#ucloud)
-- [又拍云](/ops/cloud/upyun.md#upyun)
-- [客服云](https://www.icsoc.net/product-order.html)
+- [百度雲](/ops/cloud/baidu.md#baidu)
+- [七牛雲 - 直播、媒體串流見長](/ops/cloud/qiniu.md#qiniu)
+- [騰訊雲](/ops/cloud/tencent.md#tencent)
+- [全民雲 - 低調而友善的雲服務](/ops/cloud/ucloud.md#ucloud)
+- [又拍雲](/ops/cloud/upyun.md#upyun)
+- [客服雲](https://www.icsoc.net/product-order.html)
 
-- vps 价格比较:
+- vps 價格比較:
   - www.vultr.com/pricing: 2.5美元/月
   - my.rfchost.com: 7.99美元/月 
-  - www.50kvm.com: 70人民币/年
-  - aliyun.com: 330 人民币/年
+  - www.50kvm.com: 70人民幣/年
+  - aliyun.com: 330 人民幣/年
   - linode: 5美元/月
 
 
@@ -36,9 +36,9 @@ Last-Modified: {docsify-updated}
 
 - http://www.gcping.com/
 - http://www.cloudping.info/
-- 云测速: http://cloudping.bastionhost.org/aliyun/
+- 雲測速: http://cloudping.bastionhost.org/aliyun/
 
-> cloud 比较
+> cloud 比較
 
 - [cloud compare](/ops/cloud/cloud-compare.md#cloud-compare)
 

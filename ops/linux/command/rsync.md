@@ -5,10 +5,10 @@ Last-Modified: {docsify-updated}
 ## example
 
 ```sh
-# 一般 复制使用 -a 包含了 -rlptgoD
+# 一般 複製使用 -a 包含了 -rlptgoD
 rsync -av
 
-# 支援续传
+# 支援續傳
 rsync -av --progress --partial --append
 # -P = --progress --partial
 # –partial: 連線中斷時，保留不完整的檔案
