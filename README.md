@@ -7,12 +7,14 @@ Last-Modified: {docsify-updated}
 
 # Justin (Jiapan 賈胖) 的 Blog
 
-> url: https://blog.jiapan.tw
-> or https://justintien.github.io
+> blog 性質偏技術博客: https://blog.jiapan.tw
+
+> 我的日記 (My diary): https://justintien.github.io
 
 ## 想到什麼記什麼
 
 ### TODO
+
 - https://hackmd.io/
 - 一些待研究的服務
   - mongodb https://www.compose.com/
@@ -50,7 +52,6 @@ https://cafenomad.tw/f/coffee
 
 謝謝大家！
 ```
-
 
 [receive-sms]:https://receive-sms.com/
 [receivefreesms]:http://receivefreesms.com/

@@ -1,36 +1,59 @@
 Last-Modified: {docsify-updated}
 
-# 雲
+# 雲服務
 
-> 這邊一直在想要怎麼分類，先以國家分類 (依字母排序):
+## 雲服務列表
 
-## Global
+### ailyun
+
 - [aliyun](/ops/cloud/aliyun.md#aliyun)
+
+### amazonaws
+
 - [aws](/ops/cloud/aws.md#aws)
+
+### azure
+
 - [azure](/ops/cloud/azure.md#azure)
-  - 類似中國區 圖片處理(未確定是否一樣): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
+  - `中國區` 額外提供 cdn 圖片處理: 但很爛，不穩定 (外包的似乎是這家做的: https://www.baishancloud.com/zh/)
+  - `Global` 類似中國區 圖片處理(未確定是否一樣): https://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/resize-and-crop-thumbnails
+
+### baidu
+
+- [baidu](/ops/cloud/baidu.md#baidu)
+
+### gcp
+
 - [gcp - Google Cloud Platform](/ops/cloud/gcp.md#gcp)
 
-## 中國區
-- [aliyun](/ops/cloud/aliyun.md#aliyun)
-- [aws](/ops/cloud/aws.md#aws)
-- [azure](/ops/cloud/azure.md#azure)
-  - 額外提供 cdn 圖片處理: 但很爛，不穩定 (外包的似乎是這家做的: https://www.baishancloud.com/zh/)
+### qiniu
 
-- [百度雲](/ops/cloud/baidu.md#baidu)
-- [七牛雲 - 直播、媒體串流見長](/ops/cloud/qiniu.md#qiniu)
-- [騰訊雲](/ops/cloud/tencent.md#tencent)
-- [全民雲 - 低調而友善的雲服務](/ops/cloud/ucloud.md#ucloud)
-- [又拍雲](/ops/cloud/upyun.md#upyun)
+- [qiniu 七牛雲 - 直播、媒體串流見長](/ops/cloud/qiniu.md#qiniu)
+
+### tencent
+
+- [tencent 騰訊雲](/ops/cloud/tencent.md#tencent)
+
+### ucloud
+
+- [ucloud 全民雲 - 低調而友善的雲服務](/ops/cloud/ucloud.md#ucloud)
+
+### upyun
+
+- [upyun 又拍雲](/ops/cloud/upyun.md#upyun)
+
+### icsoc
+
 - [客服雲](https://www.icsoc.net/product-order.html)
+
+## Other
 
 - vps 價格比較:
   - www.vultr.com/pricing: 2.5美元/月
-  - my.rfchost.com: 7.99美元/月 
+  - my.rfchost.com: 7.99美元/月
   - www.50kvm.com: 70人民幣/年
   - aliyun.com: 330 人民幣/年
   - linode: 5美元/月
-
 
 > GCP Ping & CloudPing 測試連線至 GCP、AWS 各國節點速度和延遲情形
 
@@ -41,8 +64,6 @@ Last-Modified: {docsify-updated}
 > cloud 比較
 
 - [cloud compare](/ops/cloud/cloud-compare.md#cloud-compare)
-
-## Other
 
 ### image resizer
 

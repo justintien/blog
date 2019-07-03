@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "<!-- layout: '' --> <!-- title: '' --> <!-- date: '' --> <!-- tags: ['blog'] -->",
+  "main": "sw.js",
+  "scripts": {
+    "start": "docsify serve -p 4000 --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justintien/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justintien/blog/issues"
+  },
+  "homepage": "https://github.com/justintien/blog#readme"
+}
