@@ -23,7 +23,9 @@ Last-Modified: {docsify-updated}
     # 設置 vscode "search.followSymlinks" to false
     ```
 
-## 使用的 extensins
+## 我個人的設定與延伸模組
+
+> extensins
 
 ```sh
 # https://code.visualstudio.com/docs/editor/extension-gallery
@@ -157,3 +159,8 @@ xabikos.JavaScriptSnippets
     }
 }
 ```
+
+### 疑難雜症
+
+- 終端機 split 報錯 `無法啟動終端機處理序命令 '/bin/zsh -l' (結束代碼: 1)`
+  - 原因: 當前路徑有中文，先切換到沒有中文的目錄再 split 就可以了
