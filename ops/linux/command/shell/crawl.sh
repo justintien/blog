@@ -127,4 +127,4 @@ fetch_data() {
 EOF
 }
 
-curl -v https://hooks.slack.com/services/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 -d "$(fetch_data)"
+curl -v <webhook_url> -d "$(fetch_data)"
