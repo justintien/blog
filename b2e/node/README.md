@@ -4,11 +4,38 @@ Last-Modified: {docsify-updated}
 
 - [best pratices](https://github.com/i0natan/nodebestpractices)
 
-> blog
+## framework
 
-- https://github.com/nswbmw/N-blog
+> 列出幾個當下流行的框架: 2019/07/13 我覺得最夯的是 koa2
 
-> http.createServer
+- [expressjs](/b2e/node/expressjs.md)
+- [koa2](/b2e/node/koa2.md)
+- [egg](/b2e/node/egg.md)
+- [fastify](/b2e/node/fastify.md)
+
+## 我常用 libs
+
+- db
+  - [sequelize](https://github.com/sequelize/sequelize)
+  - [mongoose - MongoDB](https://github.com/Automattic/mongoose/)
+- date
+  - [moment-timezome](https://github.com/moment/moment-timezone/)
+- [uuid](https://github.com/kelektiv/node-uuid)
+- graphql
+  - [graphql-js](https://github.com/graphql/graphql-js)
+  - [express-graphql](https://github.com/graphql/express-graphql)
+- json
+  [ajv - JSON Schema Validator](https://github.com/epoberezkin/ajv)
+- testing
+  - [mocha](https://github.com/mochajs/mocha)
+  - [chai](https://github.com/chaijs/chai)
+  - [chai-json-schema-ajv](https://github.com/up9cloud/chai-json-schema-ajv)
+
+### 一些 example
+
+- [NodeJs 如何寫 shell](/b2e/node/sh.md)
+
+- http.createServer
 
 ```js
 // 長連接測試
@@ -21,7 +48,7 @@ let server = http.createServer(function (request, response){
 server.setTimeout(10 * 60 * 1000);
 ```
 
-> nginx 要設超時
+- nginx 要設超時
 
 ```nginx
 # see https://skyao.gitbooks.io/learning-nginx/content/documentation/keep_alive.html
@@ -33,7 +60,8 @@ proxy_connect_timeout 240s;
 proxy_read_timeout 240s;
 ```
 
-> proof of work example
+- proof of work example
+
 ```js
 const createHash = require('crypto').createHash
 function work(input, zeroString = '000') {
@@ -60,6 +88,12 @@ crypto.createHash('sha256').update('10').digest('hex')
 ```
 
 ## links
+
+> blog
+
+- https://github.com/nswbmw/N-blog
+
+> Other:
 
 - [我是這樣黑進你Node.js生產服務器的](https://zhuanlan.zhihu.com/p/43514079)
 - [websoket.io 高併發 實現](https://segmentfault.com/a/1190000008544300)

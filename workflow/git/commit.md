@@ -27,7 +27,7 @@ vim ~/.czrc
 - 都已經這麼有規範了, CHANGELOG 當然也可以自動生成
 
 ```sh
-npm install -g conventional-changelog
+npm install -g conventional-changelog conventional-changelog-cli
 
 # 如果你第一次使用這個工具，想要生成所有以前的更改日誌，你可以做
 conventional-changelog -p angular -i CHANGELOG.md -s -r 0

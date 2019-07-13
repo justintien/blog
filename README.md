@@ -7,11 +7,39 @@ Last-Modified: {docsify-updated}
 
 # Justin (Jiapan 賈胖) 的 Blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8496fa5f-94d0-4288-9eb0-c05aa30faf5b/deploy-status)](https://app.netlify.com/sites/jiapan/deploys)
+
 > blog 性質偏技術博客: https://blog.jiapan.tw
 
 > 我的日記 (My diary): https://justintien.github.io
 
 ## 想到什麼記什麼
+
+### 我的一些實例作品
+
+> Docker Image
+
+- [jiapantw/shadowsocks-go](https://github.com/jiapantw/docker-shadowsocks-go)
+- [jiapantw/alpine-curl](https://github.com/jiapantw/docker-any-alpine/tree/master/curl)
+- [jiapantw/alpine-jq](https://github.com/jiapantw/docker-any-alpine/tree/master/jq)
+- [jiapantw/alpine-rclone](https://github.com/jiapantw/docker-any-alpine/tree/master/rclone)
+- [jiapantw/alpine-shadowsocks](https://github.com/jiapantw/docker-any-alpine/tree/master/shadowsocks)
+
+> use koa2 + graphql + mysql built a url shortened service as skeleton sample.
+
+- [node-url-shortener](https://github.com/justintien/node-url-shortener)
+
+> 用來找還沒被註冊的域名
+
+- [whois-not-found](https://github.com/justintien/whois-not-found)
+
+> iconv-lite + urlencode + gb2312//IGNORE 就只是不想装 iconv lib (need python) 單純為了解決 gb2312 urlencode
+
+- [node-urlencode-gb2312-ignore](https://github.com/justintien/node-urlencode-gb2312-ignore)
+
+> 早期用 php + laravel 做的骨架
+
+- [laravel-restful-api-skeleton](https://github.com/justintien/laravel-restful-api-skeleton)
 
 ### TODO
 

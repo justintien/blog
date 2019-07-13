@@ -12,6 +12,7 @@ Last-Modified: {docsify-updated}
   - 想要執行一次性任務，又不想排入 crontab 時可用
 - [curl](/ops/linux/command/curl.md#curl)
   - call api
+- date: (e.g. 昨天: `date -d "$date -1 days" +"%Y/%m/%d"`)
 - [dig](/ops/linux/command/dig.md#dig)
   - dns 正/反查詢, 網域詢問 TXT, A 記錄 等等時可用
 - [docker](/ops/linux/command/docker.md#docker)
