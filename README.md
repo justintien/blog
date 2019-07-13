@@ -15,6 +15,8 @@ Last-Modified: {docsify-updated}
 
 ## 想到什麼記什麼
 
+> 寫這個技術博客(blog)，主要還是想把自己所學的東西轉化成文字，同時更希望能夠幫助 full stack 攻城獅在實務中遇到的疑難雜症能夠在這裡獲得解決！
+
 ### 我的一些實例作品
 
 > Docker Image
