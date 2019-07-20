@@ -6,7 +6,7 @@
   "scripts": {
     "start": "docsify serve -p 4000 --open",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preversion": "/bin/sh scripts/sitemap.sh && scripts/append_lastmod_to_md.sh",
+    "preversion": "/bin/sh scripts/sitemap.sh",
     "version": "git add .",
     "postversion": "git push && git push --tags"
   },
