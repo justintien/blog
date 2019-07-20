@@ -4,3 +4,7 @@
   from = "/*"
   to = "/index.html"
   status = 200
+[[headers]]
+  for = "/assets/favicon/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
