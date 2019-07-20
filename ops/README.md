@@ -33,11 +33,14 @@ Last-Modified: {docsify-updated}
 ## linux
 
 - [常用指令](/ops/linux/command.md)
+- [systemd.unit 中文手冊](http://www.jinbuguo.com/systemd/systemd.unit.html)
 - 自架 git server:
   - [gogs](https://github.com/gogits/gogs)
   - [gitea (gogs 的分支)](https://github.com/go-gitea/gitea)
   - [gitlab](https://about.gitlab.com/)
   - [gitblit](http://gitblit.com/)
+- [CoreOS那些事之系统升级](https://linux.cn/article-5262-1.html)
+- [Linux工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html)
 
 ## 域名註冊
 
@@ -53,3 +56,9 @@ Last-Modified: {docsify-updated}
 - [名詞說明](/ops/名詞說明.md)
 - [常用連結](/ops/常用連結.md)
 - [互聯網公司技術架構(e.g. weixin/taobao/tecent/alibaba)](https://github.com/davideuler/architecture.of.internet-product)
+
+
+## Other
+
+- [容器中的MySQL迁移RDS，会话却“爆了”](https://mp.weixin.qq.com/s/mMPRQ55VVsJeb_z1ZOaIQg)
+- [告別Email進垃圾郵件囉！如何判斷自已email伺服器SPF,OPENDKIM,DMARC內容是正確的呢？](https://jackteacher.cc/2734/%E5%91%8A%E5%88%A5email%E9%80%B2%E5%9E%83%E5%9C%BE%E9%83%B5%E4%BB%B6%E5%9B%89%EF%BC%81%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%B7%E8%87%AA%E5%B7%B2email%E4%BC%BA%E6%9C%8D%E5%99%A8spfdkimdmarc%E5%85%A7/)

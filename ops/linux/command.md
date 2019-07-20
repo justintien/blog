@@ -43,6 +43,7 @@ Last-Modified: {docsify-updated}
 - [sed](/ops/linux/command/sed.md#sed)
 - [sh](/ops/linux/command/sh.md#sh)
 - [ssh-keygen](/ops/linux/command/ssh-keygen.md)
+- [stat](/ops/linux/command/stat.md)
 - [telnet](/ops/linux/command/telnet.md#telnet)
 - [time](/ops/linux/command/time.md#time)
   - 一個 command 的執行時間

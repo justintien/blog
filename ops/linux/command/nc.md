@@ -1,5 +1,7 @@
 # nc
 
+- [使用 nc (Netcat) 建立傳送資料的 socket server](https://blog.longwin.com.tw/2012/02/nc-data-send-socket-server-2012/)
+
 - example:
 
 ```sh

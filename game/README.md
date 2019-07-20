@@ -16,8 +16,15 @@ Last-Modified: {docsify-updated}
 - http://www.iamaddy.net/2018/03/xiaoyouxi/
 - [RPG schema example](https://github.com/jgoodman/MySQL-RPG-Schema)
 
+> game editor
+
+- http://avg.163.com/home
+- https://flowlab.io/
+
 ## links
 
+- design pattern: https://gpp.tkchu.me/introduction.html
+- 楚天阔目前的工作情况: https://www.tkchu.me/
 - http://www.gamelook.com.cn/
 - https://sites.google.com/site/rpgdesigners/home
 - https://rpg.blue/forum-605-1.html
@@ -25,6 +32,13 @@ Last-Modified: {docsify-updated}
 - http://www.fairygui.com/product/
 
 <!-- 66rpg rpg製作大師 貼吧都有很多資源可以直接下載 -->
+<!-- 
+DMM
+Getchu
+DLsite
+魔法集市 http://www.masadora.net/
+https://www.mygalgame.com/
+Gyutto -->
 
 [dlsite]:http://www.dlsite.com/
 [dmm]:http://dmm.com
@@ -32,3 +46,7 @@ Last-Modified: {docsify-updated}
 [ss同盟]:https://sstm.moe/
 [wegame]:https://wegame.com/
 [http://www.u-acg.com/]:http://www.u-acg.com/
+
+[Galgame开发笔记（01）：什么是Galgame？]:https://www.gcores.com/articles/97259
+[Galgame 企划书是如何撰写的？]:https://www.zhihu.com/question/29047482
+[ngabbs]:https://ngabbs.com/

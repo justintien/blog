@@ -25,7 +25,7 @@
 
   <link rel="shortcut icon" type="image/jpg" href="//blog.jiapan.tw/logo.jpeg"/>
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+  <!-- <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css"> -->
 
   <!-- favicon generator by https://www.favicon-generator.org/ -->
   <link rel="apple-touch-icon" sizes="57x57" href="//blog.jiapan.tw/assets/favicon/apple-icon-57x57.png">
@@ -57,13 +57,13 @@
 </head>
 <body>
   <div data-app id="main">Please wait...</div>
-  <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script>
+  <!-- <script src="//unpkg.com/docsify-edit-on-github@1.0.1/index.js"></script> -->
   <script>
     var plugins = []
     var repo = 'https://github.com/justintien/blog'
-    if (EditOnGithubPlugin) {
-      plugins.push(EditOnGithubPlugin.create(repo + '/blob/master/'))
-    }
+    // if (EditOnGithubPlugin) {
+    //   plugins.push(EditOnGithubPlugin.create(repo + '/blob/master/'))
+    // }
     var config = {
       el: '#main',
       repo: repo,
@@ -76,7 +76,7 @@
       homepage: 'README.md',
       basePath: '',
       coverpage: 'coverpage.md',
-      logo: '/logo.png',
+      // logo: '/logo.png',
       name: 'Justin (Jiapan 賈胖)',
       nameLink: window.location.pathname,
       // markdown: function () {}
@@ -120,55 +120,55 @@
   <script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
   <!-- <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script> -->
   <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+  <!-- <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script> -->
   <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min.js"></script> -->
 
 
   <!-- gitalk -->
   <script>
-    const gitalk = new Gitalk({
-      clientID: '4b455bf820f5c7fbd2c4',
-      clientSecret: '9258dfb876991ecdb78ea3bad405563e20806f53',
-      repo: 'blog',
-      owner: 'justintien',
-      admin: ['justintien'],
-      // facebook-like distraction free mode
-      distractionFreeMode: false,
-      id: location.pathname // 限制長度為 50, 若超過 可 md5
-    })
+    // const gitalk = new Gitalk({
+    //   clientID: '4b455bf820f5c7fbd2c4',
+    //   clientSecret: '9258dfb876991ecdb78ea3bad405563e20806f53',
+    //   repo: 'blog',
+    //   owner: 'justintien',
+    //   admin: ['justintien'],
+    //   // facebook-like distraction free mode
+    //   distractionFreeMode: false,
+    //   id: location.pathname // 限制長度為 50, 若超過 可 md5
+    // })
 
-    var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
+    // var MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver;
 
-    var dom = document.querySelector('body');
+    // var dom = document.querySelector('body');
 
-    var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
-        if (mutation.type === 'attributes' && mutation.attributeName === 'data-page') {
-            console.log('[body][data-page] changed');
-            let gitalkDom = document.querySelector('#gitalk-container');
-            if (gitalkDom) {
-                gitalkDom.remove()
-                // gitalk re-redner
-                gitalk.options.id = location.pathname;
-                let dom = Docsify.dom
-                let div = dom.create('div')
-                div.id = 'gitalk-container'
-                const main = dom.getNode('#main')
-                div.style = `width: ${main.clientWidth}px; margin: 0 auto 20px;`
-                dom.appendTo(dom.find('.content'), div)
-                const script = dom.create('script')
-                const content = `gitalk.render('gitalk-container')`
-                script.textContent = content
-                dom.appendTo(dom.body, script)
-            }
-        }
-      });
-    });
+    // var observer = new MutationObserver(function(mutations) {
+    //   mutations.forEach(function(mutation) {
+    //     if (mutation.type === 'attributes' && mutation.attributeName === 'data-page') {
+    //         console.log('[body][data-page] changed');
+    //         let gitalkDom = document.querySelector('#gitalk-container');
+    //         if (gitalkDom) {
+    //             gitalkDom.remove()
+    //             // gitalk re-redner
+    //             gitalk.options.id = location.pathname;
+    //             let dom = Docsify.dom
+    //             let div = dom.create('div')
+    //             div.id = 'gitalk-container'
+    //             const main = dom.getNode('#main')
+    //             div.style = `width: ${main.clientWidth}px; margin: 0 auto 20px;`
+    //             dom.appendTo(dom.find('.content'), div)
+    //             const script = dom.create('script')
+    //             const content = `gitalk.render('gitalk-container')`
+    //             script.textContent = content
+    //             dom.appendTo(dom.body, script)
+    //         }
+    //     }
+    //   });
+    // });
 
-    observer.observe(dom, {
-      attributes: true //configure it to listen to attribute changes
-    });
+    // observer.observe(dom, {
+    //   attributes: true //configure it to listen to attribute changes
+    // });
   </script>
 
   <!-- language highlight -->

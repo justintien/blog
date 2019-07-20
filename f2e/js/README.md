@@ -54,6 +54,7 @@
 
 ## blog
 
+- [30-seconds-of-code](https://30secondsofcode.org/)
 - [fwon - blog](https://github.com/fwon/blog)
 - [我們整理了一份 GitHub 上的微信小程序開發工具名單（文末附鏈接）](https://mp.weixin.qq.com/s/DxwkB7tZH4lzt3vUU_dunw)
 - [數組的遍歷你都會用了，那Promise版本的呢 數組](https://segmentfault.com/a/1190000014598785)
@@ -62,6 +63,9 @@
 - [javascript algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [科技橘子](https://blog.techbridge.cc/)
 - [xufei](https://github.com/xufei/blog)
+- [用友网络大-前端技术团队博客](https://github.com/iuap-design/blog)
+- [有赞前端质量保障体系](https://juejin.im/post/5d24096ee51d454d1d6285a1#heading-10)
+- [点我达三年前端路暨点我达前端演变过程](https://blog.5udou.cn/blog/Dian-Wo-Da-San-Nian-Qian-Duan-Lu-Ji-Dian-Wo-Da-Qian-Duan-Yan-Bian-Guo-Cheng-46)
 
 > ithome 鐵人賽文章
 

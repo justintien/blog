@@ -6,15 +6,19 @@ Last-Modified: {docsify-updated}
 
 > 我不是 DBA, 我不是 DBA, 我不是 DBA
 
-## 設計概念
+## mysql
 
-- [mysql web數據庫的設計歸範-1命名規範 原](https://my.oschina.net/dongzerun/blog/289664)
-- [MySql數據庫設計總結](https://mp.weixin.qq.com/s/oFFoVN_P3FGj7yUeRN-fpQ)
-- [如何為標籤雲設計MySql表？](http://osask.cn/front/ask/view/524948)
-- [mysql processlist](http://www.ywnds.com/?p=9337)
+- [mysql](/dba/mysql.md)
 
+## mongodb
 
-##### other
+- [mongodb](/dba/mongodb.md)
+
+## sqlite
+
+- [sqlite](/dba/sqlite.md)
+
+## other
 
 - mdb 工具 (將 mdb 轉換為其他 sql syntax)
 

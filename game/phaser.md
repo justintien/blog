@@ -27,6 +27,7 @@ Last-Modified: {docsify-updated}
   - https://www.zhihu.com/question/29335822?utm_medium=social&utm_source=wechat_session
   - [phaser v2.4.6 performance 測試](https://github.com/mattcolman/phaser-performance-tests)
   - [phaser-ce v2.8.1 performance](https://codepen.io/samme/pen/OmGNgL)
+  - [forum](http://www.html5gamedevs.com/forum/33-phaser-3/)
   - forums: http://www.html5gamedevs.com/topic/35897-phaser-3-vs-phaser-2-benchmarks/
 
 > 中國官網鏡像: http://api100.net/phaser3/
@@ -139,6 +140,10 @@ this.tweens.add({
     });
 tweens.timeline
 ``` -->
+
+### known-issues
+
+- Text letter style issue https://github.com/photonstorm/phaser/issues/3390
 
 [未知]:http://www.photonstorm.com/html5
 [phaser2: text-underline-solved]:http://www.html5gamedevs.com/topic/28741-text-underline-solved/

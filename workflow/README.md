@@ -25,6 +25,11 @@ Last-Modified: {docsify-updated}
 - [git commit message 規範](/workflow/git/commit.md)
 - [git 指令](/workflow/git/README.md)
 
+### tools
+
+- [產生 badge icon 服務](https://shields.io/#/)
+- [Website模板生成](https://www.launchaco.com/)
+
 ### other
 
 - [代碼註釋](/workflow/code.comment.md)
@@ -36,14 +41,11 @@ Last-Modified: {docsify-updated}
 - [wtfpl](http://www.wtfpl.net/)
 - [choose a license](https://choosealicense.com/)
 
-## 個人
+### 經驗
 
 - [使用 hexo 建立 blog & deploy on github.io](/workflow/hexo-github.io.md)
   - [為 hexo 加上 adsense](https://www.93bok.com/Hexo%E7%AB%99%E7%82%B9Next%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0google%20adsense%E5%B9%BF%E5%91%8A/)
-
-### telegram
-
-- [申請 bot & webhook](/workflow/tg/bot.md#bot)
+- [telegram - 申請 bot & webhook](/workflow/tg/bot.md#bot)
 
 ### links
 
@@ -59,7 +61,33 @@ Last-Modified: {docsify-updated}
 - [插畫創作](https://www.pixiv.net/)
 - https://www.onlyling.com/
 - https://tomorrowli.github.io/2018/04/09/nuomi-meituan-dazhong/
+- [架构大咖言传身教：从程序员到架构师](https://mp.weixin.qq.com/s/CqRruULCJQCa5cbxVk66uA?fbclid=IwAR3ENWht67vkk5Oq9NZ3fOedNBR1FEMnPz0FY-7RlBeaJdHkeDZ_WPXdUxk)
+- [一文了解下 GANs可以做到的事情](https://mp.weixin.qq.com/s/twDS3pNo_WGm1Ka2_2RuQA)
 
+#### Other
+
+> 討人厭的內容農場
+
+```text
+內容農場
+bomb01.com
+cocomy.net
+how01.com
+juksy.com
+kknews.cc
+life.tw
+orange01.org
+push01.net
+read01.com
+teepr.com
+thegreatdaily.com
+tw.gigacircle.com
+tw.ptt01.cc
+twgreatdaily.com
+whatfunny.org
+```
+
+<!-- bookmark -->
 [讓Nodejs像瀏覽器一樣Fetch你想要的]:https://alili.tech/2017/02/17/Nodejs/%E8%AE%A9Nodejs%E5%83%8F%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%80%E6%A0%B7Fetch%E4%BD%A0%E6%83%B3%E8%A6%81%E7%9A%84/
 
 [ios open source]:https://github.com/dkhamsing/open-source-ios-apps
@@ -74,3 +102,4 @@ Last-Modified: {docsify-updated}
 [極客公園 好站]:https://www.geekpark.net/column/85
 [byr.wiki 很多中國站點連結]:http://byr.wiki/
 [heroku]:https://www.heroku.com/
+[apk 日本遊戲下載]:https://www.wanghenry.com/2016/08/Japan-Korea-Game-APK-Download.html

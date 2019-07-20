@@ -83,6 +83,10 @@ https://cafenomad.tw/f/coffee
 謝謝大家！
 ```
 
+## Technique
+
+Basically, it's based on [docsify](https://docsify.js.org)
+
 [receive-sms]:https://receive-sms.com/
 [receivefreesms]:http://receivefreesms.com/
 [Receive SMS Online]:https://www.receivesmsonline.net/
@@ -90,9 +94,3 @@ https://cafenomad.tw/f/coffee
 [Receive SMS Online]:http://receive-sms-online.com/
 [Sellaite SMS Receiver]:http://sms.sellaite.com/
 [Receive SMS Online for Free]:http://hs3x.com/
-
-[github - fork 最多的項目]:https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories
-[github - star 最多的項目]:https://github.com/search?q=stars:%3E1&s=stars&type=Repositories
-[github - ranking]:https://microzz.com/github-ranking/
-[github - 中國排行榜]:http://githubrank.com/
-[github - 相關排行榜連結]:https://www.diycode.cc/topics/44

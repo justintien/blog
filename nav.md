@@ -10,4 +10,4 @@
   * [F2E 前端](/f2e/README.md)
   * [Data*Analyst 數據分析](/data*analyst/README.md)
   * [Game Develop](/game/README.md)
-  * [雲測速](http://cloudping.bastionhost.org/aliyun/)
+  * [:link: 雲測速](http://cloudping.bastionhost.org/aliyun/)
