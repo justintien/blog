@@ -1,9 +1,3 @@
-<!-- layout: '' -->
-<!-- title: '' -->
-<!-- date: '' -->
-<!-- tags: ['blog'] -->
-<!-- sidebar -->
-
 - [**我的工作流**](/workflow/README.md)
 - [![](https://blog.jiapan.tw/assets/favicon/favicon-16x16.png) **我個人**](/self/README.md)
 - [**Ops 運維**](/ops/README.md)
@@ -44,6 +38,7 @@
   - [:link: github - ranking](https://microzz.com/github-ranking/)
   - [:link: github - 中國排行榜](http://githubrank.com/)
   - [:link: github - 相關排行榜連結](https://www.diycode.cc/topics/44)
+  - [:link: 可以查看 repo 趨勢圖](https://star-history.t9t.io/)
 - **其它連結**
   - [:link: ios app 分享 看看大家用什麼](https://jinshuju.net/f/mDJREe/r/mDJREe/share_entries)
 

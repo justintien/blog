@@ -1,8 +1,3 @@
-<!-- layout: '' -->
-<!-- title: '' -->
-<!-- date: '' -->
-<!-- tags: ['blog'] -->
-
 Last-Modified: {docsify-updated}
 
 # Justin (Jiapan 賈胖) 的 Blog
