@@ -16,6 +16,7 @@ Last-Modified: {docsify-updated}
 
 - [atom](/workflow/editor/atom.md)
 - [vscode](/workflow/editor/vscode.md)
+- `IntelliJ IDEA` for `JAVA`
 - online ide:
   - https://stackblitz.com/
   - https://codesandbox.io/

@@ -4,42 +4,13 @@ Last-Modified: {docsify-updated}
 
 ## 我實際寫過的
 
-- [NodeJs](/b2e/node/README.md)
+- [NodeJs](/b2e/nodejs/README.md)
 - [PHP](/b2e/php/README.md)
+- [Go](/b2e/golang/README.md)
+- [JAVA](/b2e/java/README.md)
 - [API 設計](/b2e/api/README.md)
 
 ## 我實際讀過的
-
-### JAVA
-
-> 列出幾個當下流行的框架:
-
-- [spring](https://github.com/spring-projects/spring-framework)
-
-> study
-
-- [JAVA guide](https://github.com/Snailclimb/JavaGuide)
-- [SSM三大框架整合详细总结（Spring+SpringMVC+MyBatis）](https://cloud.tencent.com/developer/article/1041053?fromSource=waitui)
-
-### Golang
-
-- [web framework](https://github.com/speedwheel/awesome-go-web-frameworks/blob/master/README.md#popularity)
-- [Golang 學習筆記](https://medium.com/@john.lin/golang-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-582cad359738)
-- [Go by Example](https://gobyexample.com/)
-- [Go 入門指南](https://golangcaff.com/docs/the-way-to-go)
-- [GolangCaff.com 正式上線](https://laravel-china.org/topics/11107/golangcaffcom-is-officially-launched)
-- [awesome-go-web-frameworks](https://github.com/speedwheel/awesome-go-web-frameworks/blob/master/README.md#popularity)
-
-> Blog
-
-- https://colobu.com/categories/Go/
-
-> image service:
-
-- [imageserver](https://github.com/pierrre/imageserver)
-- [imaginary](https://github.com/h2non/imaginary)
-- [imageproxy](https://github.com/willnorris/imageproxy)
-- [picfit](https://github.com/thoas/picfit)
 
 ### Rust
 

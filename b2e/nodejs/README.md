@@ -1,6 +1,6 @@
 Last-Modified: {docsify-updated}
 
-# node
+# nodejs
 
 - [best pratices](https://github.com/i0natan/nodebestpractices)
 
@@ -8,10 +8,10 @@ Last-Modified: {docsify-updated}
 
 > 列出幾個當下流行的框架: 2019/07/13 我覺得最夯的是 koa2
 
-- [expressjs](/b2e/node/expressjs.md)
-- [koa2](/b2e/node/koa2.md)
-- [egg](/b2e/node/egg.md)
-- [fastify](/b2e/node/fastify.md)
+- [expressjs](/b2e/nodejs/expressjs.md)
+- [koa2](/b2e/nodejs/koa2.md)
+- [egg](/b2e/nodejs/egg.md)
+- [fastify](/b2e/nodejs/fastify.md)
 
 ## 我常用 libs
 
@@ -33,7 +33,7 @@ Last-Modified: {docsify-updated}
 
 ### 一些 example
 
-- [NodeJs 如何寫 shell](/b2e/node/sh.md)
+- [NodeJs 如何寫 shell](/b2e/nodejs/sh.md)
 
 - http.createServer
 

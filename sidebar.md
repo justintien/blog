@@ -5,7 +5,7 @@
   - [常用 linux 指令](/ops/linux/command.md)
 - [**DBA**](/dba/README.md)
 - [**B2E 後端**](/b2e/README.md)
-  - [NodeJs](/b2e/node/README.md)
+  - [NodeJs](/b2e/nodejs/README.md)
   - [PHP](/b2e/php/README.md)
   - [API 設計](/b2e/api/README.md)
 - [**F2E 前端**](/f2e/README.md)
@@ -25,6 +25,7 @@
   - [:link: 日文學習地圖 (讀完這全部應該就差不多了)](https://www.sigure.tw/comprehensive-learning/mix/397-self-study-guides)
   - [:link: 工具類](https://blog-tw.amazingtalker.com/blog/2017/3/22/japanapp)
   - [:link: NHK WEB EASY](https://www3.nhk.or.jp/news/easy/)
+  - [:link 唱歌學日語](https://www.jpmarumaru.com)
   - 日語歌單
     - [:link: 日语五十音及数字发音入门 (五十音图）](https://music.163.com/#/playlist?id=110943777)
     - [:link: 日语歌单。每一首都可循环](https://music.163.com/#/playlist?id=164238075)
