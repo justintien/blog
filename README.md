@@ -30,6 +30,10 @@ Last-Modified: {docsify-updated}
 
 - [node-url-shortener](https://github.com/justintien/node-url-shortener)
 
+> golang 版本的 url shortener
+
+- [go-url-shortener](https://github.com/justintien/go-url-shortener)
+
 > 用來找還沒被註冊的域名
 
 - [whois-not-found](https://github.com/justintien/whois-not-found)
