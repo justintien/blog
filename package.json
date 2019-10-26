@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/justintien/blog/issues"
   },
-  "homepage": "https://github.com/justintien/blog#readme"
+  "homepage": "https://github.com/justintien/blog#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0"
+  }
 }

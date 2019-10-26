@@ -2,7 +2,8 @@
 
 <!-- * :bread: -->
 
-![](https://blog.jiapan.tw/assets/logo.png)
+![](https://blog.jiapan.tw/assets/logo.png ':size=200px')
+![](https://blog.jiapan.tw/assets/qrcode.gif ':size=200px')
 
 > A filled bread & passion site
 
