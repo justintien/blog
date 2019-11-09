@@ -5,12 +5,13 @@ Last-Modified: {docsify-updated}
 ## example
 
 ```sh
-openssl s_client -connect www.nutsbp.com:443
+openssl s_client -connect jiapan.tw:443
 ```
 
 ```sh
 # openssl shell 檢驗 ssl 證書過期時間
-echo | openssl s_client -servername az.cdn.nutsbp.com -connect az.cdn.nutsbp.com:443 2>/dev/null | openssl x509 -noout -dates
+domain=jiapan.tw
+echo | openssl s_client -servername $domain -connect $domain:443 2>/dev/null | openssl x509 -noout -dates
 ```
 
 ```sh
