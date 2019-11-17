@@ -23,6 +23,7 @@
   - [:link: 美國之音](https://www.chinavoa.com/voa_special_english/)
 - **日語學習**
   - [:link: 日文學習地圖 (讀完這全部應該就差不多了)](https://www.sigure.tw/comprehensive-learning/mix/397-self-study-guides)
+  - [:link: 學日文必看的華視空中大學吳致秀老師的日文教學節目分享(完全免費)](https://jp.hiyawu.com/2019/11/tv.html?m=1)
   - [:link: 工具類](https://blog-tw.amazingtalker.com/blog/2017/3/22/japanapp)
   - [:link: NHK WEB EASY](https://www3.nhk.or.jp/news/easy/)
   - [:link: 唱歌學日語](https://www.jpmarumaru.com)

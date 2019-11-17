@@ -11,6 +11,10 @@ rs版 => 英國原廠版本
 e14版 => 中國製
 ```
 
+## 起手式
+
+- [starter](/self/raspberry/starter.md)
+
 ##### other
 
 - [:link: 树莓派3B+配置](https://segmentfault.com/a/1190000017109351)
