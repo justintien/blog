@@ -26,9 +26,9 @@ Last-Modified: {docsify-updated}
 
 > 一些連線指令，和基本語法
 
-- [monogodb](/ops/db/mongodb.md)
-- [mysql](/ops/db/mysql.md)
-- [mysqldump](/ops/db/mysqldump.md)
+- [monogodb](/dba/mongodb.md)
+- [mysql](/dba/mysql.md)
+- [mysqldump](/dba/mysql.md#mysqldump)
 
 ## linux
 

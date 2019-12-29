@@ -6,6 +6,8 @@ Last-Modified: {docsify-updated}
 
 - [NodeJs](/b2e/nodejs/README.md)
 - [PHP](/b2e/php/README.md)
+- [C](/b2e/c/README.md)
+- [C#](/b2e/c-sharp/README.md)
 - [Go](/b2e/golang/README.md)
 - [JAVA](/b2e/java/README.md)
 - [API 設計](/b2e/api/README.md)

@@ -6,17 +6,40 @@ Last-Modified: {docsify-updated}
 
 > 我不是 DBA, 我不是 DBA, 我不是 DBA
 
-## mysql
+# db
 
 - [mysql](/dba/mysql.md)
-
-## mongodb
-
 - [mongodb](/dba/mongodb.md)
-
-## sqlite
-
 - [sqlite](/dba/sqlite.md)
+
+## Survey
+
+> 2019/07/24 survey
+
+- http://nosql-database.org/
+- https://db-engines.com/en/ranking
+
+## link
+
+- dgraph: https://github.com/dgraph-io/dgraph
+- arangoDb https://www.arangodb.com/
+
+> 2018/06
+
+| type | list |
+| --- | --- |
+| Document store | ArangoDB, Couchbase, BaseX, Clusterpoint, CouchDB, DocumentDB,MarkLogic, IBM Domino, MongoDB,RethinkDB Qizx |
+| key-value store (Classical) | ArangoDB, Keyspace, Flare, Aerospike, RAMCloud, SchemaFree,quasardb |
+| key-value store (Ordered) | Actord, Lightcloud, FoundationDB,InfinityDB, LMDB, Luxio, NMDB,MemcacheDB, TokyoTyrant |
+| Key-value cache | Memcached, Apache Ignite, eXtreme Scale, Hazelcast, Infinispan, JBoss Cache, Coherence, Repcached, Velocity |
+| Tuple store  元组 | Coord, Apache River, GigaSpaces |
+| Object database | Perst, Objectivity/DB,DB4O, Shoal, ZopeDB |
+| Data structures | Redis |
+| Wide column store | Bigtable, KAI, Amazon DynamoDB, HBase, Hypertable, Cassandra, Druid, OpenNeptune, KDI, Qbase |
+| key-value store (Ordered) | Oracle NoSQL Database, DovetailDB, Riak, Dynomite, Dynamo, Voldemort, SubRecord |
+
+- 2017 的统计 http://lvshen9.coding.me/2017/10/27/%E9%9D%A2%E5%90%91-Java-%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84-NoSQL-%E9%80%89%E9%A1%B9/
+￼
 
 ## other
 
