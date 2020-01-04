@@ -76,7 +76,30 @@ SELECT created_at, count(*) FROM 表名 WHERE created_at > '2018-07-01' GROUP BY
 SELECT * from table where JSON_CONTAINS_PATH(`json`, 'one', '$.name') = 1;
 ```
 
-## 查詢DB狀態語法
+> 大量插入數據
+
+```sql
+use test;
+DROP PROCEDURE IF EXISTS BatchInsert;
+delimiter //   -- 把界定符改成双斜杠
+CREATE PROCEDURE BatchInsert(IN init INT, IN loop_time INT)  -- 第一个参数为初始ID号（可自定义），第二个位生成MySQL记录个数
+  BEGIN
+      DECLARE Var INT;
+      DECLARE ID INT;
+      SET Var = 0;
+      SET ID = init;
+      WHILE Var < loop_time DO
+          insert into employees(id, fname, lname, birth, hired, separated, job_code, store_id) values (ID, CONCAT('chen', ID), CONCAT('haixiang', ID), Now(), Now(), Now(), 1, ID);
+          SET ID = ID + 1;
+          SET Var = Var + 1;
+      END WHILE;
+  END;
+  //
+delimiter ;  -- 界定符改回分号
+CALL BatchInsert(30036, 200000);   -- 调用存储过程插入函数
+```
+
+### 查詢DB狀態語法
 
 ```sql
 /* 連線數 */
@@ -113,6 +136,18 @@ SELECT * FROM INFORMATION_SCHEMA.COLUMNS;
 
 SELECT * FROM INFORMATION_SCHEMA.TRIGGERS;
 --for see all the triggers informations
+
+-- size
+SELECT
+  TABLE_NAME AS `Table`,
+  ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
+FROM
+  information_schema.TABLES
+WHERE
+  TABLE_SCHEMA = "bookstore"
+ORDER BY
+  (DATA_LENGTH + INDEX_LENGTH)
+DESC;
 ```
 
 ## db debug
@@ -140,8 +175,23 @@ select * from information_schema.innodb_locks;
 select trx_id,trx_state,trx_isolation_level from information_schema.innodb_trx;
 ```
 
+## 插入變慢優化
+
+- https://www.cnblogs.com/kubidemanong/p/10734045.html
+
+```sh
+# 這幾個嘗試調整下
+max_allowed_packet
+net_buffer_length
+bulk_insert_buffer_size
+innodb_flush_log_at_trx_commit
+```
+
 ### links
 
 - [Mysql 必知](http://blog.cjli.info/2016/02/02/MySQL-Must-Knows/)
 - [一千行 MySQL 學習筆記](https://shockerli.net/post/1000-line-mysql-note/)
 - [二十种实战调优MySQL性能优化的经验](https://mp.weixin.qq.com/s/tORc47YRfsmtgDQV23XiPA)
+- [面试小知识：MySQL索引相关](https://mp.weixin.qq.com/s/RemJcqPIvLArmfWIhoaZ1g)
+- https://mengkang.net/958.html
+<!-- - [分享：详记一次MySQL千万级大表优化过程！](https://zhuanlan.zhihu.com/p/76217095) -->

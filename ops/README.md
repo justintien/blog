@@ -32,6 +32,8 @@ Last-Modified: {docsify-updated}
 
 ## linux
 
+- [性能分析工具](/ops/linux/analyze.md)
+- [disk stats](/ops/linux/proc-diskstats.md)
 - [常用指令](/ops/linux/command.md)
 - [systemd.unit 中文手冊](http://www.jinbuguo.com/systemd/systemd.unit.html)
 - 自架 git server:

@@ -8,9 +8,15 @@ Last-Modified: {docsify-updated}
 
 # db
 
+> 我熟練的:
+
 - [mysql](/dba/mysql.md)
 - [mongodb](/dba/mongodb.md)
 - [sqlite](/dba/sqlite.md)
+
+> ranking
+
+- 使用率排行榜: https://db-engines.com/en/ranking
 
 ## Survey
 
@@ -58,3 +64,6 @@ for i in $( mdb-tables ${DB_FILE}.mdb ); do echo $i ;  MDB_JET3_CHARSET="big5" m
 ```
 
 - 如果有人問你數據庫的原理，叫他看這篇文章 http://blog.jobbole.com/100349/
+
+
+[用 Node + MySQL 处理 100G 数据]:https://www.zcfy.cc/article/node-js-mysql-example-handling-100-x27-s-of-gigabytes-of-data-risingstack

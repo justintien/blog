@@ -2,6 +2,8 @@ Last-Modified: {docsify-updated}
 
 # command
 
+- [see list](https://github.com/justintien/blog/tree/master/ops/linux/command)
+
 ## 我接觸 Ops 時, linux 常用指令
 
 > 其實 google "linux 常用指令" 應該會有相當多的文章，這邊寫的主要是我在做 Ops 時，常用的指令。
@@ -24,6 +26,7 @@ Last-Modified: {docsify-updated}
 - [gz](/ops/linux/command/gz.md#gz)
 - [jq](/ops/linux/command/jq.md#jq)
   - 觀看 json format log 的好能手 (json parser)
+- [journalctl](ops/linux/command/journalctl.md)
 - [ln](/ops/linux/command/ln.md#ln)
 - [logrotate](/ops/linux/command/logrotate.md#logrotate)
   - 將 log 檔案自動分類切檔好工具 (但最終目錄是直接將 log 打到像是 elasticsearch)
