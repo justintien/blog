@@ -44,6 +44,10 @@ Last-Modified: {docsify-updated}
 - [CoreOS那些事之系统升级](https://linux.cn/article-5262-1.html)
 - [Linux工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html)
 
+> other
+
+- iops: `dd if=/dev/zero of=test_file bs=64k count=16k conv=fdatasync`
+
 ## 域名註冊
 
 - [domain](/ops/domain/README.md#domain)

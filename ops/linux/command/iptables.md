@@ -15,5 +15,5 @@ sudo iptables-save # coreos
 # check
 sudo iptables -L -n -t nat
 
-sudo iptables -t nat -A PREROUTING -p tcp --dport 10001:65000 -j REDIRECT --to-ports 10001 && sudo iptables-save 
+sudo iptables -t nat -A PREROUTING -p tcp --dport 10001:65000 -j REDIRECT --to-ports 10001 && sudo iptables-save
 ```

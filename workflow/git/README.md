@@ -17,9 +17,9 @@ Last-Modified: {docsify-updated}
 ##### 配置
 
 ```sh
-git config --global user.name "huaqianlee"   
-git config --global user.email "huaqianlee@gmail.com" 
-  
+git config --global user.name "JustinTien"
+git config --global user.email "thitbbeb+git-commit@gmail.com"
+
 git config --global color.ui true
 git config --global alias.co checkout # 配置別名，co 配為checkout 別名， 不過我沒用
 git config --global alias.ci commit

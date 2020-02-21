@@ -1,5 +1,7 @@
 # MYSQL
 
+- [优化 InnoDB 表](https://www.docs4dev.com/docs/zh/mysql/5.7/reference/optimizing-innodb.html#%E4%BC%98%E5%8C%96-innodb-%E8%A1%A8)
+
 ## 設計概念
 
 - [mysql web數據庫的設計歸範-1命名規範 原](https://my.oschina.net/dongzerun/blog/289664)
@@ -148,6 +150,17 @@ WHERE
 ORDER BY
   (DATA_LENGTH + INDEX_LENGTH)
 DESC;
+
+
+-- cache config
+show global variables like '%query_cache%';
+
+-- SHOW PROFILE
+SET profiling = 1; -- session 只有本次會話有效
+// some query syntax....
+SHOW PROFILES;
+show PROFILE for query 1;
+show PROFILE ALL for query 1; --查看sql1相关的所有分析【主要看i/o与cpu,下边分析中有各项意义介绍】
 ```
 
 ## db debug
