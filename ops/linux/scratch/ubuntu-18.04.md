@@ -55,7 +55,8 @@ shadowsocks/shadowsocks-libev
 
 ```sh
 # need root
-sudo mkdir -p /etc/v2ray && sudo echo '
+sudo su
+mkdir -p /etc/v2ray && echo '
 {
   "log" : {
     "access": "/var/log/v2ray/access.log",

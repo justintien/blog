@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/justintien/blog#readme",
   "devDependencies": {
-    "docsify-cli": "^4.3.0"
+    "docsify-cli": "^4.4.0"
   }
 }

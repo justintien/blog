@@ -33,8 +33,11 @@
 
 ### testing
 
-> 目前我最常用的是 mocha, 未來考慮 jest
+> 目前我最常用的是 mocha, 未來考慮 jest (tape/ava 為輕量測試工具，適合 package testing)
 
+`NOTE: 2020/03/04 npmjs 下載量 jest 超越 mocha, tape 超越 ava`
+
+- [tape](https://github.com/substack/tape)
 - [ava](https://github.com/avajs/ava)
   - [ava-practice](http://i5ting.github.io/ava-practice/)
 - [jest](https://github.com/facebook/jest)

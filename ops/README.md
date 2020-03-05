@@ -32,9 +32,9 @@ Last-Modified: {docsify-updated}
 
 ## linux
 
-- [性能分析工具](/ops/linux/analyze.md)
 - [disk stats](/ops/linux/proc-diskstats.md)
 - [常用指令](/ops/linux/command.md)
+- [常用工具](/ops/linux/tool/README.md)
 - [systemd.unit 中文手冊](http://www.jinbuguo.com/systemd/systemd.unit.html)
 - 自架 git server:
   - [gogs](https://github.com/gogits/gogs)
@@ -62,7 +62,6 @@ Last-Modified: {docsify-updated}
 - [名詞說明](/ops/名詞說明.md)
 - [常用連結](/ops/常用連結.md)
 - [互聯網公司技術架構(e.g. weixin/taobao/tecent/alibaba)](https://github.com/davideuler/architecture.of.internet-product)
-
 
 ## Other
 

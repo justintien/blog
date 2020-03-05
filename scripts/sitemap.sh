@@ -9,6 +9,10 @@ echo $header > sitemap.xml
 LIST=$(find . -type f -name "*.md")
 
 for path in ${LIST[@]};do
+  if [[ $path == *"node_module"* ]];then
+    continue
+  fi
+
   lastmod=$(stat -f "%Sm" -t "%F" "${path}")
   path=$(echo ${path} | sed 's#./##')
   echo "<url><loc>https://blog.jiapan.tw/${path}</loc><lastmod>${lastmod}</lastmod></url>" >> sitemap.xml
