@@ -1,12 +1,17 @@
 # java
 
+> 學習
+
+- [JAVA guide (這是干貨，必須看完)](https://github.com/Snailclimb/JavaGuide)
+
+> `jiapan` 小打小鬧實作系列
+
+- [縮網址服務](https://github.com/justintien/url-shortener)
+- [加密解密編碼練習 (go/java/nodejs)](https://github.com/justintien/encrypt-decrypt)
+
 > 2019年, 列出幾個當下流行的框架:
 
 - [spring](https://github.com/spring-projects/spring-framework)
-
-> study
-
-- [JAVA guide (這是干貨，必須看完)](https://github.com/Snailclimb/JavaGuide)
 
 ## 開發
 

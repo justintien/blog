@@ -2,7 +2,18 @@ Last-Modified: {docsify-updated}
 
 # nodejs
 
-- [best pratices](https://github.com/i0natan/nodebestpractices)
+> 學習
+
+- [best pratices](https://github.com/goldbergyoni/nodebestpractices)
+<!-- https://github.com/i0natan/nodebestpractices -->
+
+> `jiapan` 小打小鬧實作系列
+
+- [縮網址服務](https://github.com/justintien/url-shortener)
+- [加密解密編碼練習 (go/java/nodejs)](https://github.com/justintien/encrypt-decrypt)
+- [whois-not-found 搜尋尚未註冊的域名](https://github.com/justintien/whois-not-found)
+- [docsify plugin - page's ToC (Table of Content) for docsify.](https://github.com/justintien/docsify-plugin-toc)
+- [iconv-lite + urlencode + gb2312//IGNORE 就只是不想装 iconv lib (need python)(https://github.com/justintien/node-urlencode-gb2312-ignore)
 
 ## framework
 
@@ -13,11 +24,11 @@ Last-Modified: {docsify-updated}
 - [egg](/b2e/nodejs/egg.md)
 - [fastify](/b2e/nodejs/fastify.md)
 
-## 我常用 libs
+## 常用-packages
 
 - db
-  - [sequelize](https://github.com/sequelize/sequelize)
-  - [mongoose - MongoDB](https://github.com/Automattic/mongoose/)
+  - [ORM - sequelize](https://github.com/sequelize/sequelize)
+  - [ODM - mongoose - MongoDB](https://github.com/Automattic/mongoose/)
 - date
   - [moment-timezome](https://github.com/moment/moment-timezone/)
 - [uuid](https://github.com/kelektiv/node-uuid)
@@ -31,7 +42,7 @@ Last-Modified: {docsify-updated}
   - [chai](https://github.com/chaijs/chai)
   - [chai-json-schema-ajv](https://github.com/up9cloud/chai-json-schema-ajv)
 
-### 一些 example
+### example
 
 - [NodeJs 如何寫 shell](/b2e/nodejs/sh.md)
 
