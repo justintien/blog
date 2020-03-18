@@ -1,11 +1,35 @@
 # Investment-Finance
 
+## stock
+
+> 官方數據
+
+- 三大法人買賣金額統計表 https://www.twse.com.tw/zh/page/trading/fund/BFI82U.html
+  - html: https://www.twse.com.tw/fund/BFI82U?response=html&dayDate=&weekDate=&monthDate=&type=day
+- 信用交易統計 https://www.twse.com.tw/zh/page/trading/exchange/MI_MARGN.html
+  - html: https://www.twse.com.tw/exchangeReport/MI_MARGN?response=html&date=&selectType=MS
+
+> 看股
+
+- [google finance](https://www.google.com/finance)
+- [全球 - finviz](https://finviz.com/)
+- [stockQ](http://www.stockq.org/)
+- [財報狗](https://statementdog.com/)
+
+> 如何買美股
+
+- https://rich01.com/us-stock-invest-all/
+- https://www.planto.hk/zh/blog/US-Stock-Account-Compare/
+
+## 財經
+
+- [stock-ai](https://stock-ai.com)
+- [看看基金](https://tw.morningstar.com/ap/main/default.aspx)
+
 ## blog
 
 - [財經M平方](https://www.macromicro.me/macro)
 - [綠角財經筆記](http://greenhornfinancefootnote.blogspot.com/)
-- [看看基金](https://tw.morningstar.com/ap/main/default.aspx)
-- [stock-ai](https://stock-ai.com)
 
 > 貨幣流通官方資料
 
