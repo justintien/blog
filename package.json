@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "<!-- layout: '' --> <!-- title: '' --> <!-- date: '' --> <!-- tags: ['blog'] -->",
   "main": "sw.js",
   "scripts": {
