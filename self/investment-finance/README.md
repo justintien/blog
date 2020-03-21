@@ -15,6 +15,7 @@
 - [全球 - finviz](https://finviz.com/)
 - [stockQ](http://www.stockq.org/)
 - [財報狗](https://statementdog.com/)
+- [fugle](https://www.fugle.tw/)
 
 > 如何買美股
 

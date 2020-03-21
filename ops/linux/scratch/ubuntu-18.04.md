@@ -2,24 +2,13 @@ Last-Modified: {docsify-updated}
 
 # ubuntu-18.04
 
-> linode
-
-```sh
-#!/bin/bash
-
-# install docker (current: 17.12.1-ce)
-apt install docker.io -y
-# install docker-compose: (current: 1.17.1)
-apt install docker-compose -y
-```
-
-> gcp
+> gcp/linode
 
 ```sh
 #!/bin/bash
 
 sudo apt update
-# install docker (current: 17.12.1-ce)
+# install docker (current: Docker version 19.03.6)
 sudo apt install docker.io -y
 # install docker-compose: (current: 1.17.1)
 sudo apt install docker-compose -y
