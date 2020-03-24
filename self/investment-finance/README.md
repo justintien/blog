@@ -16,6 +16,7 @@
 - [stockQ](http://www.stockq.org/)
 - [財報狗](https://statementdog.com/)
 - [fugle](https://www.fugle.tw/)
+- [investing 英为财情](https://www.investing.com/)
 
 > 如何買美股
 
