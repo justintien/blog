@@ -6,6 +6,8 @@ Last-Modified: {docsify-updated}
 
 - [best pratices](https://github.com/goldbergyoni/nodebestpractices)
 <!-- https://github.com/i0natan/nodebestpractices -->
+- [Node.js Best Practices](https://github.com/alanjames1987/Node.js-Best-Practices)
+- [📚 some best practices for JS modules](https://github.com/mattdesl/module-best-practices)
 
 > `jiapan` 小打小鬧實作系列
 

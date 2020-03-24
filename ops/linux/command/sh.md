@@ -122,6 +122,15 @@ if [ "$NUMBER" == "" ]; then
 fi
 ```
 
+## /bin/bash -x是什么意思？
+
+- `-x` 指的是debug mode
+
+```sh
+/bin/bash -x dump.sh > trace.log 2>&1
+strace /bin/bash -x dump.sh
+```
+
 ### Bash變量的知識點歸納（二） [see](http://www.jianshu.com/p/b0d8ab8e0229)
 
 <http://www.jianshu.com/p/30aaddb84330>
