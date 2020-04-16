@@ -124,7 +124,7 @@
     }
     window.$docsify = config
     if (typeof navigator.serviceWorker !== 'undefined' && !window.location.href.match(/localhost/)) {
-      navigator.serviceWorker.register('sw.js')
+      navigator.serviceWorker.register('/sw.js')
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
