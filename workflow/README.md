@@ -65,6 +65,38 @@ Last-Modified: {docsify-updated}
 - [架构大咖言传身教：从程序员到架构师](https://mp.weixin.qq.com/s/CqRruULCJQCa5cbxVk66uA?fbclid=IwAR3ENWht67vkk5Oq9NZ3fOedNBR1FEMnPz0FY-7RlBeaJdHkeDZ_WPXdUxk)
 - [一文了解下 GANs可以做到的事情](https://mp.weixin.qq.com/s/twDS3pNo_WGm1Ka2_2RuQA)
 
+> 臺灣咖啡地圖
+
+- https://www.ptt.cc/bbs/Coffee/M.1520231716.A.CCC.html
+
+```text
+大家好 小弟因為常常去咖啡廳用電腦
+
+找了網友們一起 花了約莫一年 蒐集到了臺灣2,200間獨立咖啡廳的資料
+
+弄成了各地區的版本 例如臺北的咖啡地圖 就像這樣
+
+https://cafenomad.tw/taipei/map
+
+然後我最近有加一些咖啡相關的討論區功能
+
+- 咖啡廳相關
+
+https://cafenomad.tw/f/cafelover
+
+- 咖啡店家交流
+
+https://cafenomad.tw/f/cafeowner
+
+- 咖啡本身相關
+
+https://cafenomad.tw/f/coffee
+
+跟大家分享一下 希望可以變成一個 咖啡愛好者們喜歡的網站！
+
+謝謝大家！
+```
+
 #### Other
 
 > 討人厭的內容農場

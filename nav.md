@@ -11,8 +11,11 @@
     * [API 設計](/b2e/api/README.md)
     * [DBA](/dba/README.md)
     * [Game Develop](/game/README.md)
-* [Cloud](/ops/cloud/README.md)
-* [Data-Analyst 數據分析](/data-analyst/README.md)
-* [Ops 運維](/ops/README.md)
-* [常用 linux 指令](/ops/linux/command.md)
-* [:link: 雲測速](http://cloudping.bastionhost.org/aliyun/)
+* Category
+    * [Cloud](/ops/cloud/README.md)
+    * [Data-Analyst 數據分析](/data-analyst/README.md)
+    * [Ops 運維](/ops/README.md)
+    * [常用 linux 指令](/ops/linux/command.md)
+* Tools
+    * [雲測速](http://cloudping.bastionhost.org/aliyun/)
+    * [sql formatter](https://github.com/back-up/sql-formatter)
