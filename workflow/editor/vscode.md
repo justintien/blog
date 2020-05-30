@@ -160,6 +160,10 @@ xabikos.JavaScriptSnippets
 }
 ```
 
+> 這篇介紹的很好:
+
+- https://github.com/varHarrie/varharrie.github.io/issues/10
+
 ### 疑難雜症
 
 - 終端機 split 報錯 `無法啟動終端機處理序命令 '/bin/zsh -l' (結束代碼: 1)`
