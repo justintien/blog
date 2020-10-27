@@ -77,6 +77,7 @@ PORT=9999
 sudo docker run \
 -d \
 --name v2ray${PORT} \
+--restart=always \
 -v /etc/v2ray:/etc/v2ray \
 -p ${PORT}:8001 \
 v2ray/official \
