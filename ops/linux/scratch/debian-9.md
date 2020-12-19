@@ -33,14 +33,17 @@ sudo systemctl start docker
 NAME=shadowsocks
 PORT=10001
 PASSWORD=test
-METHOD=aes-256-cfb
+METHOD=aes-256-gcm
 
 sudo docker run \
 -d \
 --name ${NAME} \
 --restart=always \
--p ${PORT}:${PORT} \
-jiapantw/shadowsocks-alpine -s 0.0.0.0 -p ${PORT} -k ${PASSWORD} -m ${METHOD}
+-e PASSWORD=${PASSWORD} \
+-e METHOD=${METHOD} \
+-p ${PORT}:8388 \
+-p ${PORT}:8388/udp \
+shadowsocks/shadowsocks-libev
 
 # iptables all port to 10001
 sudo iptables -t nat -A PREROUTING -p tcp --dport 10001:65000 -j REDIRECT --to-ports 10001 && sudo iptables-save

@@ -88,7 +88,7 @@ v2ray -config=/etc/v2ray/config.json
 
 ```sh
 # install
-sudo add-apt-repository ppa:wireguard/wireguard && sudo apt-get update && sudo apt-get install wireguard -y
+sudo apt-get update && sudo apt-get install wireguard -y
 
 # ref: https://www.linode.com/docs/networking/vpn/set-up-wireguard-vpn-on-ubuntu/
 # configure
@@ -98,24 +98,14 @@ wg genkey | tee privatekey | wg pubkey > publickey
 # Create the file /etc/wireguard/wg0.conf and add the contents indicated below. You’ll need to enter your server’s private key in the PrivateKey field, and its IP addresses in the Address field.
 sudo vim /etc/wireguard/wg0.conf
 
+# 輸入前面產生的 privatekey as SERVER_PRIVATE_KEY
 [Interface]
-PrivateKey = <Private Key>
+PrivateKey = <SERVER_PRIVATE_KEY>
 Address = 10.140.0.1/24, fd86:ea04:1115::1/64
 ListenPort = 51820
 PostUp = iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o ens4 -j MASQUERADE; ip6tables -A FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -A POSTROUTING -o ens4 -j MASQUERADE
 PostDown = iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o ens4 -j MASQUERADE; ip6tables -D FORWARD -i wg0 -j ACCEPT; ip6tables -t nat -D POSTROUTING -o ens4 -j MASQUERADE
 SaveConfig = true
-
-# Add client
-sudo wg set wg0 peer <Public Key> allowed-ips 10.140.0.20
-
-# Allow SSH connections and WireGuard’s VPN port:
-sudo ufw allow 22/tcp
-sudo ufw allow 51820/udp
-sudo ufw enable
-
-# Verify the settings:
-sudo ufw status verbose
 
 # Start wireguard
 wg-quick up wg0
@@ -124,6 +114,18 @@ sudo systemctl enable wg-quick@wg0
 # Check if the VPN tunnel is running with the following two commands:
 sudo wg show
 ifconfig wg0
+
+# Add client (Please set client first, you will got public key)
+CLIENT_PUBLIC_KEY=
+sudo wg set wg0 peer ${CLIENT_PUBLIC_KEY} allowed-ips 10.140.0.20
+
+# Allow SSH connections and WireGuard’s VPN port:
+sudo ufw allow 22/tcp
+sudo ufw allow 51820/udp
+sudo ufw enable
+
+# Verify the settings:
+sudo ufw status verbose
 
 # Allow forward
 sudo sysctl net.ipv4.ip_forward=1
