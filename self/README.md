@@ -5,6 +5,10 @@
 - [Investment & Finance](/self/investment-finance/README.md)
 - [樹莓派 raspberry](/self/raspberry/README.md)
 
+## Tools
+
+- [:link: 消費者物價指數（CPI）漲跌及購買力換算](https://estat.dgbas.gov.tw/cpi_curv/cpi_curv.asp)
+
 ## TODO
 
 - 一些待研究的服務
