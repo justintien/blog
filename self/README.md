@@ -9,6 +9,7 @@
 
 > PTT 大神們分享:
 
+- [:link: APIN大講解各種人依照有錢程度需要買多少保險的圖文解析](https://www.ptt.cc/bbs/Insurance/M.1335280665.A.AF9.html)
 - [:link: APIN大 版上文章整理](https://www.ptt.cc/bbs/Insurance/M.1554232749.A.39D.html)
 - [:link: 2021年成人罐頭保單](https://www.ptt.cc/bbs/Insurance/M.1540543905.A.1B0.html)
 - [:link: 新生兒罐頭保單主要保障(2021年更新)](https://www.ptt.cc/bbs/Insurance/M.1591711651.A.079.html)
