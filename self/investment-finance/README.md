@@ -1,6 +1,7 @@
 # Investment-Finance
 
 - [一張表看懂各種投資商品報酬率(定存、債券、股票、房地產、儲蓄險)](https://rich01.com/invest-asset-return/)
+
 ## stock
 
 > 官方數據
@@ -12,7 +13,7 @@
 - 信用交易統計 https://www.twse.com.tw/zh/page/trading/exchange/MI_MARGN.html
   - html: https://www.twse.com.tw/exchangeReport/MI_MARGN?response=html&date=&selectType=MS
 
-> 看股
+> 看股工具
 
 - [google finance](https://www.google.com/finance)
 - [全球 - finviz](https://finviz.com/)
@@ -25,6 +26,10 @@
 
 - https://rich01.com/us-stock-invest-all/
 - https://www.planto.hk/zh/blog/US-Stock-Account-Compare/
+
+> 一些文章
+
+- [學習所謂的技術分析到底有沒有用處？](/self/investment-finance/articles/2021-05-23-學習所謂的技術分析到底有沒有用處.md)
 
 ## 財經
 
