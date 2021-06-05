@@ -1,15 +1,15 @@
 # Investment-Finance
 
+- [stock](/self/investment-finance/stock/README.md)
+- [fund](/self/investment-finance/fund/README.md)
+- [currency](/self/investment-finance/currency/README.md)
+- [Digital currency](/self/investment-finance/digital-currency/README.md)
+
 [一張表看懂各種投資商品報酬率(定存、債券、股票、房地產、儲蓄險)](https://rich01.com/invest-asset-return/)
 
-![](https://blog.jiapan.tw/assets/images/一張表看懂各種投資商品報酬率.jpg)
+<img src="https://blog.jiapan.tw/assets/images/一張表看懂各種投資商品報酬率.jpg" height=300>
 
-## 分類
-
-- [stock](/self/stock/README.md)
-- [fund](/self/fund/README.md)
-- [currency](/self/currency/README.md)
-- [Digital currency](/self/digital-currency/README.md)
+- [MSCI 是什麼?](https://rich01.com/msci/)
 
 ## 財經
 
