@@ -4,6 +4,8 @@ Last-Modified: {docsify-updated}
 
 ## global
 
+> static cdn 加速 (css & js)
+
 - [cdnjs](https://cdnjs.com/)
   - no phaser3
 - [jsdeliver](https://www.jsdelivr.com/)
