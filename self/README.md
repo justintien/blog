@@ -7,6 +7,11 @@
 
 ## 保險
 
+- [finfo](https://finfo.tw/)
+- [my83](https://my83.com.tw/)
+- [easybo](https://easybo.tw/)
+- [smartbeb](https://www.smartbeb.com.tw/)
+
 > PTT 大神們分享:
 
 - [:link: APIN大講解各種人依照有錢程度需要買多少保險的圖文解析](https://www.ptt.cc/bbs/Insurance/M.1335280665.A.AF9.html)
