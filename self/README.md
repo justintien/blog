@@ -7,10 +7,25 @@
 
 ## 保險
 
+首先我於 2021 年調查了下台灣保險公司狀況 [連結](https://docs.google.com/spreadsheets/d/1lsRMqrZN3GHPUUXojgxdJ_xsvfoRcXjnV5oARMNQ9fg/edit#gid=0)
+
+結論：
+
+大部份我們聽過常見的保險公司受政府管控，保險公司本身的財務狀況都是沒有問題的，所以保險就是按商品的條款走就對了
+(若你也常聽到很多保險理賠糾紛，可以先看看是否自己對自己買的商品條款不熟悉的，即便很多業務會吹牛皮，但自己買的東西還是得自己去看才對)
+
+> 理想保障額度
+
+- [my83 新生兒](https://my83.com.tw/bundle/1)
+
+> 保險工具網站
+
 - [finfo](https://finfo.tw/)
 - [my83](https://my83.com.tw/)
 - [easybo](https://easybo.tw/)
 - [smartbeb](https://www.smartbeb.com.tw/)
+- [i835](https://i835.com.tw/)
+
 
 > PTT 大神們分享:
 
