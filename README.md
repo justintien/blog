@@ -19,7 +19,6 @@ Last-Modified: {docsify-updated}
 | repo | desc |
 | --- | --- |
 | [go-storage](https://github.com/justintien/go-storage) |golang 簡易 file service, and support image parameters somethings...|
-| [go-storage](https://github.com/justintien/go-storage) |golang 簡易 file service, and support image parameters somethings...|
 | [url-shortener](https://github.com/justintien/url-shortener) |據說是各種語言的實現版本 (nodejs/java/golang), 做為入門參考還是不錯的！|
 | [docsify-plugin-toc](https://github.com/justintien/docsify-plugin-toc) |docsify plugin (page's table of content) |
 | [whois-not-found](https://github.com/justintien/whois-not-found) |用來找還沒被註冊的域名|
