@@ -2,7 +2,7 @@ Last-Modified: {docsify-updated}
 
 # tmux
 
-## ubuntu 升級 tmux
+## ubuntu 升級 tmux
 
 ```sh
 sudo apt-get update

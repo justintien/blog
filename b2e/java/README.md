@@ -44,7 +44,7 @@ mvn clean install -Dmaven.test.skip=true
 
 ## spring
 
-> 2019年, 當今JAVA框架無庸置疑，選用 spring 得永生 http://spring.io/
+> 2019年, 當今JAVA框架無庸置疑，選用 spring 得永生 http://spring.io/
 
 - spring 入門: https://juejin.im/post/5d5261e8f265da03d316b684
 - 學 spring 其實直接看官網已足矣 http://spring.io/

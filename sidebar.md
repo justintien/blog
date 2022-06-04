@@ -1,8 +1,9 @@
-- [**我的工作流**](/workflow/README.md)
-- [![](https://blog.jiapan.tw/assets/favicon/favicon-16x16.png) **我個人**](/self/README.md)
+- [![](https://blog.jiapan.tw/assets/favicon/favicon-16x16.png) **賈胖**](/self/README.md)
+  - [Investment & Finance](/self/investment-finance/README.md)
+  - [保險](/self/insurance/README.md)
+  - [樹莓派 raspberry](/self/raspberry/README.md)
+- [:hammer_and_wrench:	**關於我的工作流**](/workflow/README.md)
 - [**Ops 運維**](/ops/README.md)
-  - [Cloud](/ops/cloud/README.md)
-  - [常用 linux 指令](/ops/linux/command.md)
 - [**B2E 後端**](/b2e/README.md)
 - [**Data-Analyst 數據分析**](/data-analyst/README.md)
 - [**DBA**](/dba/README.md)
@@ -24,7 +25,7 @@
   - [:link: 工具類](https://blog-tw.amazingtalker.com/blog/2017/3/22/japanapp)
   - [:link: NHK WEB EASY](https://www3.nhk.or.jp/news/easy/)
   - [:link: 唱歌學日語](https://www.jpmarumaru.com)
-  - 日語歌單
+  - 日語歌單
     - [:link: 日语五十音及数字发音入门 (五十音图）](https://music.163.com/#/playlist?id=110943777)
     - [:link: 日语歌单。每一首都可循环](https://music.163.com/#/playlist?id=164238075)
     - [:link: 50音](https://www.sigure.tw/learn-japanese/intro/japanese-50)
@@ -41,4 +42,3 @@
   - [:link: gist fork > 500](https://gist.github.com/search?utf8=%E2%9C%93&q=forks%3A%3E500&ref=searchresults)
 - **其它連結**
   - [:link: ios app 分享 看看大家用什麼](https://jinshuju.net/f/mDJREe/r/mDJREe/share_entries)
-

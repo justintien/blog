@@ -24,7 +24,7 @@ Last-Modified: {docsify-updated}
 ### git
 
 - [git commit message 規範](/workflow/git/commit.md)
-- [git 指令](/workflow/git/README.md)
+- [git 指令](/workflow/git/README.md)
 
 ### tools
 

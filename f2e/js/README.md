@@ -38,7 +38,7 @@
 `NOTE: 2020/03/04 npmjs 下載量 jest 超越 mocha, tape 超越 ava`
 
 - [tape](https://github.com/substack/tape)
-- [ava](https://github.com/avajs/ava)
+- [ava](https://github.com/avajs/ava)
   - [ava-practice](http://i5ting.github.io/ava-practice/)
 - [jest](https://github.com/facebook/jest)
 - [mocha](https://github.com/mochajs/mocha)

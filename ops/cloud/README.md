@@ -65,7 +65,7 @@ Last-Modified: {docsify-updated}
 
 - [cloud compare](/ops/cloud/cloud-compare.md#cloud-compare)
 
-# vps see: http://wenshu.court.gov.cn/content/content?DocID=36f0191f-c617-4796-a271-a85600c6ad27
+# vps see: http://wenshu.court.gov.cn/content/content?DocID=36f0191f-c617-4796-a271-a85600c6ad27
 www.vultr.com/pricing:
   2.5美元/月
 my.rfchost.com:

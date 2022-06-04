@@ -59,7 +59,7 @@ Last-Modified: {docsify-updated}
 
 ## Links
 
-- [名詞說明](/ops/名詞說明.md)
+- [名詞說明](/ops/名詞說明.md)
 - [常用連結](/ops/常用連結.md)
 - [互聯網公司技術架構(e.g. weixin/taobao/tecent/alibaba)](https://github.com/davideuler/architecture.of.internet-product)
 

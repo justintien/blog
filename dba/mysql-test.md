@@ -94,7 +94,7 @@ mysql> select * from card where card_number = 'd3d19b33-2dfe-11ea-b2a3-0242ac110
 1 row in set (0.06 sec)
 
 -- use hash (變更快了)
-mysql> alter table card drop key k_card_number;
+mysql> alter table card drop key k_card_number;
 mysql>  alter table card add key k_card_number(card_number) using hash;
 Query OK, 0 rows affected (2 min 37.65 sec)
 Records: 0  Duplicates: 0  Warnings: 0

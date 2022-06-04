@@ -29,7 +29,7 @@ Last-Modified: {docsify-updated}
     - 會有耗盡問題，進而無法出站連線 (阻塞) [連結](https://docs.azure.cn/zh-cn/load-balancer/load-balancer-outbound-connections?toc=%2fvirtual-network%2ftoc.json#snatexhaust)
   - refs: http://www.cnblogs.com/zangdalei/p/7417860.html
 
-- `長連接時間 4 分鐘, 超過 會不正常 斷線 (client 無法正常收到 tcp 握手)` azure 似乎所有服務都有此設定 (gateway 層, mysql 也是 4分鐘)
+- `長連接時間 4 分鐘, 超過 會不正常 斷線 (client 無法正常收到 tcp 握手)` azure 似乎所有服務都有此設定 (gateway 層, mysql 也是 4分鐘)
   - 目前追到原因是防火牆 gateway 是設定 4分鐘
 
 ```sh

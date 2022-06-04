@@ -48,7 +48,7 @@ conventional-changelog -p angular -i CHANGELOG.md -s -r 0
 git add .
 git cz
 # 接下來 command line 會依序詢問
-# > 本次 commit 的 type
+# > 本次 commit 的 type
 # > 範圍 (e.g. user, account, pay 等等自定義)
 # > 短描述
 # > 相關 issue 編號

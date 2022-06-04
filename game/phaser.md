@@ -50,15 +50,15 @@ var config = {
     width: 800,
     height: 600,
     scene: {
-        // 一個場景的生命週期
+        // 一個場景的生命週期
         preload: function () {
-            // 預加載
+            // 預加載
         },
         create: function () {
             // 建立時
         },
         update: function () {
-            // 每次更新時 執行
+            // 每次更新時 執行
         }
     }
 };
@@ -67,7 +67,7 @@ var config = {
 
 // https://github.com/photonstorm/phaser/blob/master/src/boot/Game.js
 var game = new Phaser.Game(config);
-
+
 // 如果不在 config 裡 添加 scene, 可以使用場景管理器
 // game.scene = Phaser.Scenes.SceneManager (可以從 Game.js 看出來)
 // api: https://photonstorm.github.io/phaser3-docs/Phaser.Scenes.SceneManager.html#methods
