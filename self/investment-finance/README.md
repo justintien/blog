@@ -13,12 +13,12 @@
 
 ## 財經
 
+- [財經M平方](https://www.macromicro.me)
 - [stock-ai](https://stock-ai.com)
 - [運價指數 SCFI](https://www.sse.net.cn/index/singleIndex?indexType=scfi)
 
 ## blog
 
-- [財經M平方](https://www.macromicro.me/macro)
 - [綠角財經筆記](http://greenhornfinancefootnote.blogspot.com/)
 - [市場先生](https://rich01.com/)
 - [台灣巴菲特 - 航海王](http://et220870.blogspot.com/)
