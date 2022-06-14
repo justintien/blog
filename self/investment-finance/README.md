@@ -1,8 +1,8 @@
 # Investment-Finance
 
-- [stock](/self/investment-finance/stock/README.md)
-- [fund](/self/investment-finance/fund/README.md)
-- [currency](/self/investment-finance/currency/README.md)
+- [Stock](/self/investment-finance/stock/README.md)
+- [Fund](/self/investment-finance/fund/README.md)
+- [Currency](/self/investment-finance/currency/README.md)
 - [Digital currency](/self/investment-finance/digital-currency/README.md)
 
 [一張表看懂各種投資商品報酬率(定存、債券、股票、房地產、儲蓄險)](https://rich01.com/invest-asset-return/)
