@@ -5,7 +5,7 @@
 - [法定幣 (Currency)](/self/investment-finance/currency/README.md)
 - [數位貨幣 (Digital currency)](/self/investment-finance/digital-currency/README.md)
 - [去中心化金融 (DeFi)](/self/investment-finance/defi/README.md)
-- [遊戲金融 (GameFi)](DeFi)](/self/investment-finance/gamefi/README.md)
+- [遊戲金融 (GameFi)](/self/investment-finance/gamefi/README.md)
 
 [一張表看懂各種投資商品報酬率(定存、債券、股票、房地產、儲蓄險)](https://rich01.com/invest-asset-return/)
 
