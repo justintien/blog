@@ -33,9 +33,14 @@ code --list-extensions
 # code --install-extension {extension id}
 # code --uninstall-extension {extension id}
 # code --disable-extensions
+aaron-bond.better-comments
+akamud.vscode-caniuse
 AlanWalk.markdown-toc
 alefragnani.Bookmarks
+anseki.vscode-color
 bungcip.better-toml
+CoenraadS.bracket-pair-colorizer
+coolbear.systemd-unit-file
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
@@ -48,26 +53,25 @@ formulahendry.auto-close-tag
 formulahendry.auto-complete-tag
 formulahendry.auto-rename-tag
 foxundermoon.shell-format
+GitHub.copilot
+golang.go
 jakebathman.mysql-syntax
 jebbs.plantuml
 joelday.docthis
+JuanBlanco.solidity
 junstyle.php-cs-fixer
 kumar-harsh.graphql-for-vscode
 Leopotam.csharpfixformat
-liximomo.sftp
+michelemelluso.code-beautifier
 mrmlnc.vscode-apache
 mrmlnc.vscode-less
-ms-azuretools.vscode-cosmosdb
+ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-zh-hant
-ms-mssql.mssql
+ms-dotnettools.csharp
+ms-vscode-remote.remote-containers
 ms-vscode.azure-account
-ms-vscode.cpptools
-ms-vscode.csharp
-ms-vscode.Go
-ms-vsliveshare.vsliveshare
 octref.vetur
 oderwat.indent-rainbow
-PeterJausovec.vscode-docker
 redhat.java
 shd101wyy.markdown-preview-enhanced
 shuworks.vscode-table-formatter
@@ -83,6 +87,7 @@ vscjava.vscode-java-test
 vscjava.vscode-maven
 wayou.vscode-todo-highlight
 xabikos.JavaScriptSnippets
+zxh404.vscode-proto3
 ```
 
 > 我的使用者設定:

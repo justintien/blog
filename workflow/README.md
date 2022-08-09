@@ -6,15 +6,15 @@ Last-Modified: {docsify-updated}
 
 ### OS
 
-> 早期用 window 可折騰了，之後用 mac 到現在…即將改用 vscode remote
+> 早期用 windows 可折騰了，之後用 macos 到現在…即將改用 vscode remote
 
 - [我的 osx init.sh](/workflow/osx/README.md#osx)
 
 ### code editor
 
-> 我使用 editor, 不使用 ide 的原因是因為 ide 較肥大…目前常用 vscode, atom 1.2x 之前有很多bug，所以棄坑…
+> 我使用 editor, 不使用 ide 的原因是因為 ide 較肥大…目前常用 vscode
 
-- [atom](/workflow/editor/atom.md)
+~~- [atom](/workflow/editor/atom.md)~~ [在2022年6月8號，GitHub正式宣布在2022年12月15日關閉Atom](https://github.blog/2022-06-08-sunsetting-atom/)
 - [vscode](/workflow/editor/vscode.md)
 - `IntelliJ IDEA` for `JAVA`
 - online ide:
