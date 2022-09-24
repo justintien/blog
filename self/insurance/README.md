@@ -106,6 +106,6 @@
 
 [finfo]: https://finfo.tw/
 [my83]: https://my83.com.tw/
-[easybo]: https://easybo.tw/)
+[easybo]: https://easybo.tw/
 [smartbeb]: https://www.smartbeb.com.tw/
 [i835]: https://i835.com.tw/
