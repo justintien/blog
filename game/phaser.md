@@ -1,6 +1,12 @@
 Last-Modified: {docsify-updated}
 
-# phaser
+# phaser3
+
+當前已使用到了 phaser v3.55.2 版本
+
+暫時未更新文檔內容，有問題可以直接問我
+
+以下文檔是我在 phaser v3.16 以前整理的: (可能很多已不堪使用了)
 
 - [github](https://github.com/facebook/react)
 - 官方文檔:

@@ -13,6 +13,7 @@
     * [Game Develop](/game/README.md)
     * [Blockchain](/blockchain/README.md)
 * Category
+    * [AI](/ai/README.md)
     * [Cloud](/ops/cloud/README.md)
     * [Data-Analyst 數據分析](/data-analyst/README.md)
     * [Ops 運維](/ops/README.md)

@@ -9,6 +9,7 @@
 - [**DBA**](/dba/README.md)
 - [**F2E 前端**](/f2e/README.md)
 - [**Game Develop**](/game/README.md)
+- [**AI**](/ai/README.md)
 * [Blockchain](/blockchain/README.md)
 - **書籤**
   - [:link: 各種 awesome](https://github.com/search?q=awesome&ref=opensearch)
