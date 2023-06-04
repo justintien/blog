@@ -325,7 +325,7 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/Xbox_One',
     },
     {
-      generation: 9,
+      generation: 8,
       company: 'Nintendo',
       name: 'NS/Switch/任天堂Switch',
       release_date: '20170303',
@@ -333,7 +333,7 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/%E4%BB%BB%E5%A4%A9%E5%A0%82Switch',
     },
     {
-      generation: 9,
+      generation: 8,
       company: 'Sony',
       name: 'PS4 Pro (PlayStation 4 pro)',
       release_date: '20161110',
@@ -341,12 +341,28 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/PlayStation_4#PlayStation_4_Pro',
     },
     {
-      generation: 9,
+      generation: 8,
       company: 'Microsoft',
       name: 'Xbox One X',
       release_date: '20171107',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/XBOX_ONE_X_Gamescom_%2836042607743%29.jpg/480px-XBOX_ONE_X_Gamescom_%2836042607743%29.jpg',
       wiki: 'https://zh.wikipedia.org/zh-tw/Xbox_One#Xbox_One_X',
+    },
+    {
+      generation: 9,
+      company: 'Microsoft',
+      name: 'Xbox Series X/S',
+      release_date: '20201110',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Xbox_Series_X_2.jpg/260px-Xbox_Series_X_2.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Xbox_Series_X/S',
+    },
+    {
+      generation: 9,
+      company: 'Sony',
+      name: 'PS5 (PlayStation 5)',
+      release_date: '20201112',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/PlayStation_5_and_DualSense_with_transparent_background.png/260px-PlayStation_5_and_DualSense_with_transparent_background.png',
+      wiki: 'https://zh.wikipedia.org/wiki/PlayStation_5',
     },
   ],
 }
@@ -357,21 +373,22 @@ function generateTR (list = []) {
   let tr = ''
   for (let i = 0; i < list.length; i++) {
     const obj = list[i]
+    const displayName = `[${obj.company}] ${obj.name}`
+    const td = `<td>
+                  <a href="${obj.wiki}"><div>${displayName}</div></a>
+                  <div class="tooltip">
+                    <img src="${obj.cover}">
+                  </div>
+                </td>`
     if (i === 0) {
       const date = obj.release_date.match(/(\d{4})(\d{2})(\d{2})/).slice(1).join('/')
-      tr = `<tr>
-        <th class="actived" rowspan="${list.length}">${date}</th>
-        <td>
-          <a href="${obj.wiki}"><div>${obj.name}</div></a>
-        </td> 
-      </tr>`
+      tr = `<tr> 
+              <th class="actived" rowspan="${list.length}">${date}</th>
+              ${td}
+            </tr>`
       continue
     }
-    tr += `<tr>
-            <td>
-              <a href="${obj.wiki}"><div>${obj.name}</div></a>
-            </td>
-            </tr>`
+    tr += `<tr>${td}</tr>`
   }
   
   return tr

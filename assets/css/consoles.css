@@ -33,6 +33,42 @@ table.wikitable {
   /* border-collapse: collapse; */
 }
 
+
+table tr td {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+table tr td:hover .tooltip{
+  visibility: visible;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip::after {
+  content: "";
+  position: absolute;
+  /* top: 50%; */
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
 .actived {
   border-right:1.4em solid #0BDA51;
 }
