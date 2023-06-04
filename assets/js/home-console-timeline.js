@@ -443,7 +443,7 @@ for(let index = 1; index <= 9; index++) {
   tbody.innerHTML += `
               <tr> 
                 <td class="generation">
-                  <div>第 ${index} 世代發行時間軸 (${generationObj.period})</div>
+                  <div>第 ${index} 世代 (${generationObj.period})</div>
                   <div class="tooltip"></div>
                 </td>
             </tr>`
