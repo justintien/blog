@@ -1,0 +1,38 @@
+* {
+  font-family: arial;
+}
+
+table caption {
+  padding: 0.4em 0.4em 0.2em;
+  font-size: 112.5%;
+  text-align: center;
+  white-space: nowrap;
+  display: table-caption;
+  font-weight: bold;
+}
+
+table.release-timeline {
+  /* float: right!important;
+  clear: right!important;
+  width: auto!important;
+  flex: 1 1 100%; */
+  margin: 0 0 0.3em 1em;
+  padding: 0.75em 1em;
+  font-size: 80%;
+  line-height: .9;
+  border-collapse: separate;
+  border-spacing: 0 1px;
+  background-color: transparent;
+}
+
+table.wikitable {
+  background-color: #f8f9fa;
+  color: #202122;
+  margin: 1em 0;
+  border: 1px solid #a2a9b1;
+  /* border-collapse: collapse; */
+}
+
+.actived {
+  border-right:1.4em solid #0BDA51;
+}
