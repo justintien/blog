@@ -2,6 +2,7 @@
   - [Investment & Finance](/self/investment-finance/README.md)
   - [保險](/self/insurance/README.md)
   - [樹莓派 raspberry](/self/raspberry/README.md)
+  - [:link: 家用遊戲機發行時間軸](https://blog.jiapan.tw/pages/home-console-timeline.html)
 - [:hammer_and_wrench:	**關於我的工作流**](/workflow/README.md)
 - [**Ops 運維**](/ops/README.md)
 - [**B2E 後端**](/b2e/README.md)

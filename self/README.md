@@ -3,7 +3,8 @@
 - [Investment & Finance](/self/investment-finance/README.md)
 - [保險](/self/insurance/README.md)
 - [樹莓派 raspberry](/self/raspberry/README.md)
-- [家用遊戲機發行時間軸](https://blog.jiapan.tw/consoles.html)
+- [:link: 家用遊戲機發行時間軸](https://blog.jiapan.tw/pages/home-console-timeline.html)
+
 ## Tools
 
 - [:link: 消費者物價指數（CPI）漲跌及購買力換算](https://estat.dgbas.gov.tw/cpi_curv/cpi_curv.asp)
