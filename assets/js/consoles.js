@@ -1,40 +1,62 @@
 var config = {
   companies: [
     {
-      "company": "3DO"
+      "company": "3DO",
+      "wiki": "https://zh.wikipedia.org/wiki/3DO%E5%85%AC%E5%8F%B8"
     },
     {
-      "company": "APF Electronics"
+      "company": "APF Electronics",
+      "wiki": "https://zh.wikipedia.org/wiki/APF_Electronics"
     },
     {
-      "company": "Atari"
+      "company": "Atari",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Atari_Official_2012_Logo_horizontal.svg/500px-Atari_Official_2012_Logo_horizontal.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E9%9B%85%E9%81%94%E5%88%A9"
     },
     {
-      "company": "Coleco"
+      "company": "Coleco",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coleco_logo.svg/440px-Coleco_logo.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E7%A7%91%E8%8E%B1%E7%A7%91"
     },
     {
-      "company": "MAT"
+      "company": "MAT",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Mattel_%282019%29.svg/300px-Mattel_%282019%29.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%B3%B0%E5%85%92"
     },
     {
-      "company": "Magnavox"
+      "company": "Magnavox",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Magnavox_Logo.svg/440px-Magnavox_Logo.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E6%A0%BC%E7%A6%8F%E6%96%AF"
     },
     {
-      "company": "Microsoft"
+      "company": "Microsoft",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/500px-Microsoft_logo_%282012%29.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E5%BE%AE%E8%BD%AF"
     },
     {
-      "company": "NEC"
+      "company": "NEC",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/NEC_logo.svg/400px-NEC_logo.svg.png",
+      "wiki": "https://zh.wikipedia.org/zh-tw/%E6%97%A5%E6%9C%AC%E9%9B%BB%E6%B0%A3",
     },
     {
-      "company": "Nintendo"
+      "company": "Nintendo",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nintendo.svg/500px-Nintendo.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%A4%A9%E5%A0%82"
     },
     {
-      "company": "SEGA"
+      "company": "SEGA",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/SEGA_logo_JPN.svg/500px-SEGA_logo_JPN.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E4%B8%96%E5%98%89"
     },
     {
-      "company": "SNK"
+      "company": "SNK",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/SNK_logo.svg/500px-SNK_logo.svg.png",
+      "wiki": "https://zh.wikipedia.org/zh-tw/SNK"
     },
     {
-      "company": "Sony"
+      "company": "Sony",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/450px-Sony_logo.svg.png",
+      "wiki": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E5%B0%BC"
     }
   ],
   generations: [
@@ -373,10 +395,18 @@ function generateTR (list = []) {
   let tr = ''
   for (let i = 0; i < list.length; i++) {
     const obj = list[i]
-    const displayName = `[${obj.company}] ${obj.name}`
-    const td = `<td>
-                  <a href="${obj.wiki}"><div>${displayName}</div></a>
+    const companyObj = config.companies.find(row => row.company === obj.company)
+    let displayCompnay = ''
+
+    if (companyObj.logo) displayCompnay += `<a href="${companyObj.wiki}" target="_blank"><div><img height=20 width=100 src="${companyObj.logo}"></img>&nbsp;&nbsp;&nbsp;&nbsp;</div></a>`
+    else displayCompnay += `<a href="${companyObj.wiki}" target="_blank"><div>[${companyObj.company}]&nbsp;&nbsp;&nbsp;&nbsp;</div></a>`
+    
+    let displayName = `<a href="${obj.wiki}"><div>${obj.name}</div></a>`
+
+    const td = `<td class="console">
+                  ${displayCompnay}${displayName}
                   <div class="tooltip">
+                    ${displayCompnay}
                     <img src="${obj.cover}">
                   </div>
                 </td>`
@@ -395,14 +425,29 @@ function generateTR (list = []) {
 }
 
 
+var table = document.createElement('table')
+var caption = document.createElement('caption')
+var tbody = document.createElement('tbody')
+
+caption.innerText = `家用遊戲機發行時間軸`
+table.classList.add('release-timeline')
+table.classList.add('wikitable')
+table.appendChild(caption)
+table.appendChild(tbody)
+document.body.appendChild(table)
+
 for(let index = 1; index <= 9; index++) {
-  var table = document.createElement('table')
-  var caption = document.createElement('caption')
-  var tbody = document.createElement('tbody')
   let generationObj = config.generations.find(obj => obj.generation === index)
   let list = config.consoles.filter(obj => obj.generation === index)
 
-  caption.innerText = `第${index}世代發行時間軸 (${generationObj.period})`
+  tbody.innerHTML += `
+              <tr> 
+                <td class="generation">
+                  <div>第 ${index} 世代發行時間軸 (${generationObj.period})</div>
+                  <div class="tooltip"></div>
+                </td>
+            </tr>`
+
   list.sort((a, b) => parseInt(a.release_date) - parseInt(b.release_date))
   list
     .reduce((acc, curr) => {
@@ -420,9 +465,4 @@ for(let index = 1; index <= 9; index++) {
     .forEach(obj => {
       tbody.innerHTML += generateTR(obj.list)
     })
-  table.classList.add('release-timeline')
-  table.classList.add('wikitable')
-  table.appendChild(caption)
-  table.appendChild(tbody)
-  document.body.appendChild(table)
 }

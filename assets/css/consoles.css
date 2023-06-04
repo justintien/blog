@@ -33,6 +33,9 @@ table.wikitable {
   /* border-collapse: collapse; */
 }
 
+table tr td.console {
+  display: flex;
+}
 
 table tr td {
   position: relative;
