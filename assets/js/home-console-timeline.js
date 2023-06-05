@@ -171,12 +171,22 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/ColecoVision',
     },
     {
+      generation: 2,
+      type: 'handheld',
+      company: 'Nintendo',
+      name: 'Game & Watch',
+      release_date: '19800428',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Game_%26_Watch.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Game_%26_Watch',
+    },
+    {
       generation: 3,
       company: 'Nintendo',
       name: 'FC/NES (Family Computer)',
       release_date: '19830715',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Nintendo-Famicom-Console-Set-FL.jpg/300px-Nintendo-Famicom-Console-Set-FL.jpg',
       wiki: 'https://zh.wikipedia.org/zh-tw/%E7%BA%A2%E7%99%BD%E6%9C%BA',
+      play: 'https://zaixianwan.app/consoles/nes',
     },
     {
       generation: 3,
@@ -217,6 +227,7 @@ var config = {
       release_date: '19881029',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/SegaMegadrive.jpg/360px-SegaMegadrive.jpg',
       wiki: 'https://zh.wikipedia.org/zh-tw/Mega_Drive',
+      play: 'https://zaixianwan.app/consoles/segaMD',
     },
     {
       generation: 4,
@@ -233,6 +244,17 @@ var config = {
       release_date: '19901121',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nintendo-Super-Famicom-Set-FL.jpg/420px-Nintendo-Super-Famicom-Set-FL.jpg',
       wiki: 'https://zh.wikipedia.org/zh-tw/%E8%B6%85%E7%B4%9A%E4%BB%BB%E5%A4%A9%E5%A0%82',
+      play: 'https://zaixianwan.app/consoles/snes',
+    },
+    {
+      generation: 4,
+      type: 'handheld',
+      company: 'Nintendo',
+      name: 'Game Boy',
+      release_date: '19890421',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/500px-Game-Boy-FL.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Game_Boy',
+      play: 'https://zaixianwan.app/consoles/gb',
     },
     {
       generation: 5,
@@ -249,6 +271,7 @@ var config = {
       release_date: '19941122',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Saturnconsole.jpg/300px-Saturnconsole.jpg',
       wiki: 'https://zh.wikipedia.org/zh-tw/%E4%B8%96%E5%98%89%E5%9C%9F%E6%98%9F',
+      play: 'https://zaixianwan.app/consoles/segaSaturn',
     },
     {
       generation: 5,
@@ -256,7 +279,8 @@ var config = {
       name: 'PS/PS1/PSX (PlayStation)',
       release_date: '19941203',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/420px-PSX-Console-wController.png',
-      wiki: 'https://zh.wikipedia.org/zh-tw/PlayStation_(%E9%81%8A%E6%88%B2%E6%A9%9F),'
+      wiki: 'https://zh.wikipedia.org/zh-tw/PlayStation_(%E9%81%8A%E6%88%B2%E6%A9%9F)',
+      play: 'https://zaixianwan.app/consoles/ps',
     },
     {
       generation: 5,
@@ -265,6 +289,7 @@ var config = {
       release_date: '19960623',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Nintendo_64.jpg/300px-Nintendo_64.jpg',
       wiki: 'https://zh.wikipedia.org/zh-tw/%E4%BB%BB%E5%A4%A9%E5%A0%8264',
+      play: 'https://zaixianwan.app/consoles/n64',
     },
     {
       generation: 6,
@@ -389,6 +414,8 @@ var config = {
   ],
 }
 
+function openURL (url) { window.open(url, "_blank") }
+
 function generateTR (list = []) {
   if (list.length === 0) return
 
@@ -396,20 +423,22 @@ function generateTR (list = []) {
   for (let i = 0; i < list.length; i++) {
     const obj = list[i]
     const companyObj = config.companies.find(row => row.company === obj.company)
-    let displayCompnay = ''
-
-    if (companyObj.logo) displayCompnay += `<a href="${companyObj.wiki}" target="_blank"><div><img height=20 width=100 src="${companyObj.logo}"></img>&nbsp;&nbsp;&nbsp;&nbsp;</div></a>`
-    else displayCompnay += `<a href="${companyObj.wiki}" target="_blank"><div>[${companyObj.company}]&nbsp;&nbsp;&nbsp;&nbsp;</div></a>`
-    
+    let displayCompnay = companyObj.logo ?
+      `<a href="${companyObj.wiki}" target="_blank"><div><img height=20 width=100 src="${companyObj.logo}"></img>&nbsp;&nbsp;&nbsp;&nbsp;</div></a>` : 
+      `<a href="${companyObj.wiki}" target="_blank"><div>[${companyObj.company}]&nbsp;&nbsp;&nbsp;&nbsp;</div></a>`
     let displayName = `<a href="${obj.wiki}"><div>${obj.name}</div></a>`
-
-    const td = `<td class="console">
-                  ${displayCompnay}${displayName}
+    let displayPlay = obj.play ? `<button class="button" onclick="openURL('${obj.play}')"><span>PLAY</span></button>` : ''
+   
+    const td = `
+                <td class="company">${displayCompnay}</td>
+                <td class="console">
+                  ${displayName}
                   <div class="tooltip">
                     ${displayCompnay}
                     <img src="${obj.cover}">
                   </div>
-                </td>`
+                </td>
+                <td class="emulator">${displayPlay}</td>`
     if (i === 0) {
       const date = obj.release_date.match(/(\d{4})(\d{2})(\d{2})/).slice(1).join('/')
       tr = `<tr> 

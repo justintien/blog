@@ -33,10 +33,6 @@ table.wikitable {
   /* border-collapse: collapse; */
 }
 
-table tr td.console {
-  display: flex;
-}
-
 table tr td {
   position: relative;
   display: inline-block;
@@ -74,4 +70,57 @@ table tr td:hover .tooltip{
 
 .actived {
   border-right:1.4em solid #0BDA51;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(148, 197, 148);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(148, 197, 148);
+  color: white;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
