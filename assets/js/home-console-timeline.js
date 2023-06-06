@@ -57,6 +57,54 @@ var config = {
       "company": "Sony",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sony_logo.svg/450px-Sony_logo.svg.png",
       "wiki": "https://zh.wikipedia.org/wiki/%E7%B4%A2%E5%B0%BC"
+    },
+    {
+      "company": "Epoch",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Epoch-Cassette-Vision-Console.jpg/440px-Epoch-Cassette-Vision-Console.jpg",
+      "wiki": "https://zh.wikipedia.org/wiki/Epoch"
+    },
+    {
+      company: "Fairchild Semiconductor",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Fairchildnewlogo.jpg/440px-Fairchildnewlogo.jpg",
+      wiki: "https://zh.wikipedia.org/wiki/%E5%BF%AB%E6%8D%B7%E5%8D%8A%E5%AF%BC%E4%BD%93"
+    },
+    {
+      company: 'Interton',
+      logo: '',
+      wiki: ''
+    },
+    {
+      company: '妙極百利'
+    },
+    {
+      company: 'Entex Industries',
+    },
+    {
+      company: '新世代株式會社',
+    },
+    {
+      company: 'Philips',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Philips_logo_new.svg/500px-Philips_logo_new.svg.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E9%A3%9B%E5%88%A9%E6%B5%A6'
+    },
+    {
+      company: 'Pioneer Corporation',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Pioneer_%28logo%29.svg/400px-Pioneer_%28logo%29.svg.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E5%85%88%E9%8B%92_(%E5%85%AC%E5%8F%B8)'
+    },
+    {
+      company: 'Bandai',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Logo_Bandai.svg/250px-Logo_Bandai.svg.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E8%90%AC%E4%BB%A3'
+    },
+    {
+      company: 'Nokia',
+      logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Nokia_2023.svg/440px-Nokia_2023.svg.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E8%AF%BA%E5%9F%BA%E4%BA%9A'
+    },
+    {
+      company: 'Tectoy',
+      wiki: 'https://zh.wikipedia.org/wiki/Tectoy'
     }
   ],
   generations: [
@@ -100,6 +148,7 @@ var config = {
   consoles: [
     {
       generation: 1,
+      type: 'home-console',
       company: 'Magnavox',
       name: 'Magnavox Odyssey (美格福斯奧德賽)',
       release_date: '19720901',
@@ -108,6 +157,7 @@ var config = {
     },
     {
       generation: 1,
+      type: 'home-console',
       company: 'Atari',
       name: 'Pong (乓)',
       release_date: '19721129',
@@ -116,6 +166,7 @@ var config = {
     },
     {
       generation: 1,
+      type: 'home-console',
       company: 'Coleco',
       name: 'Coleco Telstar',
       release_date: '19760101',
@@ -124,6 +175,7 @@ var config = {
     },
     {
       generation: 1,
+      type: 'home-console',
       company: 'APF Electronics',
       name: 'APF TV Fun',
       release_date: '19760101',
@@ -132,6 +184,7 @@ var config = {
     },
     {
       generation: 1,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'Color TV-Game',
       release_date: '19770601',
@@ -139,7 +192,17 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/Color_TV-Game',
     },
     {
+      generation: 1,
+      type: 'home-console',
+      company: 'Epoch',
+      name: 'TV Tennis',
+      release_date: '19750912',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/3/35/TV_Tennis_Electrotennis.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/TV_Tennis',
+    },
+    {
       generation: 2,
+      type: 'home-console',
       company: 'Atari',
       name: 'Atari VCS (1982年11月以後改名為 Atari 2600)',
       release_date: '19770911',
@@ -148,6 +211,7 @@ var config = {
     },
     {
       generation: 2,
+      type: 'home-console',
       company: 'Magnavox',
       name: 'Magnavox Odyssey² (美格福斯奧德賽²)',
       release_date: '19780701',
@@ -156,6 +220,7 @@ var config = {
     },
     {
       generation: 2,
+      type: 'home-console',
       company: 'MAT',
       name: 'Intellivision',
       release_date: '19790101',
@@ -164,6 +229,7 @@ var config = {
     },
     {
       generation: 2,
+      type: 'home-console',
       company: 'Coleco',
       name: 'ColecoVision',
       release_date: '19820801',
@@ -172,6 +238,7 @@ var config = {
     },
     {
       generation: 2,
+      type: 'home-console',
       type: 'handheld',
       company: 'Nintendo',
       name: 'Game & Watch',
@@ -180,7 +247,53 @@ var config = {
       wiki: 'https://zh.wikipedia.org/wiki/Game_%26_Watch',
     },
     {
+      generation: 2,
+      type: 'home-console',
+      company: 'Fairchild Semiconductor',
+      name: 'Fairchild Channel F',
+      release_date: '19761101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Fairchild-Channel-F.png/500px-Fairchild-Channel-F.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Fairchild_Channel_F',
+    },
+    {
+      generation: 2,
+      type: 'home-console',
+      company: 'Interton',
+      name: 'VC 4000',
+      release_date: '19780101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/VC-4000-Console-Set.jpg/400px-VC-4000-Console-Set.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/VC_4000',
+    },
+    {
+      generation: 2,
+      type: 'handheld',
+      company: '妙極百利',
+      name: 'Microvision',
+      release_date: '19791101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Milton-Bradley-Microvision-Handheld-FL.jpg/400px-Milton-Bradley-Microvision-Handheld-FL.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Microvision',
+    },
+    {
+      generation: 2,
+      type: 'handheld',
+      company: 'Entex Industries',
+      name: 'Entex Select-a-game',
+      release_date: '19810101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Entex-SelectAGame.jpg/500px-Entex-SelectAGame.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Entex_Select-A-Game',
+    },
+    {
+      generation: 2,
+      type: 'handheld',
+      company: 'Epoch',
+      name: 'Game Pocket Computer',
+      release_date: '19840101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gamepocketcomputer.JPG/400px-Gamepocketcomputer.JPG',
+      wiki: 'https://zh.wikipedia.org/wiki/Epoch_Game_Pocket_Computer',
+    },
+    {
       generation: 3,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'FC/NES (Family Computer)',
       release_date: '19830715',
@@ -190,6 +303,7 @@ var config = {
     },
     {
       generation: 3,
+      type: 'home-console',
       company: 'SEGA',
       name: 'SG-1000 (阿羅士)',
       release_date: '19830715',
@@ -198,6 +312,7 @@ var config = {
     },
     {
       generation: 3,
+      type: 'home-console',
       company: 'SEGA',
       name: 'SMS/世嘉四代 (SEGA Master System)',
       release_date: '19851020',
@@ -206,6 +321,16 @@ var config = {
     },
     {
       generation: 3,
+      type: 'home-console',
+      company: 'Atari',
+      name: 'Atari 7800 (Atari 7800 ProSystem)',
+      release_date: '19860501',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Atari-7800-Console-Set.jpg/300px-Atari-7800-Console-Set.jpg',
+      wiki: 'https://zh.wikipedia.org/zh-tw/%E9%9B%85%E8%BE%BE%E5%88%A97800',
+    },
+    {
+      generation: 3,
+      type: 'home-console',
       company: 'Atari',
       name: 'Atari 7800 (Atari 7800 ProSystem)',
       release_date: '19860501',
@@ -214,6 +339,7 @@ var config = {
     },
     {
       generation: 4,
+      type: 'home-console',
       company: 'NEC',
       name: 'PCE/TurboGrafx-16 (PC Engine)',
       release_date: '19871030',
@@ -222,6 +348,7 @@ var config = {
     },
     {
       generation: 4,
+      type: 'home-console',
       company: 'SEGA',
       name: 'MD/世嘉五代(Mega Drive)',
       release_date: '19881029',
@@ -231,6 +358,7 @@ var config = {
     },
     {
       generation: 4,
+      type: 'home-console',
       company: 'SNK',
       name: 'Neo Geo AES (Neo Geo Advanced Entertainment System)',
       release_date: '19900426',
@@ -239,6 +367,7 @@ var config = {
     },
     {
       generation: 4,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'SFC/SNES/超級任天堂 (Super Famicom)',
       release_date: '19901121',
@@ -257,7 +386,53 @@ var config = {
       play: 'https://zaixianwan.app/consoles/gb',
     },
     {
+      generation: 4,
+      type: 'handheld',
+      company: 'Atari',
+      name: 'Atari Lynx',
+      release_date: '19890901',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Atari-Lynx-I-Handheld.png/500px-Atari-Lynx-I-Handheld.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E9%9B%85%E8%BE%BE%E5%88%A9Lynx',
+    },
+    {
+      generation: 4,
+      type: 'handheld',
+      company: 'SEGA',
+      name: 'Game Gear',
+      release_date: '19901006',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sega-Game-Gear-WB.png/500px-Sega-Game-Gear-WB.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Game_Gear',
+    },
+    {
+      generation: 4,
+      type: 'handheld',
+      company: 'NEC',
+      name: 'GPC Engine GT',
+      release_date: '19901201',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/NEC-TurboExpress-Upright-FL.png/500px-NEC-TurboExpress-Upright-FL.png',
+      wiki: 'https://zh.wikipedia.org/wiki/PC_Engine_GT',
+    },
+    {
+      generation: 4,
+      type: 'home-console',
+      company: 'Philips',
+      name: 'CD-i（Compact Disc Interactive）',
+      release_date: '19911203',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/CD-i-910-Console-Set.png/500px-CD-i-910-Console-Set.png',
+      wiki: 'https://zh.wikipedia.org/wiki/CD-i',
+    },
+    {
+      generation: 4,
+      type: 'home-console',
+      company: 'Pioneer Corporation',
+      name: 'Pioneer LaserActive',
+      release_date: '19930820',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pioneer-LaserActive-Set-FL.jpg/500px-Pioneer-LaserActive-Set-FL.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Pioneer_LaserActive',
+    },
+    {
       generation: 5,
+      type: 'home-console',
       company: '3DO',
       name: '3DO (3DO Interactive Multiplayer)',
       release_date: '19931004',
@@ -266,6 +441,7 @@ var config = {
     },
     {
       generation: 5,
+      type: 'home-console',
       company: 'SEGA',
       name: 'SS/SAT/土星 (SEGA Saturn)',
       release_date: '19941122',
@@ -275,6 +451,7 @@ var config = {
     },
     {
       generation: 5,
+      type: 'home-console',
       company: 'Sony',
       name: 'PS/PS1/PSX (PlayStation)',
       release_date: '19941203',
@@ -284,6 +461,7 @@ var config = {
     },
     {
       generation: 5,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'N64/任天堂64 (Nintendo 64)',
       release_date: '19960623',
@@ -292,7 +470,71 @@ var config = {
       play: 'https://zaixianwan.app/consoles/n64',
     },
     {
+      generation: 5,
+      type: 'home-console',
+      company: 'NEC',
+      name: 'PC-FX',
+      release_date: '19941223',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/PC-FX-Console-Set.png/500px-PC-FX-Console-Set.png',
+      wiki: 'https://zh.wikipedia.org/wiki/PC-FX',
+    },
+    {
+      generation: 5,
+      type: 'home-console',
+      company: 'SNK',
+      name: 'Neo Geo CD',
+      release_date: '19940909',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Neo-Geo-CD-TopLoader-wController-FL.jpg/500px-Neo-Geo-CD-TopLoader-wController-FL.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Neo_Geo_CD',
+    },
+    {
+      generation: 5,
+      type: 'handheld',
+      company: 'SEGA',
+      name: 'Genesis Nomad/SEGA Nomad (通稱 Nomad)',
+      release_date: '19951001',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sega-Nomad-Front.png/500px-Sega-Nomad-Front.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Genesis_Nomad'
+    },
+    {
+      generation: 5,
+      type: 'handheld',
+      company: 'Nintendo',
+      name: 'GBC (Game Boy Color)',
+      release_date: '19981021',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Nintendo-Game-Boy-Color-FL.png/500px-Nintendo-Game-Boy-Color-FL.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Game_Boy_Color'
+    },
+    {
+      generation: 5,
+      type: 'handheld',
+      company: 'SNK',
+      name: 'NGP (Neo Geo Pocket)',
+      release_date: '19981028',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Neo-Geo-Pocket-Anthra-Left.jpg/500px-Neo-Geo-Pocket-Anthra-Left.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Neo_Geo_Pocket'
+    },
+    {
+      generation: 5,
+      type: 'handheld',
+      company: 'Bandai',
+      name: 'WD (WonderSwan)',
+      release_date: '19990304',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/WonderSwan-Black-Left.jpg/350px-WonderSwan-Black-Left.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/WonderSwan'
+    },
+    {
+      generation: 5,
+      type: 'handheld',
+      company: 'Bandai',
+      name: 'WDC (WonderSwan Color)',
+      release_date: '20000101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/WonderSwan-Black-Left.jpg/350px-WonderSwan-Black-Left.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/WonderSwan'
+    },
+    {
       generation: 6,
+      type: 'home-console',
       company: 'SEGA',
       name: 'DC (Dreamcast)',
       release_date: '19981127',
@@ -301,6 +543,7 @@ var config = {
     },
     {
       generation: 6,
+      type: 'home-console',
       company: 'Sony',
       name: 'PS2 (PlayStation 2)',
       release_date: '20000304',
@@ -309,6 +552,7 @@ var config = {
     },
     {
       generation: 6,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'NGC/GCN (Nintendo GameCube)',
       release_date: '20010914',
@@ -317,6 +561,7 @@ var config = {
     },
     {
       generation: 6,
+      type: 'home-console',
       company: 'Microsoft',
       name: 'Xbox',
       release_date: '20011115',
@@ -324,7 +569,45 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/Xbox_(%E9%81%8A%E6%88%B2%E6%A9%9F)',
     },
     {
+      generation: 6,
+      type: 'handheld',
+      company: 'SNK',
+      name: 'Neo Geo Pocket Color',
+      release_date: '19990316',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Neo-Geo-Pocket-Color-Blue-Left.jpg/500px-Neo-Geo-Pocket-Color-Blue-Left.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/Neo_Geo_Pocket_Color',
+    },
+    {
+      generation: 6,
+      type: 'handheld',
+      company: 'Bandai',
+      name: 'SwanCrystal',
+      release_date: '20020101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/WonderSwan-Black-Left.jpg/350px-WonderSwan-Black-Left.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/WonderSwan'
+    },
+    {
+      generation: 6,
+      type: 'handheld',
+      company: 'Nintendo',
+      name: 'GBA (Game Boy Advance)',
+      release_date: '20010321',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Nintendo-Game-Boy-Advance-Milky-Blue-FL.png/500px-Nintendo-Game-Boy-Advance-Milky-Blue-FL.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Game_Boy_Advance',
+      play: 'https://zaixianwan.app/consoles/gba',
+    },
+    {
+      generation: 6,
+      type: 'handheld',
+      company: 'Nokia',
+      name: 'N-Gage',
+      release_date: '20031007',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nokia-NGage-LL.jpg/500px-Nokia-NGage-LL.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/N-Gage',
+    },
+    {
       generation: 7,
+      type: 'home-console',
       company: 'Microsoft',
       name: 'Xbox 360',
       release_date: '20051122',
@@ -333,6 +616,7 @@ var config = {
     },
     {
       generation: 7,
+      type: 'home-console',
       company: 'Sony',
       name: 'PS3 (PlayStation 3)',
       release_date: '20061111',
@@ -341,6 +625,7 @@ var config = {
     },
     {
       generation: 7,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'Wii',
       release_date: '20061119',
@@ -348,7 +633,45 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/Wii',
     },
     {
+      generation: 7,
+      type: 'home-console',
+      company: '新世代株式會社',
+      name: 'XaviXPORT',
+      release_date: '20040101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2007TaipeiITMonth_XaviXPORT.jpg/480px-2007TaipeiITMonth_XaviXPORT.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/XaviXPORT',
+    },
+    {
+      generation: 7,
+      type: 'home-console',
+      company: 'Tectoy',
+      name: 'Zeebo',
+      release_date: '20090625',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Zeebo.svg/500px-Zeebo.svg.png',
+      wiki: 'https://zh.wikipedia.org/wiki/Zeebo',
+    },
+    {
+      generation: 7,
+      type: 'handheld',
+      company: 'Nintendo',
+      name: '任天堂DS',
+      release_date: '20040101',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/300px-Nintendo-DS-Fat-Blue.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%A4%A9%E5%A0%82DS%E5%AE%B6%E6%97%8F',
+      play: 'https://zaixianwan.app/consoles/nds',
+    },
+    {
+      generation: 7,
+      type: 'handheld',
+      company: 'SONY',
+      name: 'PSP (PlayStation Portable)',
+      release_date: '20041212',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/440px-Psp-1000.jpg',
+      wiki: 'https://zh.wikipedia.org/wiki/PlayStation_Portable',
+    },
+    {
       generation: 8,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'Wii U',
       release_date: '20121118',
@@ -357,6 +680,7 @@ var config = {
     },
     {
       generation: 8,
+      type: 'home-console',
       company: 'Sony',
       name: 'PS4 (PlayStation 4)',
       release_date: '20131115',
@@ -365,6 +689,7 @@ var config = {
     },
     {
       generation: 8,
+      type: 'home-console',
       company: 'Microsoft',
       name: 'Xbox 360',
       release_date: '20131122',
@@ -373,6 +698,7 @@ var config = {
     },
     {
       generation: 8,
+      type: 'home-console',
       company: 'Nintendo',
       name: 'NS/Switch/任天堂Switch',
       release_date: '20170303',
@@ -381,6 +707,7 @@ var config = {
     },
     {
       generation: 8,
+      type: 'home-console',
       company: 'Sony',
       name: 'PS4 Pro (PlayStation 4 pro)',
       release_date: '20161110',
@@ -389,6 +716,7 @@ var config = {
     },
     {
       generation: 8,
+      type: 'home-console',
       company: 'Microsoft',
       name: 'Xbox One X',
       release_date: '20171107',
@@ -396,7 +724,26 @@ var config = {
       wiki: 'https://zh.wikipedia.org/zh-tw/Xbox_One#Xbox_One_X',
     },
     {
+      generation: 8,
+      type: 'handheld',
+      company: 'SONY',
+      name: 'PSV (PlayStation Vita)',
+      release_date: '20111217',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/PlayStation-Vita-1101-FL.png/600px-PlayStation-Vita-1101-FL.png',
+      wiki: 'https://zh.wikipedia.org/wiki/PlayStation_Vita',
+    },
+    {
+      generation: 8,
+      type: 'handheld',
+      company: 'Nintendo',
+      name: '任天堂3DS',
+      release_date: '20110226',
+      cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nintendo-3DS-AquaOpen.png/300px-Nintendo-3DS-AquaOpen.png',
+      wiki: 'https://zh.wikipedia.org/wiki/%E4%BB%BB%E5%A4%A9%E5%A0%82DS%E5%AE%B6%E6%97%8F',
+    },
+    {
       generation: 9,
+      type: 'home-console',
       company: 'Microsoft',
       name: 'Xbox Series X/S',
       release_date: '20201110',
@@ -405,6 +752,7 @@ var config = {
     },
     {
       generation: 9,
+      type: 'home-console',
       company: 'Sony',
       name: 'PS5 (PlayStation 5)',
       release_date: '20201112',
@@ -422,7 +770,7 @@ function generateTR (list = []) {
   let tr = ''
   for (let i = 0; i < list.length; i++) {
     const obj = list[i]
-    const companyObj = config.companies.find(row => row.company === obj.company)
+    const companyObj = config.companies.find(row => row.company === obj.company) || {}
     let displayCompnay = companyObj.logo ?
       `<a href="${companyObj.wiki}" target="_blank"><div><img height=20 width=100 src="${companyObj.logo}"></img>&nbsp;&nbsp;&nbsp;&nbsp;</div></a>` : 
       `<a href="${companyObj.wiki}" target="_blank"><div>[${companyObj.company}]&nbsp;&nbsp;&nbsp;&nbsp;</div></a>`
