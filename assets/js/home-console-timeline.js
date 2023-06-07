@@ -503,7 +503,8 @@ var config = {
       name: 'GBC (Game Boy Color)',
       release_date: '19981021',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Nintendo-Game-Boy-Color-FL.png/500px-Nintendo-Game-Boy-Color-FL.png',
-      wiki: 'https://zh.wikipedia.org/wiki/Game_Boy_Color'
+      wiki: 'https://zh.wikipedia.org/wiki/Game_Boy_Color',
+      play: 'https://zaixianwan.app/consoles/gbc'
     },
     {
       generation: 5,
@@ -512,7 +513,8 @@ var config = {
       name: 'NGP (Neo Geo Pocket)',
       release_date: '19981028',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Neo-Geo-Pocket-Anthra-Left.jpg/500px-Neo-Geo-Pocket-Anthra-Left.jpg',
-      wiki: 'https://zh.wikipedia.org/wiki/Neo_Geo_Pocket'
+      wiki: 'https://zh.wikipedia.org/wiki/Neo_Geo_Pocket',
+      play: 'https://zaixianwan.app/consoles/ngp'
     },
     {
       generation: 5,
@@ -572,10 +574,11 @@ var config = {
       generation: 6,
       type: 'handheld',
       company: 'SNK',
-      name: 'Neo Geo Pocket Color',
+      name: 'NGPC (Neo Geo Pocket Color)',
       release_date: '19990316',
       cover: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Neo-Geo-Pocket-Color-Blue-Left.jpg/500px-Neo-Geo-Pocket-Color-Blue-Left.jpg',
       wiki: 'https://zh.wikipedia.org/wiki/Neo_Geo_Pocket_Color',
+      play: 'https://zaixianwan.app/consoles/ngpc'
     },
     {
       generation: 6,
