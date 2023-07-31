@@ -8,6 +8,8 @@ Last-Modified: {docsify-updated}
 openssl s_client -connect jiapan.tw:443
 ```
 
+### 查看過期時間
+
 ```sh
 # openssl shell 檢驗 ssl 證書過期時間
 domain=jiapan.tw
@@ -23,7 +25,7 @@ openssl x509 -dates -noout -in fullchain.cer
 
 ```
 
-## test iOS 證書
+### test iOS 證書
 
 ```sh
 # test 證書
