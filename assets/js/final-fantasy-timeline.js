@@ -119,7 +119,7 @@ var config = {
     {
       title: "Final Fantasy XIV",
       release_date: "2010-09-30",
-      platform: ["PC"],
+      platform: ["PS3", "PC"],
       wiki: "https://zh.wikipedia.org/wiki/%E6%9C%80%E7%BB%88%E5%B9%BB%E6%83%B3XIV",
       cover:
         "https://upload.wikimedia.org/wikipedia/zh/8/8a/Final_Fantasy_XIV_A_REALM_REBORN_PS3_Cover.jpg",
