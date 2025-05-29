@@ -1,3 +1,7 @@
+if (window.$docsify) {
+  window.location.reload();
+}
+
 var config = {
   list: [
     {

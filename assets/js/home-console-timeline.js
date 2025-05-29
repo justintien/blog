@@ -1,3 +1,7 @@
+if (window.$docsify) {
+  window.location.reload();
+}
+
 const config = window._gameConsoleConfig;
 
 function openURL(url) {
