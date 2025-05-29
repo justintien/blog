@@ -3,7 +3,8 @@
   - [保險](/self/insurance/README.md)
   - [樹莓派 raspberry](/self/raspberry/README.md)
   - [:link: 家用遊戲機發行時間軸](https://blog.jiapan.tw/pages/home-console-timeline.html)
-- [:hammer_and_wrench:	**關於我的工作流**](/workflow/README.md)
+  - [:link: 最終幻想發行時間軸](https://blog.jiapan.tw/pages/final-fantasy-timeline.html)
+- [:hammer_and_wrench: **關於我的工作流**](/workflow/README.md)
 - [**Ops 運維**](/ops/README.md)
 - [**B2E 後端**](/b2e/README.md)
 - [**Data-Analyst 數據分析**](/data-analyst/README.md)
@@ -11,7 +12,9 @@
 - [**F2E 前端**](/f2e/README.md)
 - [**Game Develop**](/game/README.md)
 - [**AI**](/ai/README.md)
+
 * [Blockchain](/blockchain/README.md)
+
 - **書籤**
   - [:link: 各種 awesome](https://github.com/search?q=awesome&ref=opensearch)
   - [:link: build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
@@ -31,9 +34,9 @@
   - 日語歌單
     - [:link: 日语五十音及数字发音入门 (五十音图）](https://music.163.com/#/playlist?id=110943777)
     - [:link: 日语歌单。每一首都可循环](https://music.163.com/#/playlist?id=164238075)
-    - [:link: 50音](https://www.sigure.tw/learn-japanese/intro/japanese-50)
-    - [:link: 50音 循環播放](https://www.youtube.com/watch?v=eFOtfqEKHWo&feature=youtu.be)
-    - [:link: 50音 可惜不是你版本](https://www.youtube.com/watch?time_continue=19&v=r_NrpN2k2zI)
+    - [:link: 50 音](https://www.sigure.tw/learn-japanese/intro/japanese-50)
+    - [:link: 50 音 循環播放](https://www.youtube.com/watch?v=eFOtfqEKHWo&feature=youtu.be)
+    - [:link: 50 音 可惜不是你版本](https://www.youtube.com/watch?time_continue=19&v=r_NrpN2k2zI)
 - **github**
   - [:link: gist fork > 500](https://gist.github.com/search?utf8=%E2%9C%93&q=forks%3A%3E500&ref=searchresults)
   - [:link: github - fork 最多的項目](https://github.com/search?o=desc&q=stars:%3E1&s=forks&type=Repositories)
