@@ -3,7 +3,8 @@
 - [Investment & Finance](/self/investment-finance/README.md)
 - [保險](/self/insurance/README.md)
 - [樹莓派 raspberry](/self/raspberry/README.md)
-- [:link: 家用遊戲機發行時間軸](https://blog.jiapan.tw/pages/home-console-timeline.html)
+- <a href="https://blog.jiapan.tw/pages/home-console-timeline.html" target="_blank">🔗 家用遊戲機發行時間軸</a>
+- <a href="https://blog.jiapan.tw/pages/final-fantasy-timeline.html" target="_blank">🔗 最終幻想發行時間軸</a>
 
 ## Tools
 
