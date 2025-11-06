@@ -47,49 +47,46 @@ services:
     container_name: nextcloud-aio-mastercontainer
     restart: always
     init: true
-    # environment: # docker compose 會自行尋找當前資料夾的 .env file
     ports:
       - "8080:8080" # AIO 管理介面
       - "8443:8443" # HTTPS
       - "80:80" # HTTP (可省略或反向代理)
     volumes:
       - nextcloud_aio_mastercontainer:/mnt/docker-aio-config
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    # macOS 下 docker.sock 可直接使用此路徑
-
+      - /var/run/docker.sock:/var/run/docker.sock:ro # macOS 下 docker.sock 可直接使用此路徑
 volumes:
   nextcloud_aio_mastercontainer:
     name: nextcloud_aio_mastercontainer
-```
-
-#### 步驟一：創建 .env file
-
-> 看你自己想要設置哪些 env
-
-```env
-NEXTCLOUD_DATA_DIR=""
-NEXTCLOUD_TRUSTED_DOMAINS=nextcloud.local
-
-# 反向代理需要
-APACHE_PORT=11000
-APACHE_IP_BINDING: 127.0.0.1
 ```
 
 #### 步驟三：叫起伺服器
 
 ```sh
 docker compose up -d
-
-# 會出現一組密碼，請記下
 ```
 
 #### 步驟四：本地執行後台介面
 
 https://localhost:8080
 
-輸入上一個步驟的密碼進行初始化安裝 > 過程就省略(自行設置) > 關鍵的一點是自定義域名，dns 要先設置好
+第一次進來的畫面會有 Passphrase (請複製下來)
+
+如果忘了複製也可以打指令查詢
+
+```sh
+docker exec nextcloud-aio-mastercontainer cat /mnt/docker-aio-config/data/configuration.json | grep password
+# 會出現一組密碼，請記下
+```
+
+#### 步驟四：設置流程
+
+1. 輸入自定義域名 (需要先將 dns 設置這個實體 ip) > Submit domain
+2. (勾選) Install Nextcloud Hub 25 Autumn (if unchecked, Nextcloud Hub 10 will get installed) > Download and start containers
+3. 等待安裝完成
 
 ##### 後記
+
+<!-- 失敗！
 
 因為一開始忘了將資料 mount 進去 docker volumes，但是已經開始運行了
 
@@ -112,6 +109,11 @@ docker stop $(docker ps -a -q --filter name='nextcloud-aio-*')
 # 刪除所有相關容器
 docker rm $(docker ps -a -q --filter name='nextcloud-aio-*')
 
-# 回到上面的步驟三，完成
+# 回到上面的步驟三，啟動伺服器
 docker compose up -d
-```
+
+# 完成步驟四之後，反向將資料複製回對應的容器
+docker cp $REAL_DIR_PATH/$docker-aio-config nextcloud-aio-mastercontainer:/mnt
+
+docker cp $REAL_DIR_PATH/ncdata nextcloud-aio-nextcloud:/mnt
+``` -->
