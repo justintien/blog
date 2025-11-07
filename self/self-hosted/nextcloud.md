@@ -47,6 +47,9 @@ services:
     container_name: nextcloud-aio-mastercontainer
     restart: always
     init: true
+    # 如果有需要將資料掛載在自定義實際路徑的話，一開始就要設置好。如果初始化過後再設置就沒有效果了唷
+    # environment:
+    #   NEXTCLOUD_DATADIR: /Users/自定義資料夾
     ports:
       - "8080:8080" # AIO 管理介面
       - "8443:8443" # HTTPS
